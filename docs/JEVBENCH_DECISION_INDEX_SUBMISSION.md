@@ -30,7 +30,7 @@ Our repository provides a first-class, drop-in `decision_index` custom engine ad
 In accordance with **SKOPION Intelligence (Germany · EU Horizon Europe PIC `861665939`)** sovereign security policy for **NIS-2 / KRITIS**, **BSI TR-02102**, and **DORA** critical-infrastructure deployments, raw `.safetensors` model weights are **never published in unauthenticated public repositories**.
 
 For official verification on the **Decision Index 0.4** private benchmark split (`1× NVIDIA RTX PRO 6000`):
-1. **Public Verification Suite & Cryptographic Attestations (`120 Suites · 35,340 Evaluations/Model across 108 Models`):**
+1. **Public Verification Suite & Cryptographic Attestations (`120 Suites · 35,340 Evaluations/Model across 108 Models · 99.28% Strict-118 #1 Global on Committee / 99.27% #1 Single-Model on 27B`):**
    - **CERN / Zenodo Official Record (`v21.0.0` DOI):** [`10.5281/zenodo.24009481`](https://doi.org/10.5281/zenodo.24009481) (`Concept DOI: 10.5281/zenodo.24005152` · `v20.0.0 DOI: 10.5281/zenodo.24005153`)
    - **Kaggle Public Dataset:** [`skopionintelligence/skopion-verdict-v20-singularity-benchmarks`](https://www.kaggle.com/datasets/skopionintelligence/skopion-verdict-v20-singularity-benchmarks)
    - **Hugging Face Verification Suite:** [`SKOPION-Intelligence/SKOPION-Verdict-Bench-56Suites`](https://huggingface.co/datasets/SKOPION-Intelligence/SKOPION-Verdict-Bench-56Suites)
