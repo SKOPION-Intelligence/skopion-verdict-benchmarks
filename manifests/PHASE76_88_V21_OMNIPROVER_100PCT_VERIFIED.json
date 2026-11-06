@@ -1,0 +1,2392 @@
+{
+  "status": "PASS",
+  "phase": "Phases 76-88 — SKOPION Verdict v21.0 OMNI-PROVER & zk-STARK SOVEREIGN ATTESTATION (120 Benchmark Suites / 35,340 Evaluations per Model, 108 Full-Matrix Models incl. 50 External Competitors, Formal Lean-4/SMT Invariant Gate + Five-Nines 99.999% Conformal Certificate)",
+  "verified_at_utc": "2026-11-06T08:10:28.609518+00:00",
+  "total_suites": 120,
+  "external_suites": 118,
+  "invariance_suites": 2,
+  "total_evaluations_per_model": 35340,
+  "full_118_suite_models_count": 108,
+  "external_competitors_count": 50,
+  "omniprover_breakthroughs": [
+    "Formal-Proof-Guided DoRA/LoRA Backbone + FP-GRPO Training with Lean-4/Z3/TLA+ Invariant Gate",
+    "Zero-Knowledge Verdict Attestation (PCVC-v21-zkSTARK) with 128-bit DEEP-FRI Commitment Root",
+    "Byzantine Fault-Tolerant Cascade (System 1.5 BFT-Cascade) with EigenTrust Spectral Sybil Filtering",
+    "99.999% (Five-Nines, alpha=0.00001) Split-Conformal Mathematical Risk Control Guarantee",
+    "Historic 120 Benchmark Suites (118 External + 2 Invariance = 35,340 Evaluations/Model) across 108 Models (50 External Competitors)"
+  ],
+  "leaderboard_all_models_strict118": [
+    {
+      "model": "skopion-verdict-committee-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.28,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 8.65,
+      "bootstrap_ci95_118suites": [
+        98.95,
+        99.58
+      ],
+      "rank": 1
+    },
+    {
+      "model": "skopion-verdict-27b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.27,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 6.65,
+      "bootstrap_ci95_118suites": [
+        98.93,
+        99.55
+      ],
+      "rank": 2
+    },
+    {
+      "model": "skopion-verdict-9b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.15,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 1.98,
+      "bootstrap_ci95_118suites": [
+        98.79,
+        99.47
+      ],
+      "rank": 3
+    },
+    {
+      "model": "skopion-verdict-27b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.13,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_118suites": [
+        98.74,
+        99.48
+      ],
+      "rank": 4
+    },
+    {
+      "model": "skopion-verdict-committee-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.13,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 9.1,
+      "bootstrap_ci95_118suites": [
+        98.73,
+        99.47
+      ],
+      "rank": 5
+    },
+    {
+      "model": "skopion-verdict-4b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.1,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 0.88,
+      "bootstrap_ci95_118suites": [
+        98.69,
+        99.43
+      ],
+      "rank": 6
+    },
+    {
+      "model": "skopion-verdict-4b-v21.0-omniprover-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 99.06,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 0.68,
+      "bootstrap_ci95_118suites": [
+        98.66,
+        99.4
+      ],
+      "rank": 7
+    },
+    {
+      "model": "skopion-verdict-9b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.99,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 2.08,
+      "bootstrap_ci95_118suites": [
+        98.54,
+        99.37
+      ],
+      "rank": 8
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v21.0-omniprover-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.96,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 0.08,
+      "bootstrap_ci95_118suites": [
+        98.53,
+        99.34
+      ],
+      "rank": 9
+    },
+    {
+      "model": "skopion-verdict-4b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.92,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_118suites": [
+        98.45,
+        99.35
+      ],
+      "rank": 10
+    },
+    {
+      "model": "skopion-verdict-4b-v20.0-singularity-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.89,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 0.74,
+      "bootstrap_ci95_118suites": [
+        98.42,
+        99.33
+      ],
+      "rank": 11
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v20.0-singularity-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.79,
+      "wave18_formal_proving_mean": 100.0,
+      "wave19_zkstark_confidential_mean": 100.0,
+      "wave20_byzantine_bft_supply_mean": 100.0,
+      "energy_joules_per_decision": 0.09,
+      "bootstrap_ci95_118suites": [
+        98.29,
+        99.26
+      ],
+      "rank": 12
+    },
+    {
+      "model": "skopion-verdict-27b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.7,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": 6.95,
+      "bootstrap_ci95_118suites": [
+        98.25,
+        99.13
+      ],
+      "rank": 13
+    },
+    {
+      "model": "skopion-verdict-committee-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.68,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_118suites": [
+        98.21,
+        99.1
+      ],
+      "rank": 14
+    },
+    {
+      "model": "skopion-verdict-27b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.58,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        98.07,
+        99.06
+      ],
+      "rank": 15
+    },
+    {
+      "model": "skopion-verdict-9b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.53,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": 2.15,
+      "bootstrap_ci95_118suites": [
+        98.03,
+        98.99
+      ],
+      "rank": 16
+    },
+    {
+      "model": "skopion-verdict-4b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.45,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": 0.96,
+      "bootstrap_ci95_118suites": [
+        97.91,
+        98.95
+      ],
+      "rank": 17
+    },
+    {
+      "model": "skopion-verdict-4b-v19.0-omega-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.43,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": 0.78,
+      "bootstrap_ci95_118suites": [
+        97.88,
+        98.95
+      ],
+      "rank": 18
+    },
+    {
+      "model": "skopion-verdict-9b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.4,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.78,
+        98.91
+      ],
+      "rank": 19
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v19.0-omega-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.32,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": 0.1,
+      "bootstrap_ci95_118suites": [
+        97.69,
+        98.86
+      ],
+      "rank": 20
+    },
+    {
+      "model": "skopion-verdict-27b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.31,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.74,
+        98.83
+      ],
+      "rank": 21
+    },
+    {
+      "model": "skopion-verdict-4b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.3,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.68,
+        98.84
+      ],
+      "rank": 22
+    },
+    {
+      "model": "skopion-verdict-4b-v18.0-aegis-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.29,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.68,
+        98.85
+      ],
+      "rank": 23
+    },
+    {
+      "model": "skopion-verdict-committee-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.28,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.75,
+        98.8
+      ],
+      "rank": 24
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v18.0-aegis-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.17,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.5,
+        98.76
+      ],
+      "rank": 25
+    },
+    {
+      "model": "skopion-verdict-9b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.13,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.48,
+        98.68
+      ],
+      "rank": 26
+    },
+    {
+      "model": "skopion-verdict-4b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.03,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.36,
+        98.64
+      ],
+      "rank": 27
+    },
+    {
+      "model": "skopion-verdict-4b-v17.0-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 98.02,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.36,
+        98.66
+      ],
+      "rank": 28
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v17.0",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.87,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.17,
+        98.51
+      ],
+      "rank": 29
+    },
+    {
+      "model": "skopion-verdict-27b-v16.0-omni-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.81,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        97.02,
+        98.54
+      ],
+      "rank": 30
+    },
+    {
+      "model": "skopion-verdict-committee-v16.0-omni",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.77,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.99,
+        98.5
+      ],
+      "rank": 31
+    },
+    {
+      "model": "skopion-verdict-9b-v16.0-omni-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.59,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.78,
+        98.37
+      ],
+      "rank": 32
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-omni-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.48,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.56,
+        98.29
+      ],
+      "rank": 33
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-edge-fp8",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.48,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.55,
+        98.24
+      ],
+      "rank": 34
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-pico-awq-int4",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.46,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.57,
+        98.24
+      ],
+      "rank": 35
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.45,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.58,
+        98.26
+      ],
+      "rank": 36
+    },
+    {
+      "model": "skopion-verdict-27b-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.24,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.09,
+        98.24
+      ],
+      "rank": 37
+    },
+    {
+      "model": "skopion-verdict-committee-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 97.2,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        96.05,
+        98.14
+      ],
+      "rank": 38
+    },
+    {
+      "model": "skopion-verdict-27b-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.98,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.73,
+        98.09
+      ],
+      "rank": 39
+    },
+    {
+      "model": "skopion-verdict-27b-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.98,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.7,
+        98.19
+      ],
+      "rank": 40
+    },
+    {
+      "model": "skopion-verdict-committee-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.96,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.71,
+        98.04
+      ],
+      "rank": 41
+    },
+    {
+      "model": "skopion-verdict-committee-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.96,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.7,
+        98.05
+      ],
+      "rank": 42
+    },
+    {
+      "model": "skopion-verdict-9b-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.92,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.72,
+        98.02
+      ],
+      "rank": 43
+    },
+    {
+      "model": "skopion-verdict-4b-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.82,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.65,
+        97.87
+      ],
+      "rank": 44
+    },
+    {
+      "model": "skopion-verdict-4b-v15.0-edge-int8",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.81,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.64,
+        97.94
+      ],
+      "rank": 45
+    },
+    {
+      "model": "skopion-verdict-4b-v15.0-pico-int4",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.79,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.56,
+        97.93
+      ],
+      "rank": 46
+    },
+    {
+      "model": "skopion-verdict-9b-v11.0-holo",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.67,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.38,
+        97.91
+      ],
+      "rank": 47
+    },
+    {
+      "model": "skopion-verdict-9b-v12.0-cegis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.67,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.33,
+        97.88
+      ],
+      "rank": 48
+    },
+    {
+      "model": "skopion-verdict-9b-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.67,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.3,
+        97.93
+      ],
+      "rank": 49
+    },
+    {
+      "model": "skopion-verdict-9b-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.67,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.32,
+        97.87
+      ],
+      "rank": 50
+    },
+    {
+      "model": "skopion-verdict-4b-v11.0-holo",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.57,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.14,
+        97.76
+      ],
+      "rank": 51
+    },
+    {
+      "model": "skopion-verdict-4b-v12.0-cegis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.57,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.17,
+        97.8
+      ],
+      "rank": 52
+    },
+    {
+      "model": "skopion-verdict-4b-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.57,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.15,
+        97.74
+      ],
+      "rank": 53
+    },
+    {
+      "model": "skopion-verdict-4b-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.57,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.22,
+        97.89
+      ],
+      "rank": 54
+    },
+    {
+      "model": "skopion-verdict-9b-v10.0-compact",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.45,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.03,
+        97.77
+      ],
+      "rank": 55
+    },
+    {
+      "model": "skopion-verdict-4b-v10.0-compact",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 96.4,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        95.0,
+        97.64
+      ],
+      "rank": 56
+    },
+    {
+      "model": "skopion-verdict-9b-v9.0-apex",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 95.7,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        93.97,
+        97.21
+      ],
+      "rank": 57
+    },
+    {
+      "model": "skopion-verdict-4b-v9.0-apex",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Omni-Prover",
+      "strict_118_mean": 95.16,
+      "wave18_formal_proving_mean": 98.67,
+      "wave19_zkstark_confidential_mean": 98.67,
+      "wave20_byzantine_bft_supply_mean": 98.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        93.32,
+        96.81
+      ],
+      "rank": 58
+    },
+    {
+      "model": "autotrust-jev-27b-v1.1",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 94.4,
+      "wave18_formal_proving_mean": 91.29,
+      "wave19_zkstark_confidential_mean": 91.33,
+      "wave20_byzantine_bft_supply_mean": 91.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        93.07,
+        95.57
+      ],
+      "rank": 59
+    },
+    {
+      "model": "qwen3.8-27b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 92.76,
+      "wave18_formal_proving_mean": 88.63,
+      "wave19_zkstark_confidential_mean": 88.67,
+      "wave20_byzantine_bft_supply_mean": 88.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        91.46,
+        94.06
+      ],
+      "rank": 60
+    },
+    {
+      "model": "qwen3.8-9b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 90.73,
+      "wave18_formal_proving_mean": 85.63,
+      "wave19_zkstark_confidential_mean": 85.67,
+      "wave20_byzantine_bft_supply_mean": 85.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        88.93,
+        92.5
+      ],
+      "rank": 61
+    },
+    {
+      "model": "pllum-12b-nc-instruct",
+      "is_external_competitor": true,
+      "segment_family": "NASK/Cyfronet Polish Sovereign 12B",
+      "strict_118_mean": 89.1,
+      "wave18_formal_proving_mean": 85.29,
+      "wave19_zkstark_confidential_mean": 85.33,
+      "wave20_byzantine_bft_supply_mean": 85.33,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_118suites": [
+        88.59,
+        89.65
+      ],
+      "rank": 62
+    },
+    {
+      "model": "bielik-11b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 89.05,
+      "wave18_formal_proving_mean": 89.63,
+      "wave19_zkstark_confidential_mean": 89.67,
+      "wave20_byzantine_bft_supply_mean": 89.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        85.78,
+        92.03
+      ],
+      "rank": 63
+    },
+    {
+      "model": "qwen3.8-4b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 89.05,
+      "wave18_formal_proving_mean": 83.29,
+      "wave19_zkstark_confidential_mean": 83.33,
+      "wave20_byzantine_bft_supply_mean": 83.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        87.01,
+        90.96
+      ],
+      "rank": 64
+    },
+    {
+      "model": "deepseek-prover-v2-671b",
+      "is_external_competitor": true,
+      "segment_family": "DeepSeek-Prover-V2-671B Formal Theorem Prover",
+      "strict_118_mean": 88.86,
+      "wave18_formal_proving_mean": 86.29,
+      "wave19_zkstark_confidential_mean": 86.33,
+      "wave20_byzantine_bft_supply_mean": 86.33,
+      "energy_joules_per_decision": 68.0,
+      "bootstrap_ci95_118suites": [
+        88.62,
+        89.1
+      ],
+      "rank": 65
+    },
+    {
+      "model": "qwen2.5-72b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-72B Enterprise Judge",
+      "strict_118_mean": 88.23,
+      "wave18_formal_proving_mean": 82.96,
+      "wave19_zkstark_confidential_mean": 83.0,
+      "wave20_byzantine_bft_supply_mean": 83.0,
+      "energy_joules_per_decision": 52.0,
+      "bootstrap_ci95_118suites": [
+        87.67,
+        88.77
+      ],
+      "rank": 66
+    },
+    {
+      "model": "nemotron-70b-reward",
+      "is_external_competitor": true,
+      "segment_family": "NVIDIA Llama-3.1-Nemotron-70B-Reward",
+      "strict_118_mean": 87.77,
+      "wave18_formal_proving_mean": 81.96,
+      "wave19_zkstark_confidential_mean": 82.0,
+      "wave20_byzantine_bft_supply_mean": 82.0,
+      "energy_joules_per_decision": 48.5,
+      "bootstrap_ci95_118suites": [
+        87.09,
+        88.41
+      ],
+      "rank": 67
+    },
+    {
+      "model": "llama-3.3-70b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-3.3-70B Judge",
+      "strict_118_mean": 86.9,
+      "wave18_formal_proving_mean": 81.29,
+      "wave19_zkstark_confidential_mean": 81.33,
+      "wave20_byzantine_bft_supply_mean": 81.33,
+      "energy_joules_per_decision": 49.0,
+      "bootstrap_ci95_118suites": [
+        86.3,
+        87.5
+      ],
+      "rank": 68
+    },
+    {
+      "model": "qwen2.5-math-72b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-Math-72B Formal Reasoning",
+      "strict_118_mean": 86.59,
+      "wave18_formal_proving_mean": 83.63,
+      "wave19_zkstark_confidential_mean": 83.67,
+      "wave20_byzantine_bft_supply_mean": 83.67,
+      "energy_joules_per_decision": 51.0,
+      "bootstrap_ci95_118suites": [
+        86.32,
+        86.83
+      ],
+      "rank": 69
+    },
+    {
+      "model": "eurollm-9b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "EU Sovereign 9B Instruct",
+      "strict_118_mean": 86.28,
+      "wave18_formal_proving_mean": 81.63,
+      "wave19_zkstark_confidential_mean": 81.67,
+      "wave20_byzantine_bft_supply_mean": 81.67,
+      "energy_joules_per_decision": 7.1,
+      "bootstrap_ci95_118suites": [
+        85.75,
+        86.83
+      ],
+      "rank": 70
+    },
+    {
+      "model": "prometheus-bgb-8x22b",
+      "is_external_competitor": true,
+      "segment_family": "Prometheus-BGB-8x22B MoE Judge",
+      "strict_118_mean": 84.94,
+      "wave18_formal_proving_mean": 79.29,
+      "wave19_zkstark_confidential_mean": 79.33,
+      "wave20_byzantine_bft_supply_mean": 79.33,
+      "energy_joules_per_decision": 44.0,
+      "bootstrap_ci95_118suites": [
+        84.45,
+        85.38
+      ],
+      "rank": 71
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "SpeakLeash Polish Sovereign 7B",
+      "strict_118_mean": 84.01,
+      "wave18_formal_proving_mean": 86.96,
+      "wave19_zkstark_confidential_mean": 87.0,
+      "wave20_byzantine_bft_supply_mean": 87.0,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_118suites": [
+        80.54,
+        87.06
+      ],
+      "rank": 72
+    },
+    {
+      "model": "baselabs-mammoth-1-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 83.85,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        80.19,
+        87.34
+      ],
+      "rank": 73
+    },
+    {
+      "model": "shieldgemma-27b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-27B Safety Judge",
+      "strict_118_mean": 83.83,
+      "wave18_formal_proving_mean": 78.63,
+      "wave19_zkstark_confidential_mean": 78.67,
+      "wave20_byzantine_bft_supply_mean": 78.67,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_118suites": [
+        83.39,
+        84.24
+      ],
+      "rank": 74
+    },
+    {
+      "model": "basal-omni-1.0-ultra-31b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 83.52,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        79.84,
+        86.72
+      ],
+      "rank": 75
+    },
+    {
+      "model": "internlm2.5-20b-reward",
+      "is_external_competitor": true,
+      "segment_family": "InternLM2.5-20B Reward Model",
+      "strict_118_mean": 82.98,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 14.8,
+      "bootstrap_ci95_118suites": [
+        81.82,
+        84.02
+      ],
+      "rank": 76
+    },
+    {
+      "model": "teuken-7b-instruct-eu",
+      "is_external_competitor": true,
+      "segment_family": "Fraunhofer OpenGPT-X 24-EU-Lang 7B",
+      "strict_118_mean": 82.94,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 5.8,
+      "bootstrap_ci95_118suites": [
+        81.83,
+        84.05
+      ],
+      "rank": 77
+    },
+    {
+      "model": "selene-1-mini-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Atla AI Selene-1-Mini 8B Judge",
+      "strict_118_mean": 82.82,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_118suites": [
+        81.64,
+        83.93
+      ],
+      "rank": 78
+    },
+    {
+      "model": "kev-27b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-27B Cyber-Judge",
+      "strict_118_mean": 82.31,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_118suites": [
+        80.78,
+        83.81
+      ],
+      "rank": 79
+    },
+    {
+      "model": "claude-4.6-opus-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 82.21,
+      "wave18_formal_proving_mean": 81.96,
+      "wave19_zkstark_confidential_mean": 82.0,
+      "wave20_byzantine_bft_supply_mean": 82.0,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        81.91,
+        82.52
+      ],
+      "rank": 80
+    },
+    {
+      "model": "offsetbias-8b-judge",
+      "is_external_competitor": true,
+      "segment_family": "NCSOFT OffsetBias-8B Debiased Judge",
+      "strict_118_mean": 81.68,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_118suites": [
+        80.62,
+        82.63
+      ],
+      "rank": 81
+    },
+    {
+      "model": "gpt-5.4-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 81.63,
+      "wave18_formal_proving_mean": 81.29,
+      "wave19_zkstark_confidential_mean": 81.33,
+      "wave20_byzantine_bft_supply_mean": 81.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        81.3,
+        81.93
+      ],
+      "rank": 82
+    },
+    {
+      "model": "granite-guardian-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "IBM Granite-Guardian-3.1-8B Risk Judge",
+      "strict_118_mean": 81.47,
+      "wave18_formal_proving_mean": 75.96,
+      "wave19_zkstark_confidential_mean": 76.0,
+      "wave20_byzantine_bft_supply_mean": 76.0,
+      "energy_joules_per_decision": 6.1,
+      "bootstrap_ci95_118suites": [
+        80.99,
+        81.91
+      ],
+      "rank": 83
+    },
+    {
+      "model": "skywork-critic-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Skywork Critic Llama-3.1 8B",
+      "strict_118_mean": 81.45,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_118suites": [
+        80.34,
+        82.48
+      ],
+      "rank": 84
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 81.38,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        79.65,
+        83.04
+      ],
+      "rank": 85
+    },
+    {
+      "model": "armorm-llama3-8b-v0.1",
+      "is_external_competitor": true,
+      "segment_family": "RLHFlow ArmoRM Multi-Objective 8B",
+      "strict_118_mean": 80.69,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.3,
+      "bootstrap_ci95_118suites": [
+        79.72,
+        81.69
+      ],
+      "rank": 86
+    },
+    {
+      "model": "llama-guard-3-8b",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-Guard-3-8B Safety Classifier",
+      "strict_118_mean": 80.19,
+      "wave18_formal_proving_mean": 74.29,
+      "wave19_zkstark_confidential_mean": 74.33,
+      "wave20_byzantine_bft_supply_mean": 74.33,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_118suites": [
+        79.67,
+        80.66
+      ],
+      "rank": 87
+    },
+    {
+      "model": "shieldgemma-9b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-9B Safety Judge",
+      "strict_118_mean": 79.88,
+      "wave18_formal_proving_mean": 73.96,
+      "wave19_zkstark_confidential_mean": 74.0,
+      "wave20_byzantine_bft_supply_mean": 74.0,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_118suites": [
+        79.39,
+        80.39
+      ],
+      "rank": 88
+    },
+    {
+      "model": "deepseek-v3.2-speciale",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 79.35,
+      "wave18_formal_proving_mean": 79.29,
+      "wave19_zkstark_confidential_mean": 79.33,
+      "wave20_byzantine_bft_supply_mean": 79.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        78.97,
+        79.74
+      ],
+      "rank": 89
+    },
+    {
+      "model": "compassjudger-1-7b",
+      "is_external_competitor": true,
+      "segment_family": "OpenCompass CompassJudger-1 7B",
+      "strict_118_mean": 79.1,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_118suites": [
+        78.12,
+        80.01
+      ],
+      "rank": 90
+    },
+    {
+      "model": "wildguard-7b",
+      "is_external_competitor": true,
+      "segment_family": "AllenAI WildGuard-7B Safety Moderator",
+      "strict_118_mean": 78.52,
+      "wave18_formal_proving_mean": 72.29,
+      "wave19_zkstark_confidential_mean": 72.33,
+      "wave20_byzantine_bft_supply_mean": 72.33,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_118suites": [
+        77.98,
+        79.01
+      ],
+      "rank": 91
+    },
+    {
+      "model": "patronus-glider-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Patronus AI GLIDER 3.8B Enterprise Judge",
+      "strict_118_mean": 77.95,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_118suites": [
+        77.12,
+        78.72
+      ],
+      "rank": 92
+    },
+    {
+      "model": "judgelm-33b-v1.0",
+      "is_external_competitor": true,
+      "segment_family": "BAAI JudgeLM-33B",
+      "strict_118_mean": 77.39,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 24.5,
+      "bootstrap_ci95_118suites": [
+        76.62,
+        78.16
+      ],
+      "rank": 93
+    },
+    {
+      "model": "flow-judge-v0.1-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Flow AI Flow-Judge v0.1 3.8B",
+      "strict_118_mean": 76.82,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_118suites": [
+        76.06,
+        77.58
+      ],
+      "rank": 94
+    },
+    {
+      "model": "kev-9b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-9B Cyber-Judge",
+      "strict_118_mean": 76.55,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.9,
+      "bootstrap_ci95_118suites": [
+        75.53,
+        77.63
+      ],
+      "rank": 95
+    },
+    {
+      "model": "bonsai-9b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 9B Thinking Judge",
+      "strict_118_mean": 76.23,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 8.4,
+      "bootstrap_ci95_118suites": [
+        74.13,
+        78.21
+      ],
+      "rank": 96
+    },
+    {
+      "model": "auto-j-13b-judge",
+      "is_external_competitor": true,
+      "segment_family": "GAIR Auto-J-13B Judge",
+      "strict_118_mean": 75.99,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 10.2,
+      "bootstrap_ci95_118suites": [
+        75.35,
+        76.65
+      ],
+      "rank": 97
+    },
+    {
+      "model": "mistral-large-3-2512",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 75.92,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        75.21,
+        76.63
+      ],
+      "rank": 98
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3.5-0.8B Micro Base",
+      "strict_118_mean": 75.35,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_118suites": [
+        74.17,
+        76.55
+      ],
+      "rank": 99
+    },
+    {
+      "model": "llama-4-maverick-400b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 75.26,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        74.58,
+        75.93
+      ],
+      "rank": 100
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 4B Thinking Judge",
+      "strict_118_mean": 74.16,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 4.1,
+      "bootstrap_ci95_118suites": [
+        72.21,
+        75.87
+      ],
+      "rank": 101
+    },
+    {
+      "model": "gemma-3-27b-it",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 73.62,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        73.0,
+        74.22
+      ],
+      "rank": 102
+    },
+    {
+      "model": "skywork-reward-gemma-2-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 71.63,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        70.94,
+        72.34
+      ],
+      "rank": 103
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 70.17,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        68.46,
+        71.82
+      ],
+      "rank": 104
+    },
+    {
+      "model": "basal-omni-pico",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 69.54,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        68.52,
+        70.51
+      ],
+      "rank": 105
+    },
+    {
+      "model": "bonsai-2b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 2B Thinking Judge",
+      "strict_118_mean": 68.59,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 2.3,
+      "bootstrap_ci95_118suites": [
+        66.28,
+        70.69
+      ],
+      "rank": 106
+    },
+    {
+      "model": "prometheus-2-8x7b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 68.44,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        67.62,
+        69.26
+      ],
+      "rank": 107
+    },
+    {
+      "model": "kev-0.8b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-0.8B Micro Cyber-Judge",
+      "strict_118_mean": 65.05,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 0.95,
+      "bootstrap_ci95_118suites": [
+        64.31,
+        65.83
+      ],
+      "rank": 108
+    }
+  ],
+  "leaderboard_external_competitors_50": [
+    {
+      "model": "autotrust-jev-27b-v1.1",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 94.4,
+      "wave18_formal_proving_mean": 91.29,
+      "wave19_zkstark_confidential_mean": 91.33,
+      "wave20_byzantine_bft_supply_mean": 91.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        93.07,
+        95.57
+      ],
+      "rank": 59
+    },
+    {
+      "model": "qwen3.8-27b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 92.76,
+      "wave18_formal_proving_mean": 88.63,
+      "wave19_zkstark_confidential_mean": 88.67,
+      "wave20_byzantine_bft_supply_mean": 88.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        91.46,
+        94.06
+      ],
+      "rank": 60
+    },
+    {
+      "model": "qwen3.8-9b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 90.73,
+      "wave18_formal_proving_mean": 85.63,
+      "wave19_zkstark_confidential_mean": 85.67,
+      "wave20_byzantine_bft_supply_mean": 85.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        88.93,
+        92.5
+      ],
+      "rank": 61
+    },
+    {
+      "model": "pllum-12b-nc-instruct",
+      "is_external_competitor": true,
+      "segment_family": "NASK/Cyfronet Polish Sovereign 12B",
+      "strict_118_mean": 89.1,
+      "wave18_formal_proving_mean": 85.29,
+      "wave19_zkstark_confidential_mean": 85.33,
+      "wave20_byzantine_bft_supply_mean": 85.33,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_118suites": [
+        88.59,
+        89.65
+      ],
+      "rank": 62
+    },
+    {
+      "model": "bielik-11b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 89.05,
+      "wave18_formal_proving_mean": 89.63,
+      "wave19_zkstark_confidential_mean": 89.67,
+      "wave20_byzantine_bft_supply_mean": 89.67,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        85.78,
+        92.03
+      ],
+      "rank": 63
+    },
+    {
+      "model": "qwen3.8-4b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 89.05,
+      "wave18_formal_proving_mean": 83.29,
+      "wave19_zkstark_confidential_mean": 83.33,
+      "wave20_byzantine_bft_supply_mean": 83.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        87.01,
+        90.96
+      ],
+      "rank": 64
+    },
+    {
+      "model": "deepseek-prover-v2-671b",
+      "is_external_competitor": true,
+      "segment_family": "DeepSeek-Prover-V2-671B Formal Theorem Prover",
+      "strict_118_mean": 88.86,
+      "wave18_formal_proving_mean": 86.29,
+      "wave19_zkstark_confidential_mean": 86.33,
+      "wave20_byzantine_bft_supply_mean": 86.33,
+      "energy_joules_per_decision": 68.0,
+      "bootstrap_ci95_118suites": [
+        88.62,
+        89.1
+      ],
+      "rank": 65
+    },
+    {
+      "model": "qwen2.5-72b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-72B Enterprise Judge",
+      "strict_118_mean": 88.23,
+      "wave18_formal_proving_mean": 82.96,
+      "wave19_zkstark_confidential_mean": 83.0,
+      "wave20_byzantine_bft_supply_mean": 83.0,
+      "energy_joules_per_decision": 52.0,
+      "bootstrap_ci95_118suites": [
+        87.67,
+        88.77
+      ],
+      "rank": 66
+    },
+    {
+      "model": "nemotron-70b-reward",
+      "is_external_competitor": true,
+      "segment_family": "NVIDIA Llama-3.1-Nemotron-70B-Reward",
+      "strict_118_mean": 87.77,
+      "wave18_formal_proving_mean": 81.96,
+      "wave19_zkstark_confidential_mean": 82.0,
+      "wave20_byzantine_bft_supply_mean": 82.0,
+      "energy_joules_per_decision": 48.5,
+      "bootstrap_ci95_118suites": [
+        87.09,
+        88.41
+      ],
+      "rank": 67
+    },
+    {
+      "model": "llama-3.3-70b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-3.3-70B Judge",
+      "strict_118_mean": 86.9,
+      "wave18_formal_proving_mean": 81.29,
+      "wave19_zkstark_confidential_mean": 81.33,
+      "wave20_byzantine_bft_supply_mean": 81.33,
+      "energy_joules_per_decision": 49.0,
+      "bootstrap_ci95_118suites": [
+        86.3,
+        87.5
+      ],
+      "rank": 68
+    },
+    {
+      "model": "qwen2.5-math-72b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-Math-72B Formal Reasoning",
+      "strict_118_mean": 86.59,
+      "wave18_formal_proving_mean": 83.63,
+      "wave19_zkstark_confidential_mean": 83.67,
+      "wave20_byzantine_bft_supply_mean": 83.67,
+      "energy_joules_per_decision": 51.0,
+      "bootstrap_ci95_118suites": [
+        86.32,
+        86.83
+      ],
+      "rank": 69
+    },
+    {
+      "model": "eurollm-9b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "EU Sovereign 9B Instruct",
+      "strict_118_mean": 86.28,
+      "wave18_formal_proving_mean": 81.63,
+      "wave19_zkstark_confidential_mean": 81.67,
+      "wave20_byzantine_bft_supply_mean": 81.67,
+      "energy_joules_per_decision": 7.1,
+      "bootstrap_ci95_118suites": [
+        85.75,
+        86.83
+      ],
+      "rank": 70
+    },
+    {
+      "model": "prometheus-bgb-8x22b",
+      "is_external_competitor": true,
+      "segment_family": "Prometheus-BGB-8x22B MoE Judge",
+      "strict_118_mean": 84.94,
+      "wave18_formal_proving_mean": 79.29,
+      "wave19_zkstark_confidential_mean": 79.33,
+      "wave20_byzantine_bft_supply_mean": 79.33,
+      "energy_joules_per_decision": 44.0,
+      "bootstrap_ci95_118suites": [
+        84.45,
+        85.38
+      ],
+      "rank": 71
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "SpeakLeash Polish Sovereign 7B",
+      "strict_118_mean": 84.01,
+      "wave18_formal_proving_mean": 86.96,
+      "wave19_zkstark_confidential_mean": 87.0,
+      "wave20_byzantine_bft_supply_mean": 87.0,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_118suites": [
+        80.54,
+        87.06
+      ],
+      "rank": 72
+    },
+    {
+      "model": "baselabs-mammoth-1-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 83.85,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        80.19,
+        87.34
+      ],
+      "rank": 73
+    },
+    {
+      "model": "shieldgemma-27b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-27B Safety Judge",
+      "strict_118_mean": 83.83,
+      "wave18_formal_proving_mean": 78.63,
+      "wave19_zkstark_confidential_mean": 78.67,
+      "wave20_byzantine_bft_supply_mean": 78.67,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_118suites": [
+        83.39,
+        84.24
+      ],
+      "rank": 74
+    },
+    {
+      "model": "basal-omni-1.0-ultra-31b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 83.52,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        79.84,
+        86.72
+      ],
+      "rank": 75
+    },
+    {
+      "model": "internlm2.5-20b-reward",
+      "is_external_competitor": true,
+      "segment_family": "InternLM2.5-20B Reward Model",
+      "strict_118_mean": 82.98,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 14.8,
+      "bootstrap_ci95_118suites": [
+        81.82,
+        84.02
+      ],
+      "rank": 76
+    },
+    {
+      "model": "teuken-7b-instruct-eu",
+      "is_external_competitor": true,
+      "segment_family": "Fraunhofer OpenGPT-X 24-EU-Lang 7B",
+      "strict_118_mean": 82.94,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 5.8,
+      "bootstrap_ci95_118suites": [
+        81.83,
+        84.05
+      ],
+      "rank": 77
+    },
+    {
+      "model": "selene-1-mini-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Atla AI Selene-1-Mini 8B Judge",
+      "strict_118_mean": 82.82,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_118suites": [
+        81.64,
+        83.93
+      ],
+      "rank": 78
+    },
+    {
+      "model": "kev-27b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-27B Cyber-Judge",
+      "strict_118_mean": 82.31,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_118suites": [
+        80.78,
+        83.81
+      ],
+      "rank": 79
+    },
+    {
+      "model": "claude-4.6-opus-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 82.21,
+      "wave18_formal_proving_mean": 81.96,
+      "wave19_zkstark_confidential_mean": 82.0,
+      "wave20_byzantine_bft_supply_mean": 82.0,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        81.91,
+        82.52
+      ],
+      "rank": 80
+    },
+    {
+      "model": "offsetbias-8b-judge",
+      "is_external_competitor": true,
+      "segment_family": "NCSOFT OffsetBias-8B Debiased Judge",
+      "strict_118_mean": 81.68,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_118suites": [
+        80.62,
+        82.63
+      ],
+      "rank": 81
+    },
+    {
+      "model": "gpt-5.4-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 81.63,
+      "wave18_formal_proving_mean": 81.29,
+      "wave19_zkstark_confidential_mean": 81.33,
+      "wave20_byzantine_bft_supply_mean": 81.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        81.3,
+        81.93
+      ],
+      "rank": 82
+    },
+    {
+      "model": "granite-guardian-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "IBM Granite-Guardian-3.1-8B Risk Judge",
+      "strict_118_mean": 81.47,
+      "wave18_formal_proving_mean": 75.96,
+      "wave19_zkstark_confidential_mean": 76.0,
+      "wave20_byzantine_bft_supply_mean": 76.0,
+      "energy_joules_per_decision": 6.1,
+      "bootstrap_ci95_118suites": [
+        80.99,
+        81.91
+      ],
+      "rank": 83
+    },
+    {
+      "model": "skywork-critic-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Skywork Critic Llama-3.1 8B",
+      "strict_118_mean": 81.45,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_118suites": [
+        80.34,
+        82.48
+      ],
+      "rank": 84
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 81.38,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        79.65,
+        83.04
+      ],
+      "rank": 85
+    },
+    {
+      "model": "armorm-llama3-8b-v0.1",
+      "is_external_competitor": true,
+      "segment_family": "RLHFlow ArmoRM Multi-Objective 8B",
+      "strict_118_mean": 80.69,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.3,
+      "bootstrap_ci95_118suites": [
+        79.72,
+        81.69
+      ],
+      "rank": 86
+    },
+    {
+      "model": "llama-guard-3-8b",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-Guard-3-8B Safety Classifier",
+      "strict_118_mean": 80.19,
+      "wave18_formal_proving_mean": 74.29,
+      "wave19_zkstark_confidential_mean": 74.33,
+      "wave20_byzantine_bft_supply_mean": 74.33,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_118suites": [
+        79.67,
+        80.66
+      ],
+      "rank": 87
+    },
+    {
+      "model": "shieldgemma-9b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-9B Safety Judge",
+      "strict_118_mean": 79.88,
+      "wave18_formal_proving_mean": 73.96,
+      "wave19_zkstark_confidential_mean": 74.0,
+      "wave20_byzantine_bft_supply_mean": 74.0,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_118suites": [
+        79.39,
+        80.39
+      ],
+      "rank": 88
+    },
+    {
+      "model": "deepseek-v3.2-speciale",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 79.35,
+      "wave18_formal_proving_mean": 79.29,
+      "wave19_zkstark_confidential_mean": 79.33,
+      "wave20_byzantine_bft_supply_mean": 79.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        78.97,
+        79.74
+      ],
+      "rank": 89
+    },
+    {
+      "model": "compassjudger-1-7b",
+      "is_external_competitor": true,
+      "segment_family": "OpenCompass CompassJudger-1 7B",
+      "strict_118_mean": 79.1,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_118suites": [
+        78.12,
+        80.01
+      ],
+      "rank": 90
+    },
+    {
+      "model": "wildguard-7b",
+      "is_external_competitor": true,
+      "segment_family": "AllenAI WildGuard-7B Safety Moderator",
+      "strict_118_mean": 78.52,
+      "wave18_formal_proving_mean": 72.29,
+      "wave19_zkstark_confidential_mean": 72.33,
+      "wave20_byzantine_bft_supply_mean": 72.33,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_118suites": [
+        77.98,
+        79.01
+      ],
+      "rank": 91
+    },
+    {
+      "model": "patronus-glider-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Patronus AI GLIDER 3.8B Enterprise Judge",
+      "strict_118_mean": 77.95,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_118suites": [
+        77.12,
+        78.72
+      ],
+      "rank": 92
+    },
+    {
+      "model": "judgelm-33b-v1.0",
+      "is_external_competitor": true,
+      "segment_family": "BAAI JudgeLM-33B",
+      "strict_118_mean": 77.39,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 24.5,
+      "bootstrap_ci95_118suites": [
+        76.62,
+        78.16
+      ],
+      "rank": 93
+    },
+    {
+      "model": "flow-judge-v0.1-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Flow AI Flow-Judge v0.1 3.8B",
+      "strict_118_mean": 76.82,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_118suites": [
+        76.06,
+        77.58
+      ],
+      "rank": 94
+    },
+    {
+      "model": "kev-9b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-9B Cyber-Judge",
+      "strict_118_mean": 76.55,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 6.9,
+      "bootstrap_ci95_118suites": [
+        75.53,
+        77.63
+      ],
+      "rank": 95
+    },
+    {
+      "model": "bonsai-9b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 9B Thinking Judge",
+      "strict_118_mean": 76.23,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 8.4,
+      "bootstrap_ci95_118suites": [
+        74.13,
+        78.21
+      ],
+      "rank": 96
+    },
+    {
+      "model": "auto-j-13b-judge",
+      "is_external_competitor": true,
+      "segment_family": "GAIR Auto-J-13B Judge",
+      "strict_118_mean": 75.99,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 10.2,
+      "bootstrap_ci95_118suites": [
+        75.35,
+        76.65
+      ],
+      "rank": 97
+    },
+    {
+      "model": "mistral-large-3-2512",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 75.92,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        75.21,
+        76.63
+      ],
+      "rank": 98
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3.5-0.8B Micro Base",
+      "strict_118_mean": 75.35,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_118suites": [
+        74.17,
+        76.55
+      ],
+      "rank": 99
+    },
+    {
+      "model": "llama-4-maverick-400b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 75.26,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        74.58,
+        75.93
+      ],
+      "rank": 100
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 4B Thinking Judge",
+      "strict_118_mean": 74.16,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 4.1,
+      "bootstrap_ci95_118suites": [
+        72.21,
+        75.87
+      ],
+      "rank": 101
+    },
+    {
+      "model": "gemma-3-27b-it",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 73.62,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        73.0,
+        74.22
+      ],
+      "rank": 102
+    },
+    {
+      "model": "skywork-reward-gemma-2-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 71.63,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        70.94,
+        72.34
+      ],
+      "rank": 103
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 70.17,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        68.46,
+        71.82
+      ],
+      "rank": 104
+    },
+    {
+      "model": "basal-omni-pico",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 69.54,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        68.52,
+        70.51
+      ],
+      "rank": 105
+    },
+    {
+      "model": "bonsai-2b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 2B Thinking Judge",
+      "strict_118_mean": 68.59,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 2.3,
+      "bootstrap_ci95_118suites": [
+        66.28,
+        70.69
+      ],
+      "rank": 106
+    },
+    {
+      "model": "prometheus-2-8x7b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_118_mean": 68.44,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_118suites": [
+        67.62,
+        69.26
+      ],
+      "rank": 107
+    },
+    {
+      "model": "kev-0.8b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-0.8B Micro Cyber-Judge",
+      "strict_118_mean": 65.05,
+      "wave18_formal_proving_mean": 70.29,
+      "wave19_zkstark_confidential_mean": 70.33,
+      "wave20_byzantine_bft_supply_mean": 70.33,
+      "energy_joules_per_decision": 0.95,
+      "bootstrap_ci95_118suites": [
+        64.31,
+        65.83
+      ],
+      "rank": 108
+    }
+  ]
+}
