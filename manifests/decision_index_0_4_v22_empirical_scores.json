@@ -1,0 +1,28 @@
+{
+  "schema": "jevbench-decision-index-0.4-genuine-h100-scores-v1",
+  "generated_at_utc": "2026-11-07T22:42:56.066519+00:00",
+  "organization": "SKOPION Intelligence (Eschweiler, NRW, Germany · EU PIC 861665939)",
+  "hpc_allocation": "RWTH Aachen CLAIX-2023 / WestAI Project rwth2219 (4x NVIDIA H100 80GB HBM3)",
+  "results_jsonl_sha256": "1e968d1b34fd3ccd1f245c313c96ab160d35914aafcc97850844a6a7854db0e9",
+  "total_signed_verdict_traces": 21600,
+  "models": [
+    {"model_id": "skopion-verdict-27b-v22.0-absolute-horizon", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.009015, "ece": 0.058592, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "skopion-verdict-9b-v22.0-absolute-horizon", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.000438, "ece": 0.018306, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "skopion-verdict-4b-v22.0-absolute-horizon", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.010034, "ece": 0.068344, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "autotrust-jev-27b-v1.1", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.003721, "ece": 0.052514, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "kev-27b-native", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.000667, "ece": 0.019121, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "bielik-7b-v3-bf16", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.005732, "ece": 0.032149, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "kev-4b-native-fp32", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.009542, "ece": 0.059744, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "bonsai-jev-27b", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.012459, "ece": 0.088047, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "Qwen3.5-4B", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.014592, "ece": 0.090075, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "bielik-11b-v3-bf16", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.015669, "ece": 0.046697, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "Qwen3.5-27B", "systemone": 100.0, "toma": 100.0, "selector": 100.0, "dynamic": 100.0, "decision_index_overall": 100.0, "brier": 0.019918, "ece": 0.111101, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "Qwen3.5-0.8B", "systemone": 100.0, "toma": 100.0, "selector": 99.67, "dynamic": 100.0, "decision_index_overall": 99.92, "brier": 0.116219, "ece": 0.329778, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "kev-0.8b-native", "systemone": 100.0, "toma": 100.0, "selector": 93.33, "dynamic": 100.0, "decision_index_overall": 98.33, "brier": 0.044962, "ece": 0.146628, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "kev-9b-native", "systemone": 100.0, "toma": 100.0, "selector": 99.0, "dynamic": 66.33, "decision_index_overall": 91.33, "brier": 0.11113, "ece": 0.233628, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "Qwen3.5-9B", "systemone": 100.0, "toma": 100.0, "selector": 50.0, "dynamic": 91.67, "decision_index_overall": 85.42, "brier": 0.08528, "ece": 0.19747, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "bonsai-2b-thinking", "systemone": 56.67, "toma": 60.33, "selector": 57.0, "dynamic": 50.33, "decision_index_overall": 56.08, "brier": null, "ece": null, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "bonsai-4b-thinking", "systemone": 39.33, "toma": 51.67, "selector": 43.33, "dynamic": 26.67, "decision_index_overall": 40.25, "brier": null, "ece": null, "source": "H100_LIVE_FORWARD_PASS_JSONL"},
+    {"model_id": "bonsai-9b-thinking", "systemone": 12.0, "toma": 15.0, "selector": 15.67, "dynamic": 33.67, "decision_index_overall": 19.09, "brier": null, "ece": null, "source": "H100_LIVE_FORWARD_PASS_JSONL"}
+  ]
+}
