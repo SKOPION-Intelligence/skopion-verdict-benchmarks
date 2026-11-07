@@ -31,7 +31,7 @@ In accordance with **SKOPION Intelligence (Germany · EU Horizon Europe PIC `861
 
 For official verification on the **Decision Index 0.4** private benchmark split (`1× NVIDIA RTX PRO 6000`):
 1. **Public Verification Suite & Cryptographic Attestations (`120 Suites · 44,340 Evaluations/Model across 120 Models · 99.53% Strict-148 #1 Global on Committee / 99.52% #1 Single-Model on 27B`):**
-   - **CERN / Zenodo Official Record (`v22.0.0` DOI):** [`10.5281/zenodo.24009481`](https://doi.org/10.5281/zenodo.24009481) (`Concept DOI: 10.5281/zenodo.24005152` · `v20.0.0 DOI: 10.5281/zenodo.24005153`)
+   - **CERN / Zenodo Official Record (`v22.0.0` DOI):** [`10.5281/zenodo.24009481`](https://doi.org/10.5281/zenodo.24009481) (`Concept DOI: 10.5281/zenodo.24005152` · `v20.0.0 DOI: 10.5281/zenodo.24009481`)
    - **Kaggle Public Dataset:** [`skopionintelligence/skopion-verdict-v20-singularity-benchmarks`](https://www.kaggle.com/datasets/skopionintelligence/skopion-verdict-v20-singularity-benchmarks)
    - **Hugging Face Verification Suite:** [`SKOPION-Intelligence/SKOPION-Verdict-Bench-56Suites`](https://huggingface.co/datasets/SKOPION-Intelligence/SKOPION-Verdict-Bench-56Suites)
 2. **Maintainer Access (`apolinario/decision-index`):**
