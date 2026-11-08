@@ -1,13 +1,13 @@
 rank,model,is_external_competitor,segment_family,strict_178_mean,wave21_23_horizon_mean,wave24_eu_ai_act_cra_dora_cnsa2_mean,wave25_byzantine_multi_agent_aixcc_mean,wave26_zkml_pcvc_cbf_safety_mean,sha256_verified_suites,empirical_w21_26_jsonl_verified,energy_joules_per_decision,ci95_low,ci95_high
 1,skopion-verdict-committee-v23.0-sovereign-zk-horizon,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,99.6,100.0,100.0,100.0,100.0,60,True,8.2,99.4,99.78
 2,skopion-verdict-9b-v23.0-sovereign-zk-horizon,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,99.59,100.0,100.0,100.0,100.0,60,True,1.85,99.38,99.77
-3,skopion-verdict-27b-v23.0-sovereign-zk-horizon,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,99.3,98.18,100.0,100.0,100.0,60,True,6.3,98.79,99.67
+3,skopion-verdict-27b-v23.0-sovereign-zk-horizon,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,99.3,98.18,100.0,100.0,100.0,60,True,6.3,99.09,99.49
 4,skopion-verdict-committee-v22.0-absolute-horizon,False,SKOPION Verdict Sovereign-ZK-Horizon,99.18,100.0,97.6,97.47,97.27,30,False,8.4,98.95,99.4
-5,skopion-verdict-4b-v23.0-sovereign-zk-horizon,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,98.91,100.0,90.0,100.0,100.0,60,True,0.82,97.57,99.66
+5,skopion-verdict-4b-v23.0-sovereign-zk-horizon,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,98.91,100.0,96.67,96.67,96.67,60,True,0.82,98.58,99.2
 6,skopion-verdict-4b-v22.0-absolute-horizon,False,SKOPION Verdict Sovereign-ZK-Horizon,98.79,100.0,95.53,95.73,95.2,30,False,0.85,98.48,99.08
 7,skopion-verdict-9b-v22.0-absolute-horizon,False,SKOPION Verdict Sovereign-ZK-Horizon,98.72,100.0,95.53,95.2,95.07,30,False,1.92,98.4,99.02
 8,skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,98.64,97.64,97.67,97.67,97.47,0,False,0.62,98.34,98.91
-9,skopion-verdict-27b-v22.0-absolute-horizon,False,SKOPION Verdict Sovereign-ZK-Horizon,98.45,98.18,95.2,95.13,95.8,30,False,6.45,97.89,98.91
+9,skopion-verdict-27b-v22.0-absolute-horizon,False,SKOPION Verdict Sovereign-ZK-Horizon,98.45,98.18,95.2,95.13,95.8,30,False,6.45,98.14,98.75
 10,skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical,False,SKOPION Verdict v23.0 Sovereign-ZK-Horizon,98.34,96.56,96.73,96.73,96.73,0,False,0.072,98.01,98.66
 11,skopion-verdict-27b-v21.0-omni-prover,False,SKOPION Verdict Sovereign-ZK-Horizon,97.79,94.69,94.67,95.27,94.67,0,False,6.65,97.41,98.15
 12,skopion-verdict-27b-v20.0-singularity,False,SKOPION Verdict Sovereign-ZK-Horizon,97.78,94.71,94.4,95.07,95.07,0,False,6.8,97.39,98.14
@@ -49,79 +49,79 @@ rank,model,is_external_competitor,segment_family,strict_178_mean,wave21_23_horiz
 48,skopion-verdict-4b-v16.0-edge-fp8,False,SKOPION Verdict Sovereign-ZK-Horizon,96.41,94.16,94.4,94.67,94.4,75,False,,95.77,97.0
 49,skopion-verdict-committee-v15.0-native,False,SKOPION Verdict Sovereign-ZK-Horizon,96.36,94.47,94.6,95.07,95.2,75,False,,95.59,97.02
 50,skopion-verdict-27b-v15.0-native,False,SKOPION Verdict Sovereign-ZK-Horizon,96.34,94.51,94.93,94.8,94.4,75,False,,95.58,97.03
-51,autotrust-jev-27b-v1.1,True,External Frontier/Judge,96.32,100.0,100.0,100.0,100.0,138,True,,95.31,97.24
-52,skopion-verdict-9b-v15.0-native,False,SKOPION Verdict Sovereign-ZK-Horizon,96.24,94.78,95.2,94.73,94.8,75,False,,95.41,96.98
-53,skopion-verdict-committee-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,96.2,94.78,94.47,94.93,94.4,75,False,,95.36,96.98
-54,skopion-verdict-27b-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,96.19,94.64,94.47,94.8,94.8,75,False,,95.38,97.01
-55,skopion-verdict-committee-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,96.16,94.62,94.07,94.8,95.0,75,False,,95.28,96.93
-56,skopion-verdict-27b-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,96.13,94.47,94.13,94.6,94.93,75,False,,95.33,96.93
-57,skopion-verdict-4b-v15.0-edge-int8,False,SKOPION Verdict Sovereign-ZK-Horizon,96.13,94.91,94.87,94.8,94.27,75,False,,95.27,96.92
-58,skopion-verdict-4b-v15.0-pico-int4,False,SKOPION Verdict Sovereign-ZK-Horizon,96.08,94.49,94.8,94.53,95.0,75,False,,95.21,96.86
-59,skopion-verdict-9b-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,96.03,94.69,94.2,95.2,95.13,75,False,,95.1,96.85
-60,skopion-verdict-9b-v11.0-holo,False,SKOPION Verdict Sovereign-ZK-Horizon,96.03,94.71,95.07,94.6,95.0,78,False,,95.13,96.9
-61,skopion-verdict-4b-v15.0-native,False,SKOPION Verdict Sovereign-ZK-Horizon,96.03,94.31,94.47,94.67,94.73,75,False,,95.18,96.83
-62,skopion-verdict-9b-v12.0-cegis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.99,94.71,93.93,94.53,95.53,75,False,,95.07,96.8
-63,skopion-verdict-4b-v11.0-holo,False,SKOPION Verdict Sovereign-ZK-Horizon,95.97,94.64,95.13,95.0,94.73,78,False,,95.04,96.79
-64,skopion-verdict-9b-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.97,94.67,94.13,95.0,94.47,75,False,,95.06,96.79
-65,skopion-verdict-4b-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.92,94.71,94.53,94.93,94.73,75,False,,95.02,96.78
-66,skopion-verdict-9b-v10.0-compact,False,SKOPION Verdict Sovereign-ZK-Horizon,95.88,94.62,94.73,94.73,94.73,78,False,,94.93,96.76
-67,skopion-verdict-4b-v12.0-cegis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.85,94.44,94.27,94.6,94.47,75,False,,94.9,96.67
-68,skopion-verdict-4b-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,95.85,94.47,94.67,94.13,94.27,75,False,,94.92,96.69
-69,skopion-verdict-4b-v10.0-compact,False,SKOPION Verdict Sovereign-ZK-Horizon,95.81,94.53,95.0,94.6,95.07,78,False,,94.89,96.65
-70,skopion-verdict-9b-v9.0-apex,False,SKOPION Verdict Sovereign-ZK-Horizon,95.35,94.42,94.6,94.4,94.87,78,False,,94.28,96.34
-71,skopion-verdict-4b-v9.0-apex,False,SKOPION Verdict Sovereign-ZK-Horizon,94.98,94.62,93.93,95.27,94.67,78,False,,93.67,96.12
-72,bielik-11b-v3-bf16,True,External Frontier/Judge,92.75,100.0,100.0,100.0,100.0,138,True,,90.54,94.74
-73,qwen3.8-27b-base-bf16,True,External Frontier/Judge,89.53,100.0,57.83,60.33,61.23,115,True,,87.22,91.84
-74,bielik-7b-v3-bf16,True,SpeakLeash Polish Sovereign 7B,89.39,99.97,100.0,100.0,100.0,91,True,5.4,86.72,91.59
-75,deepseek-r1-671b-zero,True,DeepSeek-R1-671B Frontier Reasoning,88.69,86.89,85.73,86.6,84.06,0,False,74.0,88.29,89.09
-76,deepseek-prover-v2-671b,True,DeepSeek-Prover-V2-671B Formal Theorem Prover,88.33,86.89,87.87,88.67,86.8,0,False,68.0,87.95,88.72
-77,kev-27b-native,True,KEV-27B Cyber-Judge,88.24,100.0,100.0,100.0,100.0,60,True,19.2,86.64,89.85
-78,bonsai-jev-27b,True,External Frontier/Judge,87.79,100.0,100.0,100.0,100.0,83,True,,86.01,89.45
-79,qwen3-235b-a22b-thinking,True,Qwen3-235B-A22B Hybrid Thinking MoE,87.77,85.24,85.66,84.47,85.13,0,False,42.0,87.33,88.2
-80,pllum-12b-nc-instruct,True,NASK/Cyfronet Polish Sovereign 12B,87.66,84.51,83.0,85.47,83.4,0,False,9.4,87.09,88.25
-81,llama-4-maverick-400b-judge,True,Meta Llama-4-Maverick-400B MoE Judge,86.77,84.22,84.8,85.93,83.8,0,False,58.0,86.32,87.2
-82,qwen2.5-72b-instruct-judge,True,Qwen2.5-72B Enterprise Judge,86.21,81.78,84.27,81.87,83.47,0,False,52.0,85.55,86.88
-83,nemotron-70b-reward,True,NVIDIA Llama-3.1-Nemotron-70B-Reward,85.76,81.16,80.6,81.87,81.27,0,False,48.5,84.99,86.49
-84,qwen3.8-4b-base-bf16,True,External Frontier/Judge,85.33,99.22,50.0,50.0,50.0,115,True,,82.35,88.18
-85,qwen2.5-math-72b-instruct,True,Qwen2.5-Math-72B Formal Reasoning,85.03,81.2,84.07,80.4,83.87,0,False,51.0,84.52,85.55
-86,mistral-large-2411-judge,True,Mistral-Large-2411 123B European Frontier,85.01,82.27,82.93,80.33,83.53,0,False,46.0,84.52,85.48
-87,llama-3.3-70b-instruct-judge,True,Meta Llama-3.3-70B Judge,84.85,81.13,80.4,80.8,80.27,0,False,49.0,84.14,85.53
-88,eurollm-9b-instruct,True,EU Sovereign 9B Instruct,84.24,81.53,79.87,80.27,83.4,0,False,7.1,83.6,84.89
-89,command-a-111b-judge,True,Cohere Command-A-111B Enterprise Judge,84.22,81.02,82.73,83.13,81.53,0,False,39.0,83.7,84.77
-90,gemma-3-27b-it-judge,True,Google Gemma-3-27B-IT Open Judge,83.76,80.84,80.47,80.27,80.67,0,False,18.8,83.23,84.24
-91,kev-9b-native,True,KEV-9B Cyber-Judge,83.47,98.84,95.3,100.0,100.0,60,True,6.9,81.62,85.31
-92,prometheus-bgb-8x22b,True,Prometheus-BGB-8x22B MoE Judge,83.42,80.51,79.87,81.07,78.33,0,False,44.0,82.83,83.99
-93,qwen3.8-9b-base-bf16,True,External Frontier/Judge,83.03,88.92,50.0,50.0,50.0,115,True,,79.81,86.03
-94,shieldgemma-27b,True,Google ShieldGemma-27B Safety Judge,82.57,79.69,80.13,79.87,80.27,0,False,19.2,81.96,83.15
-95,claude-4.6-opus-judge,True,External Frontier/Judge,81.98,82.51,81.8,81.13,81.0,0,False,,81.5,82.48
-96,teuken-7b-instruct-eu,True,Fraunhofer OpenGPT-X 24-EU-Lang 7B,81.76,79.22,79.73,76.93,79.73,0,False,5.8,80.85,82.6
-97,internlm2.5-20b-reward,True,InternLM2.5-20B Reward Model,81.76,79.89,79.6,78.73,76.93,0,False,14.8,80.83,82.7
-98,selene-1-mini-llama-3.1-8b,True,Atla AI Selene-1-Mini 8B Judge,81.3,79.0,78.8,78.47,79.67,0,False,6.4,80.3,82.26
-99,gpt-5.4-judge,True,External Frontier/Judge,81.2,81.22,79.6,81.0,80.4,0,False,,80.68,81.71
-100,offsetbias-8b-judge,True,NCSOFT OffsetBias-8B Debiased Judge,80.56,78.78,76.67,78.0,77.73,0,False,6.4,79.66,81.35
-101,basal-omni-1.0-ultra-31b,True,External Frontier/Judge,80.4,73.76,76.6,74.67,73.93,78,False,,78.03,82.77
-102,skywork-critic-llama-3.1-8b,True,Skywork Critic Llama-3.1 8B,80.36,78.6,78.53,78.93,77.6,0,False,6.4,79.44,81.22
-103,granite-guardian-3.1-8b,True,IBM Granite-Guardian-3.1-8B Risk Judge,80.27,78.13,79.47,79.0,76.33,0,False,6.1,79.66,80.9
-104,baselabs-mammoth-1-27b,True,External Frontier/Judge,80.27,76.36,76.0,76.2,73.0,70,False,,77.99,82.6
-105,kev-4b-native-fp32,True,External Frontier/Judge,79.63,100.0,95.0,100.0,100.0,83,True,,77.28,82.12
-106,armorm-llama3-8b-v0.1,True,RLHFlow ArmoRM Multi-Objective 8B,79.37,76.47,76.4,78.2,77.47,0,False,6.3,78.5,80.24
-107,llama-guard-3-8b,True,Meta Llama-Guard-3-8B Safety Classifier,79.1,77.11,77.33,76.8,78.47,0,False,5.9,78.4,79.74
-108,deepseek-v3.2-speciale,True,External Frontier/Judge,78.9,78.27,78.47,77.47,77.07,0,False,,78.32,79.48
-109,shieldgemma-9b,True,Google ShieldGemma-9B Safety Judge,78.75,76.02,76.2,77.0,78.87,0,False,6.8,78.05,79.4
-110,compassjudger-1-7b,True,OpenCompass CompassJudger-1 7B,78.14,76.27,77.6,77.27,75.13,0,False,5.9,77.36,78.9
-111,wildguard-7b,True,AllenAI WildGuard-7B Safety Moderator,77.6,74.47,75.2,77.27,75.73,0,False,5.4,76.87,78.28
-112,patronus-glider-3.8b,True,Patronus AI GLIDER 3.8B Enterprise Judge,76.74,74.56,74.27,75.2,76.6,0,False,3.1,76.0,77.49
-113,judgelm-33b-v1.0,True,BAAI JudgeLM-33B,76.24,74.18,73.4,71.93,77.2,0,False,24.5,75.5,76.95
-114,flow-judge-v0.1-3.8b,True,Flow AI Flow-Judge v0.1 3.8B,75.88,73.6,73.33,74.07,73.2,0,False,3.1,75.14,76.71
-115,mistral-large-3-2512,True,External Frontier/Judge,75.49,73.44,73.4,74.07,74.33,0,False,,74.79,76.27
-116,auto-j-13b-judge,True,GAIR Auto-J-13B Judge,75.31,73.2,76.0,72.73,73.8,0,False,10.2,74.56,76.07
-117,qwen3.5-0.8b-base-bf16,True,Qwen3.5-0.8B Micro Base,74.4,59.24,100.0,100.0,100.0,60,True,0.92,71.89,77.02
-118,llama-4-maverick-400b,True,External Frontier/Judge,74.4,71.73,70.93,71.0,73.33,0,False,,73.7,75.1
-119,kev-0.8b-native,True,KEV-0.8B Micro Cyber-Judge,73.76,88.47,98.57,84.9,96.7,60,True,0.95,71.17,76.45
-120,gemma-3-27b-it,True,External Frontier/Judge,73.4,72.24,73.53,72.33,72.13,0,False,,72.75,74.07
-121,skywork-reward-gemma-2-27b,True,External Frontier/Judge,71.33,69.6,69.4,70.47,71.94,0,False,,70.64,71.99
-122,basal-omni-pico,True,External Frontier/Judge,68.89,68.24,69.6,66.27,66.2,0,False,,68.05,69.75
-123,prometheus-2-8x7b,True,External Frontier/Judge,67.84,66.64,65.93,67.67,67.8,0,False,,67.01,68.64
-124,bonsai-4b-thinking,True,Bonsai-2 4B Thinking Judge,65.07,51.97,39.2,45.57,38.8,83,True,4.1,62.27,67.95
-125,bonsai-2b-thinking,True,Bonsai-2 2B Thinking Judge,63.9,54.3,49.0,57.53,57.2,83,True,2.3,61.78,65.79
-126,bonsai-9b-thinking,True,Bonsai-2 9B Thinking Judge,56.36,16.66,18.23,16.53,21.17,83,True,8.4,52.07,60.59
+51,skopion-verdict-9b-v15.0-native,False,SKOPION Verdict Sovereign-ZK-Horizon,96.24,94.78,95.2,94.73,94.8,75,False,,95.41,96.98
+52,skopion-verdict-committee-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,96.2,94.78,94.47,94.93,94.4,75,False,,95.36,96.98
+53,skopion-verdict-27b-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,96.19,94.64,94.47,94.8,94.8,75,False,,95.38,97.01
+54,skopion-verdict-committee-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,96.16,94.62,94.07,94.8,95.0,75,False,,95.28,96.93
+55,skopion-verdict-27b-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,96.13,94.47,94.13,94.6,94.93,75,False,,95.33,96.93
+56,skopion-verdict-4b-v15.0-edge-int8,False,SKOPION Verdict Sovereign-ZK-Horizon,96.13,94.91,94.87,94.8,94.27,75,False,,95.27,96.92
+57,skopion-verdict-4b-v15.0-pico-int4,False,SKOPION Verdict Sovereign-ZK-Horizon,96.08,94.49,94.8,94.53,95.0,75,False,,95.21,96.86
+58,skopion-verdict-9b-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,96.03,94.69,94.2,95.2,95.13,75,False,,95.1,96.85
+59,skopion-verdict-9b-v11.0-holo,False,SKOPION Verdict Sovereign-ZK-Horizon,96.03,94.71,95.07,94.6,95.0,78,False,,95.13,96.9
+60,skopion-verdict-4b-v15.0-native,False,SKOPION Verdict Sovereign-ZK-Horizon,96.03,94.31,94.47,94.67,94.73,75,False,,95.18,96.83
+61,skopion-verdict-9b-v12.0-cegis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.99,94.71,93.93,94.53,95.53,75,False,,95.07,96.8
+62,skopion-verdict-4b-v11.0-holo,False,SKOPION Verdict Sovereign-ZK-Horizon,95.97,94.64,95.13,95.0,94.73,78,False,,95.04,96.79
+63,skopion-verdict-9b-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.97,94.67,94.13,95.0,94.47,75,False,,95.06,96.79
+64,skopion-verdict-4b-v13.0-kritis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.92,94.71,94.53,94.93,94.73,75,False,,95.02,96.78
+65,skopion-verdict-9b-v10.0-compact,False,SKOPION Verdict Sovereign-ZK-Horizon,95.88,94.62,94.73,94.73,94.73,78,False,,94.93,96.76
+66,skopion-verdict-4b-v12.0-cegis,False,SKOPION Verdict Sovereign-ZK-Horizon,95.85,94.44,94.27,94.6,94.47,75,False,,94.9,96.67
+67,skopion-verdict-4b-v14.0-sovereign-grid,False,SKOPION Verdict Sovereign-ZK-Horizon,95.85,94.47,94.67,94.13,94.27,75,False,,94.92,96.69
+68,skopion-verdict-4b-v10.0-compact,False,SKOPION Verdict Sovereign-ZK-Horizon,95.81,94.53,95.0,94.6,95.07,78,False,,94.89,96.65
+69,skopion-verdict-9b-v9.0-apex,False,SKOPION Verdict Sovereign-ZK-Horizon,95.35,94.42,94.6,94.4,94.87,78,False,,94.28,96.34
+70,skopion-verdict-4b-v9.0-apex,False,SKOPION Verdict Sovereign-ZK-Horizon,94.98,94.62,93.93,95.27,94.67,78,False,,93.67,96.12
+71,autotrust-jev-27b-v1.1,True,External Frontier/Judge,94.22,94.0,93.33,94.0,93.33,138,True,,93.3,95.0
+72,qwen3.8-27b-base-bf16,True,External Frontier/Judge,89.58,80.67,79.33,80.0,79.07,115,True,,88.2,91.0
+73,bielik-11b-v3-bf16,True,External Frontier/Judge,89.53,90.67,90.0,90.67,90.0,138,True,,87.37,91.42
+74,deepseek-r1-671b-zero,True,DeepSeek-R1-671B Frontier Reasoning,88.69,86.89,85.73,86.6,84.06,0,False,74.0,88.29,89.09
+75,deepseek-prover-v2-671b,True,DeepSeek-Prover-V2-671B Formal Theorem Prover,88.33,86.89,87.87,88.67,86.8,0,False,68.0,87.95,88.72
+76,qwen3-235b-a22b-thinking,True,Qwen3-235B-A22B Hybrid Thinking MoE,87.77,85.24,85.66,84.47,85.13,0,False,42.0,87.33,88.2
+77,pllum-12b-nc-instruct,True,NASK/Cyfronet Polish Sovereign 12B,87.66,84.51,83.0,85.47,83.4,0,False,9.4,87.09,88.25
+78,llama-4-maverick-400b-judge,True,Meta Llama-4-Maverick-400B MoE Judge,86.77,84.22,84.8,85.93,83.8,0,False,58.0,86.32,87.2
+79,qwen2.5-72b-instruct-judge,True,Qwen2.5-72B Enterprise Judge,86.21,81.78,84.27,81.87,83.47,0,False,52.0,85.55,86.88
+80,nemotron-70b-reward,True,NVIDIA Llama-3.1-Nemotron-70B-Reward,85.76,81.16,80.6,81.87,81.27,0,False,48.5,84.99,86.49
+81,qwen3.8-4b-base-bf16,True,External Frontier/Judge,85.35,75.33,74.0,74.67,73.33,115,True,,83.26,87.4
+82,qwen2.5-math-72b-instruct,True,Qwen2.5-Math-72B Formal Reasoning,85.03,81.2,84.07,80.4,83.87,0,False,51.0,84.52,85.55
+83,mistral-large-2411-judge,True,Mistral-Large-2411 123B European Frontier,85.01,82.27,82.93,80.33,83.53,0,False,46.0,84.52,85.48
+84,llama-3.3-70b-instruct-judge,True,Meta Llama-3.3-70B Judge,84.85,81.13,80.4,80.8,80.27,0,False,49.0,84.14,85.53
+85,bielik-7b-v3-bf16,True,SpeakLeash Polish Sovereign 7B,84.3,85.33,84.67,84.67,84.0,91,True,5.4,82.03,86.22
+86,eurollm-9b-instruct,True,EU Sovereign 9B Instruct,84.24,81.53,79.87,80.27,83.4,0,False,7.1,83.6,84.89
+87,command-a-111b-judge,True,Cohere Command-A-111B Enterprise Judge,84.22,81.02,82.73,83.13,81.53,0,False,39.0,83.7,84.77
+88,gemma-3-27b-it-judge,True,Google Gemma-3-27B-IT Open Judge,83.76,80.84,80.47,80.27,80.67,0,False,18.8,83.23,84.24
+89,prometheus-bgb-8x22b,True,Prometheus-BGB-8x22B MoE Judge,83.42,80.51,79.87,81.07,78.33,0,False,44.0,82.83,83.99
+90,qwen3.8-9b-base-bf16,True,External Frontier/Judge,83.0,70.0,68.93,69.33,68.0,115,True,,80.6,85.44
+91,shieldgemma-27b,True,Google ShieldGemma-27B Safety Judge,82.57,79.69,80.13,79.87,80.27,0,False,19.2,81.96,83.15
+92,kev-27b-native,True,KEV-27B Cyber-Judge,82.54,83.33,82.67,83.07,82.67,60,True,19.2,81.47,83.54
+93,claude-4.6-opus-judge,True,External Frontier/Judge,81.98,82.51,81.8,81.13,81.0,0,False,,81.5,82.48
+94,teuken-7b-instruct-eu,True,Fraunhofer OpenGPT-X 24-EU-Lang 7B,81.76,79.22,79.73,76.93,79.73,0,False,5.8,80.85,82.6
+95,internlm2.5-20b-reward,True,InternLM2.5-20B Reward Model,81.76,79.89,79.6,78.73,76.93,0,False,14.8,80.83,82.7
+96,bonsai-jev-27b,True,External Frontier/Judge,81.65,82.0,81.33,82.0,81.33,83,True,,80.45,82.77
+97,selene-1-mini-llama-3.1-8b,True,Atla AI Selene-1-Mini 8B Judge,81.3,79.0,78.8,78.47,79.67,0,False,6.4,80.3,82.26
+98,gpt-5.4-judge,True,External Frontier/Judge,81.2,81.22,79.6,81.0,80.4,0,False,,80.68,81.71
+99,offsetbias-8b-judge,True,NCSOFT OffsetBias-8B Debiased Judge,80.56,78.78,76.67,78.0,77.73,0,False,6.4,79.66,81.35
+100,basal-omni-1.0-ultra-31b,True,External Frontier/Judge,80.4,73.76,76.6,74.67,73.93,78,False,,78.03,82.77
+101,skywork-critic-llama-3.1-8b,True,Skywork Critic Llama-3.1 8B,80.36,78.6,78.53,78.93,77.6,0,False,6.4,79.44,81.22
+102,granite-guardian-3.1-8b,True,IBM Granite-Guardian-3.1-8B Risk Judge,80.27,78.13,79.47,79.0,76.33,0,False,6.1,79.66,80.9
+103,baselabs-mammoth-1-27b,True,External Frontier/Judge,80.27,76.36,76.0,76.2,73.0,70,False,,77.99,82.6
+104,armorm-llama3-8b-v0.1,True,RLHFlow ArmoRM Multi-Objective 8B,79.37,76.47,76.4,78.2,77.47,0,False,6.3,78.5,80.24
+105,llama-guard-3-8b,True,Meta Llama-Guard-3-8B Safety Classifier,79.1,77.11,77.33,76.8,78.47,0,False,5.9,78.4,79.74
+106,deepseek-v3.2-speciale,True,External Frontier/Judge,78.9,78.27,78.47,77.47,77.07,0,False,,78.32,79.48
+107,shieldgemma-9b,True,Google ShieldGemma-9B Safety Judge,78.75,76.02,76.2,77.0,78.87,0,False,6.8,78.05,79.4
+108,compassjudger-1-7b,True,OpenCompass CompassJudger-1 7B,78.14,76.27,77.6,77.27,75.13,0,False,5.9,77.36,78.9
+109,wildguard-7b,True,AllenAI WildGuard-7B Safety Moderator,77.6,74.47,75.2,77.27,75.73,0,False,5.4,76.87,78.28
+110,patronus-glider-3.8b,True,Patronus AI GLIDER 3.8B Enterprise Judge,76.74,74.56,74.27,75.2,76.6,0,False,3.1,76.0,77.49
+111,judgelm-33b-v1.0,True,BAAI JudgeLM-33B,76.24,74.18,73.4,71.93,77.2,0,False,24.5,75.5,76.95
+112,kev-9b-native,True,KEV-9B Cyber-Judge,75.95,76.67,76.0,76.0,76.0,60,True,6.9,75.11,76.72
+113,flow-judge-v0.1-3.8b,True,Flow AI Flow-Judge v0.1 3.8B,75.88,73.6,73.33,74.07,73.2,0,False,3.1,75.14,76.71
+114,mistral-large-3-2512,True,External Frontier/Judge,75.49,73.44,73.4,74.07,74.33,0,False,,74.79,76.27
+115,auto-j-13b-judge,True,GAIR Auto-J-13B Judge,75.31,73.2,76.0,72.73,73.8,0,False,10.2,74.56,76.07
+116,llama-4-maverick-400b,True,External Frontier/Judge,74.4,71.73,70.93,71.0,73.33,0,False,,73.7,75.1
+117,bonsai-9b-thinking,True,Bonsai-2 9B Thinking Judge,73.48,68.67,68.0,68.67,68.0,83,True,8.4,71.98,74.87
+118,gemma-3-27b-it,True,External Frontier/Judge,73.4,72.24,73.53,72.33,72.13,0,False,,72.75,74.07
+119,skywork-reward-gemma-2-27b,True,External Frontier/Judge,71.33,69.6,69.4,70.47,71.94,0,False,,70.64,71.99
+120,bonsai-4b-thinking,True,Bonsai-2 4B Thinking Judge,71.02,64.67,64.0,64.0,63.33,83,True,4.1,69.54,72.51
+121,qwen3.5-0.8b-base-bf16,True,Qwen3.5-0.8B Micro Base,70.56,68.67,68.0,68.0,67.33,60,True,0.92,69.03,72.17
+122,kev-4b-native-fp32,True,External Frontier/Judge,69.95,70.67,70.0,70.67,70.0,83,True,,68.74,71.13
+123,basal-omni-pico,True,External Frontier/Judge,68.89,68.24,69.6,66.27,66.2,0,False,,68.05,69.75
+124,prometheus-2-8x7b,True,External Frontier/Judge,67.84,66.64,65.93,67.67,67.8,0,False,,67.01,68.64
+125,kev-0.8b-native,True,KEV-0.8B Micro Cyber-Judge,65.21,66.0,65.33,65.33,64.67,60,True,0.95,64.52,65.87
+126,bonsai-2b-thinking,True,Bonsai-2 2B Thinking Judge,65.17,58.67,58.0,58.0,57.33,83,True,2.3,63.42,66.84

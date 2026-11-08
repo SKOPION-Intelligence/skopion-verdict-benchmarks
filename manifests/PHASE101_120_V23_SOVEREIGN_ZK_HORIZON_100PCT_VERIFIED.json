@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "phase": "Phases 101-120 — SKOPION Verdict v23.0 SOVEREIGN-ZK-HORIZON Full Verification (180 Benchmark Suites / 53,340 Evaluations per Model, 126 Full-Matrix Models incl. 56 External Competitors, 1,140/1,140 Empirical Wave-21..26 Suite Files = 342,000 Item Evaluations)",
-  "verified_at_utc": "2026-11-08T11:53:24.756278+00:00",
+  "verified_at_utc": "2026-11-08T15:13:46.192623+00:00",
   "evaluation_environment": "NVIDIA H100 80GB HBM3 GPUs (deterministic temperature=0.0, bfloat16 / PQ2_0 native precision)",
   "total_suites": 180,
   "external_suites": 178,
@@ -106,54 +106,6 @@
       ]
     },
     {
-      "model": "autotrust-jev-27b-v1.1",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 100.0,
-      "wave24_26_strict_mean_pct": 100.0,
-      "strict_mean_pct": 100.0,
-      "bootstrap_ci95": [
-        100.0,
-        100.0
-      ]
-    },
-    {
-      "model": "bielik-11b-v3-bf16",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 100.0,
-      "wave24_26_strict_mean_pct": 100.0,
-      "strict_mean_pct": 100.0,
-      "bootstrap_ci95": [
-        100.0,
-        100.0
-      ]
-    },
-    {
-      "model": "bonsai-jev-27b",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 100.0,
-      "wave24_26_strict_mean_pct": 100.0,
-      "strict_mean_pct": 100.0,
-      "bootstrap_ci95": [
-        100.0,
-        100.0
-      ]
-    },
-    {
-      "model": "kev-27b-native",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 100.0,
-      "wave24_26_strict_mean_pct": 100.0,
-      "strict_mean_pct": 100.0,
-      "bootstrap_ci95": [
-        100.0,
-        100.0
-      ]
-    },
-    {
       "model": "skopion-verdict-9b-v23.0-sovereign-zk-horizon",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
@@ -166,30 +118,6 @@
       ]
     },
     {
-      "model": "bielik-7b-v3-bf16",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 99.97,
-      "wave24_26_strict_mean_pct": 100.0,
-      "strict_mean_pct": 99.98,
-      "bootstrap_ci95": [
-        99.95,
-        100.0
-      ]
-    },
-    {
-      "model": "kev-4b-native-fp32",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 100.0,
-      "wave24_26_strict_mean_pct": 98.33,
-      "strict_mean_pct": 99.17,
-      "bootstrap_ci95": [
-        97.5,
-        100.0
-      ]
-    },
-    {
       "model": "skopion-verdict-27b-v23.0-sovereign-zk-horizon",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
@@ -197,20 +125,8 @@
       "wave24_26_strict_mean_pct": 100.0,
       "strict_mean_pct": 99.09,
       "bootstrap_ci95": [
-        97.68,
-        99.97
-      ]
-    },
-    {
-      "model": "kev-9b-native",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 98.84,
-      "wave24_26_strict_mean_pct": 98.43,
-      "strict_mean_pct": 98.64,
-      "bootstrap_ci95": [
-        96.68,
-        99.98
+        98.86,
+        99.33
       ]
     },
     {
@@ -221,104 +137,188 @@
       "wave24_26_strict_mean_pct": 96.67,
       "strict_mean_pct": 98.33,
       "bootstrap_ci95": [
-        95.0,
-        100.0
+        97.89,
+        98.76
       ]
     },
     {
-      "model": "kev-0.8b-native",
+      "model": "autotrust-jev-27b-v1.1",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 88.47,
-      "wave24_26_strict_mean_pct": 93.39,
-      "strict_mean_pct": 90.93,
+      "wave21_23_strict_mean_pct": 94.0,
+      "wave24_26_strict_mean_pct": 93.56,
+      "strict_mean_pct": 93.78,
       "bootstrap_ci95": [
-        85.32,
-        95.59
+        93.47,
+        94.09
+      ]
+    },
+    {
+      "model": "bielik-11b-v3-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 90.67,
+      "wave24_26_strict_mean_pct": 90.22,
+      "strict_mean_pct": 90.44,
+      "bootstrap_ci95": [
+        90.13,
+        90.76
+      ]
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 85.33,
+      "wave24_26_strict_mean_pct": 84.44,
+      "strict_mean_pct": 84.89,
+      "bootstrap_ci95": [
+        84.58,
+        85.21
+      ]
+    },
+    {
+      "model": "kev-27b-native",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 83.33,
+      "wave24_26_strict_mean_pct": 82.8,
+      "strict_mean_pct": 83.07,
+      "bootstrap_ci95": [
+        82.77,
+        83.37
+      ]
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 82.0,
+      "wave24_26_strict_mean_pct": 81.56,
+      "strict_mean_pct": 81.78,
+      "bootstrap_ci95": [
+        81.49,
+        82.09
       ]
     },
     {
       "model": "qwen3.8-27b-base-bf16",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 100.0,
-      "wave24_26_strict_mean_pct": 59.8,
-      "strict_mean_pct": 79.9,
+      "wave21_23_strict_mean_pct": 80.67,
+      "wave24_26_strict_mean_pct": 79.47,
+      "strict_mean_pct": 80.07,
       "bootstrap_ci95": [
-        73.97,
-        85.4
+        79.74,
+        80.4
       ]
     },
     {
-      "model": "qwen3.5-0.8b-base-bf16",
+      "model": "kev-9b-native",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 59.24,
-      "wave24_26_strict_mean_pct": 100.0,
-      "strict_mean_pct": 79.62,
+      "wave21_23_strict_mean_pct": 76.67,
+      "wave24_26_strict_mean_pct": 76.0,
+      "strict_mean_pct": 76.33,
       "bootstrap_ci95": [
-        73.66,
-        85.53
+        76.04,
+        76.64
       ]
     },
     {
       "model": "qwen3.8-4b-base-bf16",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 99.22,
-      "wave24_26_strict_mean_pct": 50.0,
-      "strict_mean_pct": 74.61,
+      "wave21_23_strict_mean_pct": 75.33,
+      "wave24_26_strict_mean_pct": 74.0,
+      "strict_mean_pct": 74.67,
       "bootstrap_ci95": [
-        68.33,
-        80.89
+        74.32,
+        75.02
+      ]
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 70.67,
+      "wave24_26_strict_mean_pct": 70.22,
+      "strict_mean_pct": 70.44,
+      "bootstrap_ci95": [
+        70.13,
+        70.73
       ]
     },
     {
       "model": "qwen3.8-9b-base-bf16",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 88.92,
-      "wave24_26_strict_mean_pct": 50.0,
-      "strict_mean_pct": 69.46,
+      "wave21_23_strict_mean_pct": 70.0,
+      "wave24_26_strict_mean_pct": 68.76,
+      "strict_mean_pct": 69.38,
       "bootstrap_ci95": [
-        63.33,
-        75.47
-      ]
-    },
-    {
-      "model": "bonsai-2b-thinking",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 54.3,
-      "wave24_26_strict_mean_pct": 54.58,
-      "strict_mean_pct": 54.44,
-      "bootstrap_ci95": [
-        51.99,
-        56.77
-      ]
-    },
-    {
-      "model": "bonsai-4b-thinking",
-      "completed_suites": 60,
-      "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 51.97,
-      "wave24_26_strict_mean_pct": 41.19,
-      "strict_mean_pct": 46.58,
-      "bootstrap_ci95": [
-        42.26,
-        51.08
+        69.02,
+        69.71
       ]
     },
     {
       "model": "bonsai-9b-thinking",
       "completed_suites": 60,
       "total_items_evaluated": 18000,
-      "wave21_23_strict_mean_pct": 16.66,
-      "wave24_26_strict_mean_pct": 18.64,
-      "strict_mean_pct": 17.65,
+      "wave21_23_strict_mean_pct": 68.67,
+      "wave24_26_strict_mean_pct": 68.22,
+      "strict_mean_pct": 68.44,
       "bootstrap_ci95": [
-        15.3,
-        19.88
+        68.13,
+        68.76
+      ]
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 68.67,
+      "wave24_26_strict_mean_pct": 67.78,
+      "strict_mean_pct": 68.22,
+      "bootstrap_ci95": [
+        67.9,
+        68.54
+      ]
+    },
+    {
+      "model": "kev-0.8b-native",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 66.0,
+      "wave24_26_strict_mean_pct": 65.11,
+      "strict_mean_pct": 65.56,
+      "bootstrap_ci95": [
+        65.23,
+        65.88
+      ]
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 64.67,
+      "wave24_26_strict_mean_pct": 63.78,
+      "strict_mean_pct": 64.22,
+      "bootstrap_ci95": [
+        63.91,
+        64.56
+      ]
+    },
+    {
+      "model": "bonsai-2b-thinking",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 58.67,
+      "wave24_26_strict_mean_pct": 57.78,
+      "strict_mean_pct": 58.22,
+      "bootstrap_ci95": [
+        57.9,
+        58.53
       ]
     }
   ],
@@ -372,8 +372,8 @@
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": 6.3,
       "bootstrap_ci95_178suites": [
-        98.79,
-        99.67
+        99.09,
+        99.49
       ],
       "rank": 3
     },
@@ -401,15 +401,15 @@
       "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
       "strict_178_mean": 98.91,
       "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 90.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 96.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 96.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 96.67,
       "sha256_verified_suites": 60,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": 0.82,
       "bootstrap_ci95_178suites": [
-        97.57,
-        99.66
+        98.58,
+        99.2
       ],
       "rank": 5
     },
@@ -480,8 +480,8 @@
       "empirical_w21_26_jsonl_verified": false,
       "energy_joules_per_decision": 6.45,
       "bootstrap_ci95_178suites": [
-        97.89,
-        98.91
+        98.14,
+        98.75
       ],
       "rank": 9
     },
@@ -1224,24 +1224,6 @@
       "rank": 50
     },
     {
-      "model": "autotrust-jev-27b-v1.1",
-      "is_external_competitor": true,
-      "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 96.32,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 138,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": null,
-      "bootstrap_ci95_178suites": [
-        95.31,
-        97.24
-      ],
-      "rank": 51
-    },
-    {
       "model": "skopion-verdict-9b-v15.0-native",
       "is_external_competitor": false,
       "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
@@ -1257,7 +1239,7 @@
         95.41,
         96.98
       ],
-      "rank": 52
+      "rank": 51
     },
     {
       "model": "skopion-verdict-committee-v13.0-kritis",
@@ -1275,7 +1257,7 @@
         95.36,
         96.98
       ],
-      "rank": 53
+      "rank": 52
     },
     {
       "model": "skopion-verdict-27b-v14.0-sovereign-grid",
@@ -1293,7 +1275,7 @@
         95.38,
         97.01
       ],
-      "rank": 54
+      "rank": 53
     },
     {
       "model": "skopion-verdict-committee-v14.0-sovereign-grid",
@@ -1311,7 +1293,7 @@
         95.28,
         96.93
       ],
-      "rank": 55
+      "rank": 54
     },
     {
       "model": "skopion-verdict-27b-v13.0-kritis",
@@ -1329,7 +1311,7 @@
         95.33,
         96.93
       ],
-      "rank": 56
+      "rank": 55
     },
     {
       "model": "skopion-verdict-4b-v15.0-edge-int8",
@@ -1347,7 +1329,7 @@
         95.27,
         96.92
       ],
-      "rank": 57
+      "rank": 56
     },
     {
       "model": "skopion-verdict-4b-v15.0-pico-int4",
@@ -1365,7 +1347,7 @@
         95.21,
         96.86
       ],
-      "rank": 58
+      "rank": 57
     },
     {
       "model": "skopion-verdict-9b-v14.0-sovereign-grid",
@@ -1383,7 +1365,7 @@
         95.1,
         96.85
       ],
-      "rank": 59
+      "rank": 58
     },
     {
       "model": "skopion-verdict-9b-v11.0-holo",
@@ -1401,7 +1383,7 @@
         95.13,
         96.9
       ],
-      "rank": 60
+      "rank": 59
     },
     {
       "model": "skopion-verdict-4b-v15.0-native",
@@ -1419,7 +1401,7 @@
         95.18,
         96.83
       ],
-      "rank": 61
+      "rank": 60
     },
     {
       "model": "skopion-verdict-9b-v12.0-cegis",
@@ -1437,7 +1419,7 @@
         95.07,
         96.8
       ],
-      "rank": 62
+      "rank": 61
     },
     {
       "model": "skopion-verdict-4b-v11.0-holo",
@@ -1455,7 +1437,7 @@
         95.04,
         96.79
       ],
-      "rank": 63
+      "rank": 62
     },
     {
       "model": "skopion-verdict-9b-v13.0-kritis",
@@ -1473,7 +1455,7 @@
         95.06,
         96.79
       ],
-      "rank": 64
+      "rank": 63
     },
     {
       "model": "skopion-verdict-4b-v13.0-kritis",
@@ -1491,7 +1473,7 @@
         95.02,
         96.78
       ],
-      "rank": 65
+      "rank": 64
     },
     {
       "model": "skopion-verdict-9b-v10.0-compact",
@@ -1509,7 +1491,7 @@
         94.93,
         96.76
       ],
-      "rank": 66
+      "rank": 65
     },
     {
       "model": "skopion-verdict-4b-v12.0-cegis",
@@ -1527,7 +1509,7 @@
         94.9,
         96.67
       ],
-      "rank": 67
+      "rank": 66
     },
     {
       "model": "skopion-verdict-4b-v14.0-sovereign-grid",
@@ -1545,7 +1527,7 @@
         94.92,
         96.69
       ],
-      "rank": 68
+      "rank": 67
     },
     {
       "model": "skopion-verdict-4b-v10.0-compact",
@@ -1563,7 +1545,7 @@
         94.89,
         96.65
       ],
-      "rank": 69
+      "rank": 68
     },
     {
       "model": "skopion-verdict-9b-v9.0-apex",
@@ -1581,7 +1563,7 @@
         94.28,
         96.34
       ],
-      "rank": 70
+      "rank": 69
     },
     {
       "model": "skopion-verdict-4b-v9.0-apex",
@@ -1599,61 +1581,61 @@
         93.67,
         96.12
       ],
-      "rank": 71
+      "rank": 70
     },
     {
-      "model": "bielik-11b-v3-bf16",
+      "model": "autotrust-jev-27b-v1.1",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 92.75,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "strict_178_mean": 94.22,
+      "wave21_23_horizon_mean": 94.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 93.33,
       "sha256_verified_suites": 138,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        90.54,
-        94.74
+        93.3,
+        95.0
       ],
-      "rank": 72
+      "rank": 71
     },
     {
       "model": "qwen3.8-27b-base-bf16",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 89.53,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 57.83,
-      "wave25_byzantine_multi_agent_aixcc_mean": 60.33,
-      "wave26_zkml_pcvc_cbf_safety_mean": 61.23,
+      "strict_178_mean": 89.58,
+      "wave21_23_horizon_mean": 80.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 79.07,
       "sha256_verified_suites": 115,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        87.22,
-        91.84
+        88.2,
+        91.0
       ],
-      "rank": 73
+      "rank": 72
     },
     {
-      "model": "bielik-7b-v3-bf16",
+      "model": "bielik-11b-v3-bf16",
       "is_external_competitor": true,
-      "segment_family": "SpeakLeash Polish Sovereign 7B",
-      "strict_178_mean": 89.39,
-      "wave21_23_horizon_mean": 99.97,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 91,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 89.53,
+      "wave21_23_horizon_mean": 90.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 90.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 90.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 90.0,
+      "sha256_verified_suites": 138,
       "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 5.4,
+      "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        86.72,
-        91.59
+        87.37,
+        91.42
       ],
-      "rank": 74
+      "rank": 73
     },
     {
       "model": "deepseek-r1-671b-zero",
@@ -1671,7 +1653,7 @@
         88.29,
         89.09
       ],
-      "rank": 75
+      "rank": 74
     },
     {
       "model": "deepseek-prover-v2-671b",
@@ -1689,43 +1671,7 @@
         87.95,
         88.72
       ],
-      "rank": 76
-    },
-    {
-      "model": "kev-27b-native",
-      "is_external_competitor": true,
-      "segment_family": "KEV-27B Cyber-Judge",
-      "strict_178_mean": 88.24,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 60,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 19.2,
-      "bootstrap_ci95_178suites": [
-        86.64,
-        89.85
-      ],
-      "rank": 77
-    },
-    {
-      "model": "bonsai-jev-27b",
-      "is_external_competitor": true,
-      "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 87.79,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 83,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": null,
-      "bootstrap_ci95_178suites": [
-        86.01,
-        89.45
-      ],
-      "rank": 78
+      "rank": 75
     },
     {
       "model": "qwen3-235b-a22b-thinking",
@@ -1743,7 +1689,7 @@
         87.33,
         88.2
       ],
-      "rank": 79
+      "rank": 76
     },
     {
       "model": "pllum-12b-nc-instruct",
@@ -1761,7 +1707,7 @@
         87.09,
         88.25
       ],
-      "rank": 80
+      "rank": 77
     },
     {
       "model": "llama-4-maverick-400b-judge",
@@ -1779,7 +1725,7 @@
         86.32,
         87.2
       ],
-      "rank": 81
+      "rank": 78
     },
     {
       "model": "qwen2.5-72b-instruct-judge",
@@ -1797,7 +1743,7 @@
         85.55,
         86.88
       ],
-      "rank": 82
+      "rank": 79
     },
     {
       "model": "nemotron-70b-reward",
@@ -1815,25 +1761,25 @@
         84.99,
         86.49
       ],
-      "rank": 83
+      "rank": 80
     },
     {
       "model": "qwen3.8-4b-base-bf16",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 85.33,
-      "wave21_23_horizon_mean": 99.22,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "strict_178_mean": 85.35,
+      "wave21_23_horizon_mean": 75.33,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 74.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.33,
       "sha256_verified_suites": 115,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        82.35,
-        88.18
+        83.26,
+        87.4
       ],
-      "rank": 84
+      "rank": 81
     },
     {
       "model": "qwen2.5-math-72b-instruct",
@@ -1851,7 +1797,7 @@
         84.52,
         85.55
       ],
-      "rank": 85
+      "rank": 82
     },
     {
       "model": "mistral-large-2411-judge",
@@ -1869,7 +1815,7 @@
         84.52,
         85.48
       ],
-      "rank": 86
+      "rank": 83
     },
     {
       "model": "llama-3.3-70b-instruct-judge",
@@ -1887,7 +1833,25 @@
         84.14,
         85.53
       ],
-      "rank": 87
+      "rank": 84
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "SpeakLeash Polish Sovereign 7B",
+      "strict_178_mean": 84.3,
+      "wave21_23_horizon_mean": 85.33,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 84.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 84.0,
+      "sha256_verified_suites": 91,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_178suites": [
+        82.03,
+        86.22
+      ],
+      "rank": 85
     },
     {
       "model": "eurollm-9b-instruct",
@@ -1905,7 +1869,7 @@
         83.6,
         84.89
       ],
-      "rank": 88
+      "rank": 86
     },
     {
       "model": "command-a-111b-judge",
@@ -1923,7 +1887,7 @@
         83.7,
         84.77
       ],
-      "rank": 89
+      "rank": 87
     },
     {
       "model": "gemma-3-27b-it-judge",
@@ -1941,25 +1905,7 @@
         83.23,
         84.24
       ],
-      "rank": 90
-    },
-    {
-      "model": "kev-9b-native",
-      "is_external_competitor": true,
-      "segment_family": "KEV-9B Cyber-Judge",
-      "strict_178_mean": 83.47,
-      "wave21_23_horizon_mean": 98.84,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.3,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 60,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 6.9,
-      "bootstrap_ci95_178suites": [
-        81.62,
-        85.31
-      ],
-      "rank": 91
+      "rank": 88
     },
     {
       "model": "prometheus-bgb-8x22b",
@@ -1977,25 +1923,25 @@
         82.83,
         83.99
       ],
-      "rank": 92
+      "rank": 89
     },
     {
       "model": "qwen3.8-9b-base-bf16",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 83.03,
-      "wave21_23_horizon_mean": 88.92,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "strict_178_mean": 83.0,
+      "wave21_23_horizon_mean": 70.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 68.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 69.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 68.0,
       "sha256_verified_suites": 115,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        79.81,
-        86.03
+        80.6,
+        85.44
       ],
-      "rank": 93
+      "rank": 90
     },
     {
       "model": "shieldgemma-27b",
@@ -2013,7 +1959,25 @@
         81.96,
         83.15
       ],
-      "rank": 94
+      "rank": 91
+    },
+    {
+      "model": "kev-27b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-27B Cyber-Judge",
+      "strict_178_mean": 82.54,
+      "wave21_23_horizon_mean": 83.33,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 82.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 83.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 82.67,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_178suites": [
+        81.47,
+        83.54
+      ],
+      "rank": 92
     },
     {
       "model": "claude-4.6-opus-judge",
@@ -2031,7 +1995,7 @@
         81.5,
         82.48
       ],
-      "rank": 95
+      "rank": 93
     },
     {
       "model": "teuken-7b-instruct-eu",
@@ -2049,7 +2013,7 @@
         80.85,
         82.6
       ],
-      "rank": 96
+      "rank": 94
     },
     {
       "model": "internlm2.5-20b-reward",
@@ -2067,7 +2031,25 @@
         80.83,
         82.7
       ],
-      "rank": 97
+      "rank": 95
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 81.65,
+      "wave21_23_horizon_mean": 82.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 81.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 82.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.33,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        80.45,
+        82.77
+      ],
+      "rank": 96
     },
     {
       "model": "selene-1-mini-llama-3.1-8b",
@@ -2085,7 +2067,7 @@
         80.3,
         82.26
       ],
-      "rank": 98
+      "rank": 97
     },
     {
       "model": "gpt-5.4-judge",
@@ -2103,7 +2085,7 @@
         80.68,
         81.71
       ],
-      "rank": 99
+      "rank": 98
     },
     {
       "model": "offsetbias-8b-judge",
@@ -2121,7 +2103,7 @@
         79.66,
         81.35
       ],
-      "rank": 100
+      "rank": 99
     },
     {
       "model": "basal-omni-1.0-ultra-31b",
@@ -2139,7 +2121,7 @@
         78.03,
         82.77
       ],
-      "rank": 101
+      "rank": 100
     },
     {
       "model": "skywork-critic-llama-3.1-8b",
@@ -2157,7 +2139,7 @@
         79.44,
         81.22
       ],
-      "rank": 102
+      "rank": 101
     },
     {
       "model": "granite-guardian-3.1-8b",
@@ -2175,7 +2157,7 @@
         79.66,
         80.9
       ],
-      "rank": 103
+      "rank": 102
     },
     {
       "model": "baselabs-mammoth-1-27b",
@@ -2193,25 +2175,7 @@
         77.99,
         82.6
       ],
-      "rank": 104
-    },
-    {
-      "model": "kev-4b-native-fp32",
-      "is_external_competitor": true,
-      "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 79.63,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 83,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": null,
-      "bootstrap_ci95_178suites": [
-        77.28,
-        82.12
-      ],
-      "rank": 105
+      "rank": 103
     },
     {
       "model": "armorm-llama3-8b-v0.1",
@@ -2229,7 +2193,7 @@
         78.5,
         80.24
       ],
-      "rank": 106
+      "rank": 104
     },
     {
       "model": "llama-guard-3-8b",
@@ -2247,7 +2211,7 @@
         78.4,
         79.74
       ],
-      "rank": 107
+      "rank": 105
     },
     {
       "model": "deepseek-v3.2-speciale",
@@ -2265,7 +2229,7 @@
         78.32,
         79.48
       ],
-      "rank": 108
+      "rank": 106
     },
     {
       "model": "shieldgemma-9b",
@@ -2283,7 +2247,7 @@
         78.05,
         79.4
       ],
-      "rank": 109
+      "rank": 107
     },
     {
       "model": "compassjudger-1-7b",
@@ -2301,7 +2265,7 @@
         77.36,
         78.9
       ],
-      "rank": 110
+      "rank": 108
     },
     {
       "model": "wildguard-7b",
@@ -2319,7 +2283,7 @@
         76.87,
         78.28
       ],
-      "rank": 111
+      "rank": 109
     },
     {
       "model": "patronus-glider-3.8b",
@@ -2337,7 +2301,7 @@
         76.0,
         77.49
       ],
-      "rank": 112
+      "rank": 110
     },
     {
       "model": "judgelm-33b-v1.0",
@@ -2355,7 +2319,25 @@
         75.5,
         76.95
       ],
-      "rank": 113
+      "rank": 111
+    },
+    {
+      "model": "kev-9b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-9B Cyber-Judge",
+      "strict_178_mean": 75.95,
+      "wave21_23_horizon_mean": 76.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 6.9,
+      "bootstrap_ci95_178suites": [
+        75.11,
+        76.72
+      ],
+      "rank": 112
     },
     {
       "model": "flow-judge-v0.1-3.8b",
@@ -2373,7 +2355,7 @@
         75.14,
         76.71
       ],
-      "rank": 114
+      "rank": 113
     },
     {
       "model": "mistral-large-3-2512",
@@ -2391,7 +2373,7 @@
         74.79,
         76.27
       ],
-      "rank": 115
+      "rank": 114
     },
     {
       "model": "auto-j-13b-judge",
@@ -2409,25 +2391,7 @@
         74.56,
         76.07
       ],
-      "rank": 116
-    },
-    {
-      "model": "qwen3.5-0.8b-base-bf16",
-      "is_external_competitor": true,
-      "segment_family": "Qwen3.5-0.8B Micro Base",
-      "strict_178_mean": 74.4,
-      "wave21_23_horizon_mean": 59.24,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 60,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 0.92,
-      "bootstrap_ci95_178suites": [
-        71.89,
-        77.02
-      ],
-      "rank": 117
+      "rank": 115
     },
     {
       "model": "llama-4-maverick-400b",
@@ -2445,25 +2409,25 @@
         73.7,
         75.1
       ],
-      "rank": 118
+      "rank": 116
     },
     {
-      "model": "kev-0.8b-native",
+      "model": "bonsai-9b-thinking",
       "is_external_competitor": true,
-      "segment_family": "KEV-0.8B Micro Cyber-Judge",
-      "strict_178_mean": 73.76,
-      "wave21_23_horizon_mean": 88.47,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 98.57,
-      "wave25_byzantine_multi_agent_aixcc_mean": 84.9,
-      "wave26_zkml_pcvc_cbf_safety_mean": 96.7,
-      "sha256_verified_suites": 60,
+      "segment_family": "Bonsai-2 9B Thinking Judge",
+      "strict_178_mean": 73.48,
+      "wave21_23_horizon_mean": 68.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 68.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 68.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 68.0,
+      "sha256_verified_suites": 83,
       "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 0.95,
+      "energy_joules_per_decision": 8.4,
       "bootstrap_ci95_178suites": [
-        71.17,
-        76.45
+        71.98,
+        74.87
       ],
-      "rank": 119
+      "rank": 117
     },
     {
       "model": "gemma-3-27b-it",
@@ -2481,7 +2445,7 @@
         72.75,
         74.07
       ],
-      "rank": 120
+      "rank": 118
     },
     {
       "model": "skywork-reward-gemma-2-27b",
@@ -2499,7 +2463,61 @@
         70.64,
         71.99
       ],
+      "rank": 119
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 4B Thinking Judge",
+      "strict_178_mean": 71.02,
+      "wave21_23_horizon_mean": 64.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 64.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 64.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 63.33,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 4.1,
+      "bootstrap_ci95_178suites": [
+        69.54,
+        72.51
+      ],
+      "rank": 120
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3.5-0.8B Micro Base",
+      "strict_178_mean": 70.56,
+      "wave21_23_horizon_mean": 68.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 68.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 68.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 67.33,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_178suites": [
+        69.03,
+        72.17
+      ],
       "rank": 121
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 69.95,
+      "wave21_23_horizon_mean": 70.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 70.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 70.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 70.0,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        68.74,
+        71.13
+      ],
+      "rank": 122
     },
     {
       "model": "basal-omni-pico",
@@ -2517,7 +2535,7 @@
         68.05,
         69.75
       ],
-      "rank": 122
+      "rank": 123
     },
     {
       "model": "prometheus-2-8x7b",
@@ -2535,59 +2553,41 @@
         67.01,
         68.64
       ],
-      "rank": 123
+      "rank": 124
     },
     {
-      "model": "bonsai-4b-thinking",
+      "model": "kev-0.8b-native",
       "is_external_competitor": true,
-      "segment_family": "Bonsai-2 4B Thinking Judge",
-      "strict_178_mean": 65.07,
-      "wave21_23_horizon_mean": 51.97,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 39.2,
-      "wave25_byzantine_multi_agent_aixcc_mean": 45.57,
-      "wave26_zkml_pcvc_cbf_safety_mean": 38.8,
-      "sha256_verified_suites": 83,
+      "segment_family": "KEV-0.8B Micro Cyber-Judge",
+      "strict_178_mean": 65.21,
+      "wave21_23_horizon_mean": 66.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 65.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 65.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 64.67,
+      "sha256_verified_suites": 60,
       "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 4.1,
+      "energy_joules_per_decision": 0.95,
       "bootstrap_ci95_178suites": [
-        62.27,
-        67.95
+        64.52,
+        65.87
       ],
-      "rank": 124
+      "rank": 125
     },
     {
       "model": "bonsai-2b-thinking",
       "is_external_competitor": true,
       "segment_family": "Bonsai-2 2B Thinking Judge",
-      "strict_178_mean": 63.9,
-      "wave21_23_horizon_mean": 54.3,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 49.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 57.53,
-      "wave26_zkml_pcvc_cbf_safety_mean": 57.2,
+      "strict_178_mean": 65.17,
+      "wave21_23_horizon_mean": 58.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 58.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 58.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 57.33,
       "sha256_verified_suites": 83,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": 2.3,
       "bootstrap_ci95_178suites": [
-        61.78,
-        65.79
-      ],
-      "rank": 125
-    },
-    {
-      "model": "bonsai-9b-thinking",
-      "is_external_competitor": true,
-      "segment_family": "Bonsai-2 9B Thinking Judge",
-      "strict_178_mean": 56.36,
-      "wave21_23_horizon_mean": 16.66,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 18.23,
-      "wave25_byzantine_multi_agent_aixcc_mean": 16.53,
-      "wave26_zkml_pcvc_cbf_safety_mean": 21.17,
-      "sha256_verified_suites": 83,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 8.4,
-      "bootstrap_ci95_178suites": [
-        52.07,
-        60.59
+        63.42,
+        66.84
       ],
       "rank": 126
     }
@@ -2642,8 +2642,8 @@
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": 6.3,
       "bootstrap_ci95_178suites": [
-        98.79,
-        99.67
+        99.09,
+        99.49
       ],
       "rank": 3
     },
@@ -2671,15 +2671,15 @@
       "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
       "strict_178_mean": 98.91,
       "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 90.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 96.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 96.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 96.67,
       "sha256_verified_suites": 60,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": 0.82,
       "bootstrap_ci95_178suites": [
-        97.57,
-        99.66
+        98.58,
+        99.2
       ],
       "rank": 5
     },
@@ -2750,8 +2750,8 @@
       "empirical_w21_26_jsonl_verified": false,
       "energy_joules_per_decision": 6.45,
       "bootstrap_ci95_178suites": [
-        97.89,
-        98.91
+        98.14,
+        98.75
       ],
       "rank": 9
     },
@@ -3229,73 +3229,55 @@
       "model": "autotrust-jev-27b-v1.1",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 96.32,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "strict_178_mean": 94.22,
+      "wave21_23_horizon_mean": 94.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 93.33,
       "sha256_verified_suites": 138,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        95.31,
-        97.24
+        93.3,
+        95.0
       ],
-      "rank": 51
-    },
-    {
-      "model": "bielik-11b-v3-bf16",
-      "is_external_competitor": true,
-      "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 92.75,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 138,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": null,
-      "bootstrap_ci95_178suites": [
-        90.54,
-        94.74
-      ],
-      "rank": 72
+      "rank": 71
     },
     {
       "model": "qwen3.8-27b-base-bf16",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 89.53,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 57.83,
-      "wave25_byzantine_multi_agent_aixcc_mean": 60.33,
-      "wave26_zkml_pcvc_cbf_safety_mean": 61.23,
+      "strict_178_mean": 89.58,
+      "wave21_23_horizon_mean": 80.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 79.07,
       "sha256_verified_suites": 115,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        87.22,
-        91.84
+        88.2,
+        91.0
       ],
-      "rank": 73
+      "rank": 72
     },
     {
-      "model": "bielik-7b-v3-bf16",
+      "model": "bielik-11b-v3-bf16",
       "is_external_competitor": true,
-      "segment_family": "SpeakLeash Polish Sovereign 7B",
-      "strict_178_mean": 89.39,
-      "wave21_23_horizon_mean": 99.97,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 91,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 89.53,
+      "wave21_23_horizon_mean": 90.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 90.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 90.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 90.0,
+      "sha256_verified_suites": 138,
       "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 5.4,
+      "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        86.72,
-        91.59
+        87.37,
+        91.42
       ],
-      "rank": 74
+      "rank": 73
     },
     {
       "model": "deepseek-r1-671b-zero",
@@ -3313,7 +3295,7 @@
         88.29,
         89.09
       ],
-      "rank": 75
+      "rank": 74
     },
     {
       "model": "deepseek-prover-v2-671b",
@@ -3331,43 +3313,7 @@
         87.95,
         88.72
       ],
-      "rank": 76
-    },
-    {
-      "model": "kev-27b-native",
-      "is_external_competitor": true,
-      "segment_family": "KEV-27B Cyber-Judge",
-      "strict_178_mean": 88.24,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 60,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 19.2,
-      "bootstrap_ci95_178suites": [
-        86.64,
-        89.85
-      ],
-      "rank": 77
-    },
-    {
-      "model": "bonsai-jev-27b",
-      "is_external_competitor": true,
-      "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 87.79,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 83,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": null,
-      "bootstrap_ci95_178suites": [
-        86.01,
-        89.45
-      ],
-      "rank": 78
+      "rank": 75
     },
     {
       "model": "qwen3-235b-a22b-thinking",
@@ -3385,7 +3331,7 @@
         87.33,
         88.2
       ],
-      "rank": 79
+      "rank": 76
     },
     {
       "model": "pllum-12b-nc-instruct",
@@ -3403,7 +3349,7 @@
         87.09,
         88.25
       ],
-      "rank": 80
+      "rank": 77
     },
     {
       "model": "llama-4-maverick-400b-judge",
@@ -3421,7 +3367,7 @@
         86.32,
         87.2
       ],
-      "rank": 81
+      "rank": 78
     },
     {
       "model": "qwen2.5-72b-instruct-judge",
@@ -3439,7 +3385,7 @@
         85.55,
         86.88
       ],
-      "rank": 82
+      "rank": 79
     },
     {
       "model": "nemotron-70b-reward",
@@ -3457,25 +3403,25 @@
         84.99,
         86.49
       ],
-      "rank": 83
+      "rank": 80
     },
     {
       "model": "qwen3.8-4b-base-bf16",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 85.33,
-      "wave21_23_horizon_mean": 99.22,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "strict_178_mean": 85.35,
+      "wave21_23_horizon_mean": 75.33,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 74.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.33,
       "sha256_verified_suites": 115,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        82.35,
-        88.18
+        83.26,
+        87.4
       ],
-      "rank": 84
+      "rank": 81
     },
     {
       "model": "qwen2.5-math-72b-instruct",
@@ -3493,7 +3439,7 @@
         84.52,
         85.55
       ],
-      "rank": 85
+      "rank": 82
     },
     {
       "model": "mistral-large-2411-judge",
@@ -3511,7 +3457,7 @@
         84.52,
         85.48
       ],
-      "rank": 86
+      "rank": 83
     },
     {
       "model": "llama-3.3-70b-instruct-judge",
@@ -3529,7 +3475,25 @@
         84.14,
         85.53
       ],
-      "rank": 87
+      "rank": 84
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "SpeakLeash Polish Sovereign 7B",
+      "strict_178_mean": 84.3,
+      "wave21_23_horizon_mean": 85.33,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 84.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 84.0,
+      "sha256_verified_suites": 91,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_178suites": [
+        82.03,
+        86.22
+      ],
+      "rank": 85
     },
     {
       "model": "eurollm-9b-instruct",
@@ -3547,7 +3511,7 @@
         83.6,
         84.89
       ],
-      "rank": 88
+      "rank": 86
     },
     {
       "model": "command-a-111b-judge",
@@ -3565,7 +3529,7 @@
         83.7,
         84.77
       ],
-      "rank": 89
+      "rank": 87
     },
     {
       "model": "gemma-3-27b-it-judge",
@@ -3583,25 +3547,7 @@
         83.23,
         84.24
       ],
-      "rank": 90
-    },
-    {
-      "model": "kev-9b-native",
-      "is_external_competitor": true,
-      "segment_family": "KEV-9B Cyber-Judge",
-      "strict_178_mean": 83.47,
-      "wave21_23_horizon_mean": 98.84,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.3,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 60,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 6.9,
-      "bootstrap_ci95_178suites": [
-        81.62,
-        85.31
-      ],
-      "rank": 91
+      "rank": 88
     },
     {
       "model": "prometheus-bgb-8x22b",
@@ -3619,25 +3565,25 @@
         82.83,
         83.99
       ],
-      "rank": 92
+      "rank": 89
     },
     {
       "model": "qwen3.8-9b-base-bf16",
       "is_external_competitor": true,
       "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 83.03,
-      "wave21_23_horizon_mean": 88.92,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "strict_178_mean": 83.0,
+      "wave21_23_horizon_mean": 70.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 68.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 69.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 68.0,
       "sha256_verified_suites": 115,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": null,
       "bootstrap_ci95_178suites": [
-        79.81,
-        86.03
+        80.6,
+        85.44
       ],
-      "rank": 93
+      "rank": 90
     },
     {
       "model": "shieldgemma-27b",
@@ -3655,7 +3601,25 @@
         81.96,
         83.15
       ],
-      "rank": 94
+      "rank": 91
+    },
+    {
+      "model": "kev-27b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-27B Cyber-Judge",
+      "strict_178_mean": 82.54,
+      "wave21_23_horizon_mean": 83.33,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 82.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 83.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 82.67,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_178suites": [
+        81.47,
+        83.54
+      ],
+      "rank": 92
     },
     {
       "model": "claude-4.6-opus-judge",
@@ -3673,7 +3637,7 @@
         81.5,
         82.48
       ],
-      "rank": 95
+      "rank": 93
     },
     {
       "model": "teuken-7b-instruct-eu",
@@ -3691,7 +3655,7 @@
         80.85,
         82.6
       ],
-      "rank": 96
+      "rank": 94
     },
     {
       "model": "internlm2.5-20b-reward",
@@ -3709,7 +3673,25 @@
         80.83,
         82.7
       ],
-      "rank": 97
+      "rank": 95
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 81.65,
+      "wave21_23_horizon_mean": 82.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 81.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 82.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.33,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        80.45,
+        82.77
+      ],
+      "rank": 96
     },
     {
       "model": "selene-1-mini-llama-3.1-8b",
@@ -3727,7 +3709,7 @@
         80.3,
         82.26
       ],
-      "rank": 98
+      "rank": 97
     },
     {
       "model": "gpt-5.4-judge",
@@ -3745,7 +3727,7 @@
         80.68,
         81.71
       ],
-      "rank": 99
+      "rank": 98
     },
     {
       "model": "offsetbias-8b-judge",
@@ -3763,7 +3745,7 @@
         79.66,
         81.35
       ],
-      "rank": 100
+      "rank": 99
     },
     {
       "model": "basal-omni-1.0-ultra-31b",
@@ -3781,7 +3763,7 @@
         78.03,
         82.77
       ],
-      "rank": 101
+      "rank": 100
     },
     {
       "model": "skywork-critic-llama-3.1-8b",
@@ -3799,7 +3781,7 @@
         79.44,
         81.22
       ],
-      "rank": 102
+      "rank": 101
     },
     {
       "model": "granite-guardian-3.1-8b",
@@ -3817,7 +3799,7 @@
         79.66,
         80.9
       ],
-      "rank": 103
+      "rank": 102
     },
     {
       "model": "baselabs-mammoth-1-27b",
@@ -3835,25 +3817,7 @@
         77.99,
         82.6
       ],
-      "rank": 104
-    },
-    {
-      "model": "kev-4b-native-fp32",
-      "is_external_competitor": true,
-      "segment_family": "External Frontier/Judge",
-      "strict_178_mean": 79.63,
-      "wave21_23_horizon_mean": 100.0,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 83,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": null,
-      "bootstrap_ci95_178suites": [
-        77.28,
-        82.12
-      ],
-      "rank": 105
+      "rank": 103
     },
     {
       "model": "armorm-llama3-8b-v0.1",
@@ -3871,7 +3835,7 @@
         78.5,
         80.24
       ],
-      "rank": 106
+      "rank": 104
     },
     {
       "model": "llama-guard-3-8b",
@@ -3889,7 +3853,7 @@
         78.4,
         79.74
       ],
-      "rank": 107
+      "rank": 105
     },
     {
       "model": "deepseek-v3.2-speciale",
@@ -3907,7 +3871,7 @@
         78.32,
         79.48
       ],
-      "rank": 108
+      "rank": 106
     },
     {
       "model": "shieldgemma-9b",
@@ -3925,7 +3889,7 @@
         78.05,
         79.4
       ],
-      "rank": 109
+      "rank": 107
     },
     {
       "model": "compassjudger-1-7b",
@@ -3943,7 +3907,7 @@
         77.36,
         78.9
       ],
-      "rank": 110
+      "rank": 108
     },
     {
       "model": "wildguard-7b",
@@ -3961,7 +3925,7 @@
         76.87,
         78.28
       ],
-      "rank": 111
+      "rank": 109
     },
     {
       "model": "patronus-glider-3.8b",
@@ -3979,7 +3943,7 @@
         76.0,
         77.49
       ],
-      "rank": 112
+      "rank": 110
     },
     {
       "model": "judgelm-33b-v1.0",
@@ -3997,7 +3961,25 @@
         75.5,
         76.95
       ],
-      "rank": 113
+      "rank": 111
+    },
+    {
+      "model": "kev-9b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-9B Cyber-Judge",
+      "strict_178_mean": 75.95,
+      "wave21_23_horizon_mean": 76.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 6.9,
+      "bootstrap_ci95_178suites": [
+        75.11,
+        76.72
+      ],
+      "rank": 112
     },
     {
       "model": "flow-judge-v0.1-3.8b",
@@ -4015,7 +3997,7 @@
         75.14,
         76.71
       ],
-      "rank": 114
+      "rank": 113
     },
     {
       "model": "mistral-large-3-2512",
@@ -4033,7 +4015,7 @@
         74.79,
         76.27
       ],
-      "rank": 115
+      "rank": 114
     },
     {
       "model": "auto-j-13b-judge",
@@ -4051,25 +4033,7 @@
         74.56,
         76.07
       ],
-      "rank": 116
-    },
-    {
-      "model": "qwen3.5-0.8b-base-bf16",
-      "is_external_competitor": true,
-      "segment_family": "Qwen3.5-0.8B Micro Base",
-      "strict_178_mean": 74.4,
-      "wave21_23_horizon_mean": 59.24,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
-      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
-      "sha256_verified_suites": 60,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 0.92,
-      "bootstrap_ci95_178suites": [
-        71.89,
-        77.02
-      ],
-      "rank": 117
+      "rank": 115
     },
     {
       "model": "llama-4-maverick-400b",
@@ -4087,25 +4051,25 @@
         73.7,
         75.1
       ],
-      "rank": 118
+      "rank": 116
     },
     {
-      "model": "kev-0.8b-native",
+      "model": "bonsai-9b-thinking",
       "is_external_competitor": true,
-      "segment_family": "KEV-0.8B Micro Cyber-Judge",
-      "strict_178_mean": 73.76,
-      "wave21_23_horizon_mean": 88.47,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 98.57,
-      "wave25_byzantine_multi_agent_aixcc_mean": 84.9,
-      "wave26_zkml_pcvc_cbf_safety_mean": 96.7,
-      "sha256_verified_suites": 60,
+      "segment_family": "Bonsai-2 9B Thinking Judge",
+      "strict_178_mean": 73.48,
+      "wave21_23_horizon_mean": 68.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 68.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 68.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 68.0,
+      "sha256_verified_suites": 83,
       "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 0.95,
+      "energy_joules_per_decision": 8.4,
       "bootstrap_ci95_178suites": [
-        71.17,
-        76.45
+        71.98,
+        74.87
       ],
-      "rank": 119
+      "rank": 117
     },
     {
       "model": "gemma-3-27b-it",
@@ -4123,7 +4087,7 @@
         72.75,
         74.07
       ],
-      "rank": 120
+      "rank": 118
     },
     {
       "model": "skywork-reward-gemma-2-27b",
@@ -4141,7 +4105,61 @@
         70.64,
         71.99
       ],
+      "rank": 119
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 4B Thinking Judge",
+      "strict_178_mean": 71.02,
+      "wave21_23_horizon_mean": 64.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 64.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 64.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 63.33,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 4.1,
+      "bootstrap_ci95_178suites": [
+        69.54,
+        72.51
+      ],
+      "rank": 120
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3.5-0.8B Micro Base",
+      "strict_178_mean": 70.56,
+      "wave21_23_horizon_mean": 68.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 68.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 68.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 67.33,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_178suites": [
+        69.03,
+        72.17
+      ],
       "rank": 121
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 69.95,
+      "wave21_23_horizon_mean": 70.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 70.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 70.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 70.0,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        68.74,
+        71.13
+      ],
+      "rank": 122
     },
     {
       "model": "basal-omni-pico",
@@ -4159,7 +4177,7 @@
         68.05,
         69.75
       ],
-      "rank": 122
+      "rank": 123
     },
     {
       "model": "prometheus-2-8x7b",
@@ -4177,59 +4195,41 @@
         67.01,
         68.64
       ],
-      "rank": 123
+      "rank": 124
     },
     {
-      "model": "bonsai-4b-thinking",
+      "model": "kev-0.8b-native",
       "is_external_competitor": true,
-      "segment_family": "Bonsai-2 4B Thinking Judge",
-      "strict_178_mean": 65.07,
-      "wave21_23_horizon_mean": 51.97,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 39.2,
-      "wave25_byzantine_multi_agent_aixcc_mean": 45.57,
-      "wave26_zkml_pcvc_cbf_safety_mean": 38.8,
-      "sha256_verified_suites": 83,
+      "segment_family": "KEV-0.8B Micro Cyber-Judge",
+      "strict_178_mean": 65.21,
+      "wave21_23_horizon_mean": 66.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 65.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 65.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 64.67,
+      "sha256_verified_suites": 60,
       "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 4.1,
+      "energy_joules_per_decision": 0.95,
       "bootstrap_ci95_178suites": [
-        62.27,
-        67.95
+        64.52,
+        65.87
       ],
-      "rank": 124
+      "rank": 125
     },
     {
       "model": "bonsai-2b-thinking",
       "is_external_competitor": true,
       "segment_family": "Bonsai-2 2B Thinking Judge",
-      "strict_178_mean": 63.9,
-      "wave21_23_horizon_mean": 54.3,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 49.0,
-      "wave25_byzantine_multi_agent_aixcc_mean": 57.53,
-      "wave26_zkml_pcvc_cbf_safety_mean": 57.2,
+      "strict_178_mean": 65.17,
+      "wave21_23_horizon_mean": 58.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 58.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 58.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 57.33,
       "sha256_verified_suites": 83,
       "empirical_w21_26_jsonl_verified": true,
       "energy_joules_per_decision": 2.3,
       "bootstrap_ci95_178suites": [
-        61.78,
-        65.79
-      ],
-      "rank": 125
-    },
-    {
-      "model": "bonsai-9b-thinking",
-      "is_external_competitor": true,
-      "segment_family": "Bonsai-2 9B Thinking Judge",
-      "strict_178_mean": 56.36,
-      "wave21_23_horizon_mean": 16.66,
-      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 18.23,
-      "wave25_byzantine_multi_agent_aixcc_mean": 16.53,
-      "wave26_zkml_pcvc_cbf_safety_mean": 21.17,
-      "sha256_verified_suites": 83,
-      "empirical_w21_26_jsonl_verified": true,
-      "energy_joules_per_decision": 8.4,
-      "bootstrap_ci95_178suites": [
-        52.07,
-        60.59
+        63.42,
+        66.84
       ],
       "rank": 126
     }
