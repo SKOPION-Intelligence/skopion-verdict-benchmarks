@@ -78,22 +78,22 @@
 | **#1** | **`skopion-verdict-committee-v23.0-sovereign-zk-horizon`** | **System 1.5 BFT-Cascade (`4B`+`9B`+`27B`)** | **`99.60%`** | **`100.00%`** | **`100.00%`** | **`100.00%`** | **`100.00%`** | `8.20 J` |
 | **#2** | **`skopion-verdict-9b-v23.0-sovereign-zk-horizon`** | **9B BF16 + `ZK-PCVC` + `CBF`** | **`99.59%`** | **`100.00%`** | **`100.00%`** | **`100.00%`** | **`100.00%`** | `1.85 J` |
 | **#3** | **`skopion-verdict-27b-v23.0-sovereign-zk-horizon`** | **27B BF16 + `ZK-PCVC` + `CBF`** | **`99.30%`** | **`98.18%`** | **`100.00%`** | **`100.00%`** | **`100.00%`** | `6.30 J` |
-| **#4** | `skopion-verdict-committee-v22.0-absolute-horizon` | System 1.5 BFT-Cascade (`v22.0`) | `99.18%` | `100.00%` | `97.89%` | `97.69%` | `97.27%` | `8.50 J` |
-| **#5** | **`skopion-verdict-4b-v23.0-sovereign-zk-horizon`** | **4B BF16 + `ZK-PCVC` + `CBF`** | **`98.91%`** | **`100.00%`** | **`90.00%`** | **`100.00%`** | **`100.00%`** | `0.82 J` |
-| **#8** | **`skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b`** | **4B Ternary `1.58-bit` `{-1,0,+1}`** | **`98.64%`** | **`96.81%`** | **`97.37%`** | **`97.27%`** | **`96.91%`** | `0.62 J` |
-| **#10** | **`skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical`** | **250M Tactical Edge / Drone / BMC** | **`98.34%`** | **`95.24%`** | **`96.51%`** | **`96.76%`** | **`96.44%`** | **`0.072 J`** |
-| #71 *(Ext #1)* | `autotrust-jev-27b-v1.1` | 27B External Judge | `96.32%` | `100.00%` | `100.00%` | `100.00%` | `100.00%` | `28.90 J` |
-| #72 *(Ext #2)* | `bielik-11b-v3-bf16` | 11B Polish Sovereign LLM | `92.75%` | `100.00%` | `100.00%` | `100.00%` | `100.00%` | `14.20 J` |
-| #73 *(Ext #3)* | `qwen3.8-27b-base-bf16` | 27B Base Reference | `89.53%` | `100.00%` | `57.80%` | `60.30%` | `61.20%` | `27.40 J` |
-| #74 *(Ext #4)* | `bielik-7b-v3-bf16` | 7B Polish Sovereign LLM | `89.39%` | `99.98%` | `100.00%` | `99.93%` | `100.00%` | `8.80 J` |
-| #75 *(Ext #5)* | `deepseek-r1-671b-zero` | 671B MoE Reasoning Judge | `88.69%` | `93.36%` | `89.49%` | `89.07%` | `87.98%` | `68.00 J` |
-| #76 *(Ext #6)* | `deepseek-prover-v2-671b` | 671B MoE Formal Theorem Prover | `88.33%` | `91.84%` | `91.29%` | `86.44%` | `85.56%` | `68.00 J` |
-| #77 *(Ext #7)* | `qwen3-235b-a22b-thinking` | 235B MoE Reasoning Judge | `87.77%` | `92.60%` | `88.78%` | `88.42%` | `87.24%` | `46.00 J` |
-| #78 *(Ext #8)* | `pllum-12b-nc-instruct` | 12B Polish Sovereign LLM | `87.66%` | `87.98%` | `85.80%` | `86.62%` | `84.78%` | `9.40 J` |
-| #79 *(Ext #9)* | `llama-4-maverick-400b-judge` | 400B MoE Enterprise Judge | `86.77%` | `91.87%` | `87.96%` | `87.73%` | `86.42%` | `54.00 J` |
-| #98 *(Ext #28)* | `claude-4.6-opus-judge` | Frontier Commercial Judge | `81.98%` | `84.42%` | `81.20%` | `80.89%` | `80.22%` | — |
-| #100 *(Ext #30)* | `gpt-5.4-judge` | Frontier Commercial Judge | `81.20%` | `83.73%` | `79.89%` | `79.64%` | `78.93%` | — |
-| #123 *(Ext #53)* | `basal-omni-pico` | Pico Decision Reference | `68.89%` | `69.07%` | `66.16%` | `65.91%` | `65.36%` | `2.20 J .. 68.00 J` |
+| **#4** | `skopion-verdict-committee-v22.0-absolute-horizon` | System 1.5 BFT-Cascade (`v22.0`) | `99.18%` | `100.00%` | `97.60%` | `97.47%` | `97.27%` | `8.40 J` |
+| **#5** | **`skopion-verdict-4b-v23.0-sovereign-zk-horizon`** | **4B BF16 + `ZK-PCVC` + `CBF`** | **`98.91%`** | **`100.00%`** | **`96.67%`** | **`96.67%`** | **`96.67%`** | `0.82 J` |
+| **#8** | **`skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b`** | **4B Ternary `1.58-bit` `{-1,0,+1}`** | **`98.64%`** | **`97.64%`** | **`97.67%`** | **`97.67%`** | **`97.47%`** | `0.62 J` |
+| **#10** | **`skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical`** | **250M Tactical Edge / Drone / BMC** | **`98.34%`** | **`96.56%`** | **`96.73%`** | **`96.73%`** | **`96.73%`** | **`0.072 J`** |
+| #71 *(Ext #1)* | `autotrust-jev-27b-v1.1` | 27B External Judge | `94.22%` | `94.00%` | `93.33%` | `94.00%` | `93.33%` | `28.90 J` |
+| #72 *(Ext #2)* | `qwen3.8-27b-base-bf16` | 27B Base Reference | `89.58%` | `80.67%` | `79.33%` | `80.00%` | `79.07%` | `27.40 J` |
+| #73 *(Ext #3)* | `bielik-11b-v3-bf16` | 11B Polish Sovereign LLM | `89.53%` | `90.67%` | `90.00%` | `90.67%` | `90.00%` | `14.20 J` |
+| #74 *(Ext #4)* | `deepseek-r1-671b-zero` | 671B MoE Reasoning Judge | `88.69%` | `86.89%` | `85.73%` | `86.60%` | `84.06%` | `74.00 J` |
+| #75 *(Ext #5)* | `deepseek-prover-v2-671b` | 671B MoE Formal Theorem Prover | `88.33%` | `86.89%` | `87.87%` | `88.67%` | `86.80%` | `68.00 J` |
+| #76 *(Ext #6)* | `qwen3-235b-a22b-thinking` | 235B MoE Reasoning Judge | `87.77%` | `85.24%` | `85.66%` | `84.47%` | `85.13%` | `42.00 J` |
+| #77 *(Ext #7)* | `pllum-12b-nc-instruct` | 12B Polish Sovereign LLM | `87.66%` | `84.51%` | `83.00%` | `85.47%` | `83.40%` | `9.40 J` |
+| #78 *(Ext #8)* | `llama-4-maverick-400b-judge` | 400B MoE Enterprise Judge | `86.77%` | `84.22%` | `84.80%` | `85.93%` | `83.80%` | `58.00 J` |
+| #85 *(Ext #15)* | `bielik-7b-v3-bf16` | 7B Polish Sovereign LLM | `84.30%` | `85.33%` | `84.67%` | `84.67%` | `84.00%` | `8.80 J` |
+| #93 *(Ext #23)* | `claude-4.6-opus-judge` | Frontier Commercial Judge | `81.98%` | `82.51%` | `81.80%` | `81.13%` | `81.00%` | — |
+| #98 *(Ext #28)* | `gpt-5.4-judge` | Frontier Commercial Judge | `81.20%` | `81.22%` | `79.60%` | `81.00%` | `80.40%` | — |
+| #123 *(Ext #53)* | `basal-omni-pico` | Pico Decision Reference | `68.89%` | `68.24%` | `69.60%` | `66.27%` | `66.20%` | `2.20 J .. 68.00 J` |
 
 ---
 
