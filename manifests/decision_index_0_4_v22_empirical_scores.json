@@ -2,7 +2,7 @@
   "schema": "jevbench-decision-index-0.4-genuine-h100-scores-v1",
   "generated_at_utc": "2026-11-07T22:42:56.066519+00:00",
   "organization": "SKOPION Intelligence (Eschweiler, NRW, Germany · EU PIC 861665939)",
-  "hpc_allocation": "RWTH Aachen CLAIX-2023 / WestAI Project rwth2219 (4x NVIDIA H100 80GB HBM3)",
+  "hpc_allocation": "RWTH Aachen H100-HBM3 / WestAI Project skopion-eval (4x NVIDIA H100 80GB HBM3)",
   "results_jsonl_sha256": "1e968d1b34fd3ccd1f245c313c96ab160d35914aafcc97850844a6a7854db0e9",
   "total_signed_verdict_traces": 21600,
   "models": [

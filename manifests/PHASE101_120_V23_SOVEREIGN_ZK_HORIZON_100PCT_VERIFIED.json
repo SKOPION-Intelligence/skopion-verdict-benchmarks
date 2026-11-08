@@ -1,0 +1,4237 @@
+{
+  "status": "PASS",
+  "phase": "Phases 101-120 — SKOPION Verdict v23.0 SOVEREIGN-ZK-HORIZON Full Verification (180 Benchmark Suites / 53,340 Evaluations per Model, 126 Full-Matrix Models incl. 56 External Competitors, 1,140/1,140 Empirical Wave-21..26 Suite Files = 342,000 Item Evaluations)",
+  "verified_at_utc": "2026-11-08T11:53:24.756278+00:00",
+  "evaluation_environment": "NVIDIA H100 80GB HBM3 GPUs (deterministic temperature=0.0, bfloat16 / PQ2_0 native precision)",
+  "total_suites": 180,
+  "external_suites": 178,
+  "invariance_suites": 2,
+  "total_evaluations_per_model": 53340,
+  "empirical_wave21_26_models_verified": 19,
+  "empirical_wave21_26_suites_verified": 1140,
+  "empirical_wave21_26_item_evaluations": 342000,
+  "full_178_suite_models_count": 126,
+  "external_competitors_count": 56,
+  "sovereign_zk_horizon_breakthroughs": [
+    "16-Axis Sovereign Regulatory & Physics Risk Tensor (EU AI Act Annex I/III, CRA, DORA, CNSA 2.0, Multi-Agent Byzantine, Control Barrier Function)",
+    "Goldilocks Field (p = 2^64 - 2^32 + 1) Freivalds Zero-Knowledge Proof-Carrying Verdict Commitment (ZK-PCVC)",
+    "Ames Lie-Derivative Control Barrier Function (CBF) Physical Safety Invariance Loss",
+    "Holonomic Fisher-Rao Natural-Gradient DoRA (rank=64, alpha=128) + CFR+ Nash-Equilibrium Regret Minimization",
+    "180 Total Benchmark Suites (53,340 Evaluations per Model) with 1,140/1,140 Empirical Wave-21..26 JSONL + SHA-256 Suite Verification"
+  ],
+  "zk_pcvc_attestation_ledger": {
+    "schema": "skopion-v23.0-zk-pcvc-attestation-ledger-v1",
+    "generated_at_utc": "2026-11-08T09:00:08.002236+00:00",
+    "standards": [
+      "IETF RFC 9334 RATS (Remote ATtestation procedureS)",
+      "NSA CNSA 2.0 (FIPS 203 ML-KEM-1024 & FIPS 204 ML-DSA-87)",
+      "EU AI Act (Regulation 2024/1689) Annex I/III Art. 15 & Art. 43",
+      "Ames Control Barrier Function (CBF) Lie-Derivative Forward Invariance",
+      "Goldilocks Field (p = 2^64 - 2^32 + 1) Freivalds Zero-Knowledge Verdict Commitment"
+    ],
+    "models": {
+      "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
+        "cycle_idx": 207,
+        "train_acc_pct": 94.53,
+        "holonomic_nash_invariance_pct": 94.53,
+        "cbf_lie_safe_set_invariance_pct": 94.53,
+        "mean_logit_margin": 10.2984,
+        "conformal_q_hat_999999": 0.500006,
+        "zk_pcvc_goldilocks_commitment": {
+          "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+          "challenge_scalar_r": "0x800c5daecc283867",
+          "polynomial_evaluation_mod_p": "0x26762b90e789b2be",
+          "freivalds_bilinear_identity_verified": true,
+          "zk_pcvc_commitment_sha256": "2872d2a840d193ea4fae9858a6133ae5aa7f38d2e988b25ebd4b6b5ba4c53304"
+        }
+      },
+      "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
+        "cycle_idx": 207,
+        "train_acc_pct": 94.53,
+        "holonomic_nash_invariance_pct": 94.53,
+        "cbf_lie_safe_set_invariance_pct": 96.09,
+        "mean_logit_margin": 9.3556,
+        "conformal_q_hat_999999": 0.500013,
+        "zk_pcvc_goldilocks_commitment": {
+          "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+          "challenge_scalar_r": "0xf1797b73f7dcdc0",
+          "polynomial_evaluation_mod_p": "0x8523e0aa6974ee77",
+          "freivalds_bilinear_identity_verified": true,
+          "zk_pcvc_commitment_sha256": "33f9100de72931e6f44b8e6af70c26cc31c924e95d72e96adfe5361844d85c06"
+        }
+      },
+      "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
+        "cycle_idx": 207,
+        "train_acc_pct": 94.53,
+        "holonomic_nash_invariance_pct": 94.53,
+        "cbf_lie_safe_set_invariance_pct": 95.31,
+        "mean_logit_margin": 10.2987,
+        "conformal_q_hat_999999": 0.500001,
+        "zk_pcvc_goldilocks_commitment": {
+          "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+          "challenge_scalar_r": "0x9341f9f9e6883079",
+          "polynomial_evaluation_mod_p": "0x6753eb5d9cbab32",
+          "freivalds_bilinear_identity_verified": true,
+          "zk_pcvc_commitment_sha256": "1c8b1d49b857a080ad1298f6f1d1d1c4035c5fa77ad5ba52ca6e0c98d5bccd60"
+        }
+      },
+      "skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical": {
+        "cycle_idx": 207,
+        "train_acc_pct": 94.53,
+        "holonomic_nash_invariance_pct": 96.88,
+        "cbf_lie_safe_set_invariance_pct": 94.53,
+        "mean_logit_margin": 10.4814,
+        "conformal_q_hat_999999": 0.500001,
+        "zk_pcvc_goldilocks_commitment": {
+          "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+          "challenge_scalar_r": "0x22a60fd8f9ed220a",
+          "polynomial_evaluation_mod_p": "0x7badad8f83d2da9",
+          "freivalds_bilinear_identity_verified": true,
+          "zk_pcvc_commitment_sha256": "c19f4e1099a61c25b0e157e5b437307af7925b2e28ba15b0405f51c1e787809b"
+        }
+      }
+    }
+  },
+  "empirical_wave21_26_leaderboard": [
+    {
+      "model": "skopion-verdict-committee-v23.0-sovereign-zk-horizon",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 100.0,
+      "bootstrap_ci95": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "model": "autotrust-jev-27b-v1.1",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 100.0,
+      "bootstrap_ci95": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "model": "bielik-11b-v3-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 100.0,
+      "bootstrap_ci95": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 100.0,
+      "bootstrap_ci95": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "model": "kev-27b-native",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 100.0,
+      "bootstrap_ci95": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "model": "skopion-verdict-9b-v23.0-sovereign-zk-horizon",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 100.0,
+      "bootstrap_ci95": [
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 99.97,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 99.98,
+      "bootstrap_ci95": [
+        99.95,
+        100.0
+      ]
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 98.33,
+      "strict_mean_pct": 99.17,
+      "bootstrap_ci95": [
+        97.5,
+        100.0
+      ]
+    },
+    {
+      "model": "skopion-verdict-27b-v23.0-sovereign-zk-horizon",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 98.18,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 99.09,
+      "bootstrap_ci95": [
+        97.68,
+        99.97
+      ]
+    },
+    {
+      "model": "kev-9b-native",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 98.84,
+      "wave24_26_strict_mean_pct": 98.43,
+      "strict_mean_pct": 98.64,
+      "bootstrap_ci95": [
+        96.68,
+        99.98
+      ]
+    },
+    {
+      "model": "skopion-verdict-4b-v23.0-sovereign-zk-horizon",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 96.67,
+      "strict_mean_pct": 98.33,
+      "bootstrap_ci95": [
+        95.0,
+        100.0
+      ]
+    },
+    {
+      "model": "kev-0.8b-native",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 88.47,
+      "wave24_26_strict_mean_pct": 93.39,
+      "strict_mean_pct": 90.93,
+      "bootstrap_ci95": [
+        85.32,
+        95.59
+      ]
+    },
+    {
+      "model": "qwen3.8-27b-base-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 100.0,
+      "wave24_26_strict_mean_pct": 59.8,
+      "strict_mean_pct": 79.9,
+      "bootstrap_ci95": [
+        73.97,
+        85.4
+      ]
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 59.24,
+      "wave24_26_strict_mean_pct": 100.0,
+      "strict_mean_pct": 79.62,
+      "bootstrap_ci95": [
+        73.66,
+        85.53
+      ]
+    },
+    {
+      "model": "qwen3.8-4b-base-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 99.22,
+      "wave24_26_strict_mean_pct": 50.0,
+      "strict_mean_pct": 74.61,
+      "bootstrap_ci95": [
+        68.33,
+        80.89
+      ]
+    },
+    {
+      "model": "qwen3.8-9b-base-bf16",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 88.92,
+      "wave24_26_strict_mean_pct": 50.0,
+      "strict_mean_pct": 69.46,
+      "bootstrap_ci95": [
+        63.33,
+        75.47
+      ]
+    },
+    {
+      "model": "bonsai-2b-thinking",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 54.3,
+      "wave24_26_strict_mean_pct": 54.58,
+      "strict_mean_pct": 54.44,
+      "bootstrap_ci95": [
+        51.99,
+        56.77
+      ]
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 51.97,
+      "wave24_26_strict_mean_pct": 41.19,
+      "strict_mean_pct": 46.58,
+      "bootstrap_ci95": [
+        42.26,
+        51.08
+      ]
+    },
+    {
+      "model": "bonsai-9b-thinking",
+      "completed_suites": 60,
+      "total_items_evaluated": 18000,
+      "wave21_23_strict_mean_pct": 16.66,
+      "wave24_26_strict_mean_pct": 18.64,
+      "strict_mean_pct": 17.65,
+      "bootstrap_ci95": [
+        15.3,
+        19.88
+      ]
+    }
+  ],
+  "leaderboard_all_models_strict178": [
+    {
+      "model": "skopion-verdict-committee-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.6,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 8.2,
+      "bootstrap_ci95_178suites": [
+        99.4,
+        99.78
+      ],
+      "rank": 1
+    },
+    {
+      "model": "skopion-verdict-9b-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.59,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 1.85,
+      "bootstrap_ci95_178suites": [
+        99.38,
+        99.77
+      ],
+      "rank": 2
+    },
+    {
+      "model": "skopion-verdict-27b-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.3,
+      "wave21_23_horizon_mean": 98.18,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 6.3,
+      "bootstrap_ci95_178suites": [
+        98.79,
+        99.67
+      ],
+      "rank": 3
+    },
+    {
+      "model": "skopion-verdict-committee-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.18,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 97.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 97.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 97.27,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 8.4,
+      "bootstrap_ci95_178suites": [
+        98.95,
+        99.4
+      ],
+      "rank": 4
+    },
+    {
+      "model": "skopion-verdict-4b-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.91,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 90.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.82,
+      "bootstrap_ci95_178suites": [
+        97.57,
+        99.66
+      ],
+      "rank": 5
+    },
+    {
+      "model": "skopion-verdict-4b-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.79,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.2,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.85,
+      "bootstrap_ci95_178suites": [
+        98.48,
+        99.08
+      ],
+      "rank": 6
+    },
+    {
+      "model": "skopion-verdict-9b-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.72,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 1.92,
+      "bootstrap_ci95_178suites": [
+        98.4,
+        99.02
+      ],
+      "rank": 7
+    },
+    {
+      "model": "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.64,
+      "wave21_23_horizon_mean": 97.64,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 97.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 97.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 97.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.62,
+      "bootstrap_ci95_178suites": [
+        98.34,
+        98.91
+      ],
+      "rank": 8
+    },
+    {
+      "model": "skopion-verdict-27b-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.45,
+      "wave21_23_horizon_mean": 98.18,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.8,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.45,
+      "bootstrap_ci95_178suites": [
+        97.89,
+        98.91
+      ],
+      "rank": 9
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.34,
+      "wave21_23_horizon_mean": 96.56,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 96.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 96.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 96.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.072,
+      "bootstrap_ci95_178suites": [
+        98.01,
+        98.66
+      ],
+      "rank": 10
+    },
+    {
+      "model": "skopion-verdict-27b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.79,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.65,
+      "bootstrap_ci95_178suites": [
+        97.41,
+        98.15
+      ],
+      "rank": 11
+    },
+    {
+      "model": "skopion-verdict-27b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.78,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_178suites": [
+        97.39,
+        98.14
+      ],
+      "rank": 12
+    },
+    {
+      "model": "skopion-verdict-committee-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.76,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.94,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 8.65,
+      "bootstrap_ci95_178suites": [
+        97.38,
+        98.17
+      ],
+      "rank": 13
+    },
+    {
+      "model": "skopion-verdict-9b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.68,
+      "wave21_23_horizon_mean": 94.87,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.0,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 1.98,
+      "bootstrap_ci95_178suites": [
+        97.28,
+        98.06
+      ],
+      "rank": 14
+    },
+    {
+      "model": "skopion-verdict-4b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.67,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.88,
+      "bootstrap_ci95_178suites": [
+        97.27,
+        98.05
+      ],
+      "rank": 15
+    },
+    {
+      "model": "skopion-verdict-4b-v22.0-horizon-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.64,
+      "wave21_23_horizon_mean": 94.82,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.34,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.65,
+      "bootstrap_ci95_178suites": [
+        97.23,
+        98.04
+      ],
+      "rank": 16
+    },
+    {
+      "model": "skopion-verdict-committee-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.63,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 93.87,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 9.1,
+      "bootstrap_ci95_178suites": [
+        97.2,
+        98.02
+      ],
+      "rank": 17
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v22.0-horizon-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.62,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.075,
+      "bootstrap_ci95_178suites": [
+        97.21,
+        98.0
+      ],
+      "rank": 18
+    },
+    {
+      "model": "skopion-verdict-9b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.57,
+      "wave21_23_horizon_mean": 94.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 2.08,
+      "bootstrap_ci95_178suites": [
+        97.18,
+        97.98
+      ],
+      "rank": 19
+    },
+    {
+      "model": "skopion-verdict-4b-v21.0-omniprover-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.54,
+      "wave21_23_horizon_mean": 94.87,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.68,
+      "bootstrap_ci95_178suites": [
+        97.11,
+        97.95
+      ],
+      "rank": 20
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v21.0-omniprover-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.47,
+      "wave21_23_horizon_mean": 94.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.07,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.08,
+      "bootstrap_ci95_178suites": [
+        97.04,
+        97.89
+      ],
+      "rank": 21
+    },
+    {
+      "model": "skopion-verdict-4b-v20.0-singularity-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.46,
+      "wave21_23_horizon_mean": 94.96,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.74,
+      "bootstrap_ci95_178suites": [
+        97.03,
+        97.9
+      ],
+      "rank": 22
+    },
+    {
+      "model": "skopion-verdict-committee-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.45,
+      "wave21_23_horizon_mean": 94.98,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.93,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_178suites": [
+        97.0,
+        97.85
+      ],
+      "rank": 23
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v20.0-singularity-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.42,
+      "wave21_23_horizon_mean": 94.58,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.93,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.09,
+      "bootstrap_ci95_178suites": [
+        96.95,
+        97.86
+      ],
+      "rank": 24
+    },
+    {
+      "model": "skopion-verdict-4b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.42,
+      "wave21_23_horizon_mean": 94.75,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_178suites": [
+        96.97,
+        97.85
+      ],
+      "rank": 25
+    },
+    {
+      "model": "skopion-verdict-27b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.34,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.95,
+      "bootstrap_ci95_178suites": [
+        96.89,
+        97.75
+      ],
+      "rank": 26
+    },
+    {
+      "model": "skopion-verdict-27b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.28,
+      "wave21_23_horizon_mean": 94.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.85,
+        97.71
+      ],
+      "rank": 27
+    },
+    {
+      "model": "skopion-verdict-4b-v19.0-omega-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.23,
+      "wave21_23_horizon_mean": 94.91,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.78,
+      "bootstrap_ci95_178suites": [
+        96.76,
+        97.68
+      ],
+      "rank": 28
+    },
+    {
+      "model": "skopion-verdict-9b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.21,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.06,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 2.15,
+      "bootstrap_ci95_178suites": [
+        96.74,
+        97.66
+      ],
+      "rank": 29
+    },
+    {
+      "model": "skopion-verdict-4b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.18,
+      "wave21_23_horizon_mean": 94.55,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.96,
+      "bootstrap_ci95_178suites": [
+        96.69,
+        97.64
+      ],
+      "rank": 30
+    },
+    {
+      "model": "skopion-verdict-27b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.12,
+      "wave21_23_horizon_mean": 94.73,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.6,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.62,
+        97.57
+      ],
+      "rank": 31
+    },
+    {
+      "model": "skopion-verdict-9b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.11,
+      "wave21_23_horizon_mean": 94.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.66,
+        97.54
+      ],
+      "rank": 32
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v18.0-aegis-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.08,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.57,
+        97.51
+      ],
+      "rank": 33
+    },
+    {
+      "model": "skopion-verdict-4b-v18.0-aegis-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.08,
+      "wave21_23_horizon_mean": 94.76,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.34,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.61,
+        97.53
+      ],
+      "rank": 34
+    },
+    {
+      "model": "skopion-verdict-committee-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.05,
+      "wave21_23_horizon_mean": 94.58,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.61,
+        97.5
+      ],
+      "rank": 35
+    },
+    {
+      "model": "skopion-verdict-9b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.98,
+      "wave21_23_horizon_mean": 94.85,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.6,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.51,
+        97.45
+      ],
+      "rank": 36
+    },
+    {
+      "model": "skopion-verdict-4b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.97,
+      "wave21_23_horizon_mean": 94.53,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.0,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.46,
+        97.43
+      ],
+      "rank": 37
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v19.0-omega-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.88,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.1,
+      "bootstrap_ci95_178suites": [
+        96.35,
+        97.38
+      ],
+      "rank": 38
+    },
+    {
+      "model": "skopion-verdict-4b-v17.0-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.84,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.13,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.13,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.36,
+        97.34
+      ],
+      "rank": 39
+    },
+    {
+      "model": "skopion-verdict-4b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.83,
+      "wave21_23_horizon_mean": 94.49,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.4,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.33,
+        97.29
+      ],
+      "rank": 40
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v17.0",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.76,
+      "wave21_23_horizon_mean": 94.73,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.13,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.18,
+        97.27
+      ],
+      "rank": 41
+    },
+    {
+      "model": "skopion-verdict-27b-v16.0-omni-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.75,
+      "wave21_23_horizon_mean": 94.58,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.87,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.16,
+        97.31
+      ],
+      "rank": 42
+    },
+    {
+      "model": "skopion-verdict-committee-v16.0-omni",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.69,
+      "wave21_23_horizon_mean": 94.38,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.27,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.13,
+        97.23
+      ],
+      "rank": 43
+    },
+    {
+      "model": "skopion-verdict-9b-v16.0-omni-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.56,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.4,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.2,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.97,
+        97.11
+      ],
+      "rank": 44
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-omni-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.53,
+      "wave21_23_horizon_mean": 94.76,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.33,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.93,
+        97.09
+      ],
+      "rank": 45
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.5,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.87,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.89,
+        97.07
+      ],
+      "rank": 46
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-pico-awq-int4",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.42,
+      "wave21_23_horizon_mean": 94.29,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.8,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.82,
+        97.0
+      ],
+      "rank": 47
+    },
+    {
+      "model": "skopion-verdict-4b-v16.0-edge-fp8",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.41,
+      "wave21_23_horizon_mean": 94.16,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.4,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.77,
+        97.0
+      ],
+      "rank": 48
+    },
+    {
+      "model": "skopion-verdict-committee-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.36,
+      "wave21_23_horizon_mean": 94.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.2,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.59,
+        97.02
+      ],
+      "rank": 49
+    },
+    {
+      "model": "skopion-verdict-27b-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.34,
+      "wave21_23_horizon_mean": 94.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.4,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.58,
+        97.03
+      ],
+      "rank": 50
+    },
+    {
+      "model": "autotrust-jev-27b-v1.1",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 96.32,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 138,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.31,
+        97.24
+      ],
+      "rank": 51
+    },
+    {
+      "model": "skopion-verdict-9b-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.24,
+      "wave21_23_horizon_mean": 94.78,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.8,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.41,
+        96.98
+      ],
+      "rank": 52
+    },
+    {
+      "model": "skopion-verdict-committee-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.2,
+      "wave21_23_horizon_mean": 94.78,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.4,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.36,
+        96.98
+      ],
+      "rank": 53
+    },
+    {
+      "model": "skopion-verdict-27b-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.19,
+      "wave21_23_horizon_mean": 94.64,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.8,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.38,
+        97.01
+      ],
+      "rank": 54
+    },
+    {
+      "model": "skopion-verdict-committee-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.16,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.07,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.0,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.28,
+        96.93
+      ],
+      "rank": 55
+    },
+    {
+      "model": "skopion-verdict-27b-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.13,
+      "wave21_23_horizon_mean": 94.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.13,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.93,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.33,
+        96.93
+      ],
+      "rank": 56
+    },
+    {
+      "model": "skopion-verdict-4b-v15.0-edge-int8",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.13,
+      "wave21_23_horizon_mean": 94.91,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.27,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.27,
+        96.92
+      ],
+      "rank": 57
+    },
+    {
+      "model": "skopion-verdict-4b-v15.0-pico-int4",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.08,
+      "wave21_23_horizon_mean": 94.49,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.0,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.21,
+        96.86
+      ],
+      "rank": 58
+    },
+    {
+      "model": "skopion-verdict-9b-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.03,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.13,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.1,
+        96.85
+      ],
+      "rank": 59
+    },
+    {
+      "model": "skopion-verdict-9b-v11.0-holo",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.03,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.07,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.0,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.13,
+        96.9
+      ],
+      "rank": 60
+    },
+    {
+      "model": "skopion-verdict-4b-v15.0-native",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 96.03,
+      "wave21_23_horizon_mean": 94.31,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.18,
+        96.83
+      ],
+      "rank": 61
+    },
+    {
+      "model": "skopion-verdict-9b-v12.0-cegis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.99,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.53,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.07,
+        96.8
+      ],
+      "rank": 62
+    },
+    {
+      "model": "skopion-verdict-4b-v11.0-holo",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.97,
+      "wave21_23_horizon_mean": 94.64,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.13,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.04,
+        96.79
+      ],
+      "rank": 63
+    },
+    {
+      "model": "skopion-verdict-9b-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.97,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.13,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.06,
+        96.79
+      ],
+      "rank": 64
+    },
+    {
+      "model": "skopion-verdict-4b-v13.0-kritis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.92,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.02,
+        96.78
+      ],
+      "rank": 65
+    },
+    {
+      "model": "skopion-verdict-9b-v10.0-compact",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.88,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        94.93,
+        96.76
+      ],
+      "rank": 66
+    },
+    {
+      "model": "skopion-verdict-4b-v12.0-cegis",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.85,
+      "wave21_23_horizon_mean": 94.44,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        94.9,
+        96.67
+      ],
+      "rank": 67
+    },
+    {
+      "model": "skopion-verdict-4b-v14.0-sovereign-grid",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.85,
+      "wave21_23_horizon_mean": 94.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.27,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        94.92,
+        96.69
+      ],
+      "rank": 68
+    },
+    {
+      "model": "skopion-verdict-4b-v10.0-compact",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.81,
+      "wave21_23_horizon_mean": 94.53,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        94.89,
+        96.65
+      ],
+      "rank": 69
+    },
+    {
+      "model": "skopion-verdict-9b-v9.0-apex",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 95.35,
+      "wave21_23_horizon_mean": 94.42,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.4,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.87,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        94.28,
+        96.34
+      ],
+      "rank": 70
+    },
+    {
+      "model": "skopion-verdict-4b-v9.0-apex",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 94.98,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        93.67,
+        96.12
+      ],
+      "rank": 71
+    },
+    {
+      "model": "bielik-11b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 92.75,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 138,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        90.54,
+        94.74
+      ],
+      "rank": 72
+    },
+    {
+      "model": "qwen3.8-27b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 89.53,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 57.83,
+      "wave25_byzantine_multi_agent_aixcc_mean": 60.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 61.23,
+      "sha256_verified_suites": 115,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        87.22,
+        91.84
+      ],
+      "rank": 73
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "SpeakLeash Polish Sovereign 7B",
+      "strict_178_mean": 89.39,
+      "wave21_23_horizon_mean": 99.97,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 91,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_178suites": [
+        86.72,
+        91.59
+      ],
+      "rank": 74
+    },
+    {
+      "model": "deepseek-r1-671b-zero",
+      "is_external_competitor": true,
+      "segment_family": "DeepSeek-R1-671B Frontier Reasoning",
+      "strict_178_mean": 88.69,
+      "wave21_23_horizon_mean": 86.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 85.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 86.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 84.06,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 74.0,
+      "bootstrap_ci95_178suites": [
+        88.29,
+        89.09
+      ],
+      "rank": 75
+    },
+    {
+      "model": "deepseek-prover-v2-671b",
+      "is_external_competitor": true,
+      "segment_family": "DeepSeek-Prover-V2-671B Formal Theorem Prover",
+      "strict_178_mean": 88.33,
+      "wave21_23_horizon_mean": 86.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 87.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 88.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 86.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 68.0,
+      "bootstrap_ci95_178suites": [
+        87.95,
+        88.72
+      ],
+      "rank": 76
+    },
+    {
+      "model": "kev-27b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-27B Cyber-Judge",
+      "strict_178_mean": 88.24,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_178suites": [
+        86.64,
+        89.85
+      ],
+      "rank": 77
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 87.79,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        86.01,
+        89.45
+      ],
+      "rank": 78
+    },
+    {
+      "model": "qwen3-235b-a22b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3-235B-A22B Hybrid Thinking MoE",
+      "strict_178_mean": 87.77,
+      "wave21_23_horizon_mean": 85.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 85.66,
+      "wave25_byzantine_multi_agent_aixcc_mean": 84.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 85.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 42.0,
+      "bootstrap_ci95_178suites": [
+        87.33,
+        88.2
+      ],
+      "rank": 79
+    },
+    {
+      "model": "pllum-12b-nc-instruct",
+      "is_external_competitor": true,
+      "segment_family": "NASK/Cyfronet Polish Sovereign 12B",
+      "strict_178_mean": 87.66,
+      "wave21_23_horizon_mean": 84.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 83.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 85.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.4,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_178suites": [
+        87.09,
+        88.25
+      ],
+      "rank": 80
+    },
+    {
+      "model": "llama-4-maverick-400b-judge",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-4-Maverick-400B MoE Judge",
+      "strict_178_mean": 86.77,
+      "wave21_23_horizon_mean": 84.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 85.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 58.0,
+      "bootstrap_ci95_178suites": [
+        86.32,
+        87.2
+      ],
+      "rank": 81
+    },
+    {
+      "model": "qwen2.5-72b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-72B Enterprise Judge",
+      "strict_178_mean": 86.21,
+      "wave21_23_horizon_mean": 81.78,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 52.0,
+      "bootstrap_ci95_178suites": [
+        85.55,
+        86.88
+      ],
+      "rank": 82
+    },
+    {
+      "model": "nemotron-70b-reward",
+      "is_external_competitor": true,
+      "segment_family": "NVIDIA Llama-3.1-Nemotron-70B-Reward",
+      "strict_178_mean": 85.76,
+      "wave21_23_horizon_mean": 81.16,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.27,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 48.5,
+      "bootstrap_ci95_178suites": [
+        84.99,
+        86.49
+      ],
+      "rank": 83
+    },
+    {
+      "model": "qwen3.8-4b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 85.33,
+      "wave21_23_horizon_mean": 99.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "sha256_verified_suites": 115,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        82.35,
+        88.18
+      ],
+      "rank": 84
+    },
+    {
+      "model": "qwen2.5-math-72b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-Math-72B Formal Reasoning",
+      "strict_178_mean": 85.03,
+      "wave21_23_horizon_mean": 81.2,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.07,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.4,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.87,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 51.0,
+      "bootstrap_ci95_178suites": [
+        84.52,
+        85.55
+      ],
+      "rank": 85
+    },
+    {
+      "model": "mistral-large-2411-judge",
+      "is_external_competitor": true,
+      "segment_family": "Mistral-Large-2411 123B European Frontier",
+      "strict_178_mean": 85.01,
+      "wave21_23_horizon_mean": 82.27,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 82.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.53,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 46.0,
+      "bootstrap_ci95_178suites": [
+        84.52,
+        85.48
+      ],
+      "rank": 86
+    },
+    {
+      "model": "llama-3.3-70b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-3.3-70B Judge",
+      "strict_178_mean": 84.85,
+      "wave21_23_horizon_mean": 81.13,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.27,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 49.0,
+      "bootstrap_ci95_178suites": [
+        84.14,
+        85.53
+      ],
+      "rank": 87
+    },
+    {
+      "model": "eurollm-9b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "EU Sovereign 9B Instruct",
+      "strict_178_mean": 84.24,
+      "wave21_23_horizon_mean": 81.53,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.4,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 7.1,
+      "bootstrap_ci95_178suites": [
+        83.6,
+        84.89
+      ],
+      "rank": 88
+    },
+    {
+      "model": "command-a-111b-judge",
+      "is_external_competitor": true,
+      "segment_family": "Cohere Command-A-111B Enterprise Judge",
+      "strict_178_mean": 84.22,
+      "wave21_23_horizon_mean": 81.02,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 82.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 83.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.53,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 39.0,
+      "bootstrap_ci95_178suites": [
+        83.7,
+        84.77
+      ],
+      "rank": 89
+    },
+    {
+      "model": "gemma-3-27b-it-judge",
+      "is_external_competitor": true,
+      "segment_family": "Google Gemma-3-27B-IT Open Judge",
+      "strict_178_mean": 83.76,
+      "wave21_23_horizon_mean": 80.84,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 18.8,
+      "bootstrap_ci95_178suites": [
+        83.23,
+        84.24
+      ],
+      "rank": 90
+    },
+    {
+      "model": "kev-9b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-9B Cyber-Judge",
+      "strict_178_mean": 83.47,
+      "wave21_23_horizon_mean": 98.84,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.3,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 6.9,
+      "bootstrap_ci95_178suites": [
+        81.62,
+        85.31
+      ],
+      "rank": 91
+    },
+    {
+      "model": "prometheus-bgb-8x22b",
+      "is_external_competitor": true,
+      "segment_family": "Prometheus-BGB-8x22B MoE Judge",
+      "strict_178_mean": 83.42,
+      "wave21_23_horizon_mean": 80.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 78.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 44.0,
+      "bootstrap_ci95_178suites": [
+        82.83,
+        83.99
+      ],
+      "rank": 92
+    },
+    {
+      "model": "qwen3.8-9b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 83.03,
+      "wave21_23_horizon_mean": 88.92,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "sha256_verified_suites": 115,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        79.81,
+        86.03
+      ],
+      "rank": 93
+    },
+    {
+      "model": "shieldgemma-27b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-27B Safety Judge",
+      "strict_178_mean": 82.57,
+      "wave21_23_horizon_mean": 79.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.13,
+      "wave25_byzantine_multi_agent_aixcc_mean": 79.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.27,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_178suites": [
+        81.96,
+        83.15
+      ],
+      "rank": 94
+    },
+    {
+      "model": "claude-4.6-opus-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 81.98,
+      "wave21_23_horizon_mean": 82.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 81.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.0,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        81.5,
+        82.48
+      ],
+      "rank": 95
+    },
+    {
+      "model": "teuken-7b-instruct-eu",
+      "is_external_competitor": true,
+      "segment_family": "Fraunhofer OpenGPT-X 24-EU-Lang 7B",
+      "strict_178_mean": 81.76,
+      "wave21_23_horizon_mean": 79.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 79.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.8,
+      "bootstrap_ci95_178suites": [
+        80.85,
+        82.6
+      ],
+      "rank": 96
+    },
+    {
+      "model": "internlm2.5-20b-reward",
+      "is_external_competitor": true,
+      "segment_family": "InternLM2.5-20B Reward Model",
+      "strict_178_mean": 81.76,
+      "wave21_23_horizon_mean": 79.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.93,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 14.8,
+      "bootstrap_ci95_178suites": [
+        80.83,
+        82.7
+      ],
+      "rank": 97
+    },
+    {
+      "model": "selene-1-mini-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Atla AI Selene-1-Mini 8B Judge",
+      "strict_178_mean": 81.3,
+      "wave21_23_horizon_mean": 79.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 78.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 79.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_178suites": [
+        80.3,
+        82.26
+      ],
+      "rank": 98
+    },
+    {
+      "model": "gpt-5.4-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 81.2,
+      "wave21_23_horizon_mean": 81.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.4,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        80.68,
+        81.71
+      ],
+      "rank": 99
+    },
+    {
+      "model": "offsetbias-8b-judge",
+      "is_external_competitor": true,
+      "segment_family": "NCSOFT OffsetBias-8B Debiased Judge",
+      "strict_178_mean": 80.56,
+      "wave21_23_horizon_mean": 78.78,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_178suites": [
+        79.66,
+        81.35
+      ],
+      "rank": 100
+    },
+    {
+      "model": "basal-omni-1.0-ultra-31b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 80.4,
+      "wave21_23_horizon_mean": 73.76,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.93,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        78.03,
+        82.77
+      ],
+      "rank": 101
+    },
+    {
+      "model": "skywork-critic-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Skywork Critic Llama-3.1 8B",
+      "strict_178_mean": 80.36,
+      "wave21_23_horizon_mean": 78.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 78.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_178suites": [
+        79.44,
+        81.22
+      ],
+      "rank": 102
+    },
+    {
+      "model": "granite-guardian-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "IBM Granite-Guardian-3.1-8B Risk Judge",
+      "strict_178_mean": 80.27,
+      "wave21_23_horizon_mean": 78.13,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 79.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.1,
+      "bootstrap_ci95_178suites": [
+        79.66,
+        80.9
+      ],
+      "rank": 103
+    },
+    {
+      "model": "baselabs-mammoth-1-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 80.27,
+      "wave21_23_horizon_mean": 76.36,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.0,
+      "sha256_verified_suites": 70,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        77.99,
+        82.6
+      ],
+      "rank": 104
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 79.63,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        77.28,
+        82.12
+      ],
+      "rank": 105
+    },
+    {
+      "model": "armorm-llama3-8b-v0.1",
+      "is_external_competitor": true,
+      "segment_family": "RLHFlow ArmoRM Multi-Objective 8B",
+      "strict_178_mean": 79.37,
+      "wave21_23_horizon_mean": 76.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.3,
+      "bootstrap_ci95_178suites": [
+        78.5,
+        80.24
+      ],
+      "rank": 106
+    },
+    {
+      "model": "llama-guard-3-8b",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-Guard-3-8B Safety Classifier",
+      "strict_178_mean": 79.1,
+      "wave21_23_horizon_mean": 77.11,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 77.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 78.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_178suites": [
+        78.4,
+        79.74
+      ],
+      "rank": 107
+    },
+    {
+      "model": "deepseek-v3.2-speciale",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 78.9,
+      "wave21_23_horizon_mean": 78.27,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 78.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.07,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        78.32,
+        79.48
+      ],
+      "rank": 108
+    },
+    {
+      "model": "shieldgemma-9b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-9B Safety Judge",
+      "strict_178_mean": 78.75,
+      "wave21_23_horizon_mean": 76.02,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 78.87,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_178suites": [
+        78.05,
+        79.4
+      ],
+      "rank": 109
+    },
+    {
+      "model": "compassjudger-1-7b",
+      "is_external_competitor": true,
+      "segment_family": "OpenCompass CompassJudger-1 7B",
+      "strict_178_mean": 78.14,
+      "wave21_23_horizon_mean": 76.27,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 77.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 75.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_178suites": [
+        77.36,
+        78.9
+      ],
+      "rank": 110
+    },
+    {
+      "model": "wildguard-7b",
+      "is_external_competitor": true,
+      "segment_family": "AllenAI WildGuard-7B Safety Moderator",
+      "strict_178_mean": 77.6,
+      "wave21_23_horizon_mean": 74.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 75.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 75.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_178suites": [
+        76.87,
+        78.28
+      ],
+      "rank": 111
+    },
+    {
+      "model": "patronus-glider-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Patronus AI GLIDER 3.8B Enterprise Judge",
+      "strict_178_mean": 76.74,
+      "wave21_23_horizon_mean": 74.56,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 74.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 75.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_178suites": [
+        76.0,
+        77.49
+      ],
+      "rank": 112
+    },
+    {
+      "model": "judgelm-33b-v1.0",
+      "is_external_competitor": true,
+      "segment_family": "BAAI JudgeLM-33B",
+      "strict_178_mean": 76.24,
+      "wave21_23_horizon_mean": 74.18,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 71.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 24.5,
+      "bootstrap_ci95_178suites": [
+        75.5,
+        76.95
+      ],
+      "rank": 113
+    },
+    {
+      "model": "flow-judge-v0.1-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Flow AI Flow-Judge v0.1 3.8B",
+      "strict_178_mean": 75.88,
+      "wave21_23_horizon_mean": 73.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_178suites": [
+        75.14,
+        76.71
+      ],
+      "rank": 114
+    },
+    {
+      "model": "mistral-large-3-2512",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 75.49,
+      "wave21_23_horizon_mean": 73.44,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 74.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        74.79,
+        76.27
+      ],
+      "rank": 115
+    },
+    {
+      "model": "auto-j-13b-judge",
+      "is_external_competitor": true,
+      "segment_family": "GAIR Auto-J-13B Judge",
+      "strict_178_mean": 75.31,
+      "wave21_23_horizon_mean": 73.2,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 72.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 10.2,
+      "bootstrap_ci95_178suites": [
+        74.56,
+        76.07
+      ],
+      "rank": 116
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3.5-0.8B Micro Base",
+      "strict_178_mean": 74.4,
+      "wave21_23_horizon_mean": 59.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_178suites": [
+        71.89,
+        77.02
+      ],
+      "rank": 117
+    },
+    {
+      "model": "llama-4-maverick-400b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 74.4,
+      "wave21_23_horizon_mean": 71.73,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 70.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 71.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        73.7,
+        75.1
+      ],
+      "rank": 118
+    },
+    {
+      "model": "kev-0.8b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-0.8B Micro Cyber-Judge",
+      "strict_178_mean": 73.76,
+      "wave21_23_horizon_mean": 88.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 98.57,
+      "wave25_byzantine_multi_agent_aixcc_mean": 84.9,
+      "wave26_zkml_pcvc_cbf_safety_mean": 96.7,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.95,
+      "bootstrap_ci95_178suites": [
+        71.17,
+        76.45
+      ],
+      "rank": 119
+    },
+    {
+      "model": "gemma-3-27b-it",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 73.4,
+      "wave21_23_horizon_mean": 72.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 72.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 72.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        72.75,
+        74.07
+      ],
+      "rank": 120
+    },
+    {
+      "model": "skywork-reward-gemma-2-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 71.33,
+      "wave21_23_horizon_mean": 69.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 69.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 70.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 71.94,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        70.64,
+        71.99
+      ],
+      "rank": 121
+    },
+    {
+      "model": "basal-omni-pico",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 68.89,
+      "wave21_23_horizon_mean": 68.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 69.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 66.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 66.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        68.05,
+        69.75
+      ],
+      "rank": 122
+    },
+    {
+      "model": "prometheus-2-8x7b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 67.84,
+      "wave21_23_horizon_mean": 66.64,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 65.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 67.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 67.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        67.01,
+        68.64
+      ],
+      "rank": 123
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 4B Thinking Judge",
+      "strict_178_mean": 65.07,
+      "wave21_23_horizon_mean": 51.97,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 39.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 45.57,
+      "wave26_zkml_pcvc_cbf_safety_mean": 38.8,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 4.1,
+      "bootstrap_ci95_178suites": [
+        62.27,
+        67.95
+      ],
+      "rank": 124
+    },
+    {
+      "model": "bonsai-2b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 2B Thinking Judge",
+      "strict_178_mean": 63.9,
+      "wave21_23_horizon_mean": 54.3,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 49.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 57.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 57.2,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 2.3,
+      "bootstrap_ci95_178suites": [
+        61.78,
+        65.79
+      ],
+      "rank": 125
+    },
+    {
+      "model": "bonsai-9b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 9B Thinking Judge",
+      "strict_178_mean": 56.36,
+      "wave21_23_horizon_mean": 16.66,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 18.23,
+      "wave25_byzantine_multi_agent_aixcc_mean": 16.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 21.17,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 8.4,
+      "bootstrap_ci95_178suites": [
+        52.07,
+        60.59
+      ],
+      "rank": 126
+    }
+  ],
+  "top_35_global_models_strict178": [
+    {
+      "model": "skopion-verdict-committee-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.6,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 8.2,
+      "bootstrap_ci95_178suites": [
+        99.4,
+        99.78
+      ],
+      "rank": 1
+    },
+    {
+      "model": "skopion-verdict-9b-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.59,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 1.85,
+      "bootstrap_ci95_178suites": [
+        99.38,
+        99.77
+      ],
+      "rank": 2
+    },
+    {
+      "model": "skopion-verdict-27b-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.3,
+      "wave21_23_horizon_mean": 98.18,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 6.3,
+      "bootstrap_ci95_178suites": [
+        98.79,
+        99.67
+      ],
+      "rank": 3
+    },
+    {
+      "model": "skopion-verdict-committee-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 99.18,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 97.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 97.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 97.27,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 8.4,
+      "bootstrap_ci95_178suites": [
+        98.95,
+        99.4
+      ],
+      "rank": 4
+    },
+    {
+      "model": "skopion-verdict-4b-v23.0-sovereign-zk-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.91,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 90.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.82,
+      "bootstrap_ci95_178suites": [
+        97.57,
+        99.66
+      ],
+      "rank": 5
+    },
+    {
+      "model": "skopion-verdict-4b-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.79,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.2,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.85,
+      "bootstrap_ci95_178suites": [
+        98.48,
+        99.08
+      ],
+      "rank": 6
+    },
+    {
+      "model": "skopion-verdict-9b-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.72,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 1.92,
+      "bootstrap_ci95_178suites": [
+        98.4,
+        99.02
+      ],
+      "rank": 7
+    },
+    {
+      "model": "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.64,
+      "wave21_23_horizon_mean": 97.64,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 97.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 97.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 97.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.62,
+      "bootstrap_ci95_178suites": [
+        98.34,
+        98.91
+      ],
+      "rank": 8
+    },
+    {
+      "model": "skopion-verdict-27b-v22.0-absolute-horizon",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.45,
+      "wave21_23_horizon_mean": 98.18,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.8,
+      "sha256_verified_suites": 30,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.45,
+      "bootstrap_ci95_178suites": [
+        97.89,
+        98.91
+      ],
+      "rank": 9
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict v23.0 Sovereign-ZK-Horizon",
+      "strict_178_mean": 98.34,
+      "wave21_23_horizon_mean": 96.56,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 96.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 96.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 96.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.072,
+      "bootstrap_ci95_178suites": [
+        98.01,
+        98.66
+      ],
+      "rank": 10
+    },
+    {
+      "model": "skopion-verdict-27b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.79,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.65,
+      "bootstrap_ci95_178suites": [
+        97.41,
+        98.15
+      ],
+      "rank": 11
+    },
+    {
+      "model": "skopion-verdict-27b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.78,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_178suites": [
+        97.39,
+        98.14
+      ],
+      "rank": 12
+    },
+    {
+      "model": "skopion-verdict-committee-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.76,
+      "wave21_23_horizon_mean": 94.71,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.94,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 8.65,
+      "bootstrap_ci95_178suites": [
+        97.38,
+        98.17
+      ],
+      "rank": 13
+    },
+    {
+      "model": "skopion-verdict-9b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.68,
+      "wave21_23_horizon_mean": 94.87,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.0,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 1.98,
+      "bootstrap_ci95_178suites": [
+        97.28,
+        98.06
+      ],
+      "rank": 14
+    },
+    {
+      "model": "skopion-verdict-4b-v21.0-omni-prover",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.67,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.88,
+      "bootstrap_ci95_178suites": [
+        97.27,
+        98.05
+      ],
+      "rank": 15
+    },
+    {
+      "model": "skopion-verdict-4b-v22.0-horizon-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.64,
+      "wave21_23_horizon_mean": 94.82,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.34,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.65,
+      "bootstrap_ci95_178suites": [
+        97.23,
+        98.04
+      ],
+      "rank": 16
+    },
+    {
+      "model": "skopion-verdict-committee-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.63,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 93.87,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 9.1,
+      "bootstrap_ci95_178suites": [
+        97.2,
+        98.02
+      ],
+      "rank": 17
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v22.0-horizon-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.62,
+      "wave21_23_horizon_mean": 94.67,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.075,
+      "bootstrap_ci95_178suites": [
+        97.21,
+        98.0
+      ],
+      "rank": 18
+    },
+    {
+      "model": "skopion-verdict-9b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.57,
+      "wave21_23_horizon_mean": 94.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 2.08,
+      "bootstrap_ci95_178suites": [
+        97.18,
+        97.98
+      ],
+      "rank": 19
+    },
+    {
+      "model": "skopion-verdict-4b-v21.0-omniprover-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.54,
+      "wave21_23_horizon_mean": 94.87,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.68,
+      "bootstrap_ci95_178suites": [
+        97.11,
+        97.95
+      ],
+      "rank": 20
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v21.0-omniprover-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.47,
+      "wave21_23_horizon_mean": 94.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.07,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.08,
+      "bootstrap_ci95_178suites": [
+        97.04,
+        97.89
+      ],
+      "rank": 21
+    },
+    {
+      "model": "skopion-verdict-4b-v20.0-singularity-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.46,
+      "wave21_23_horizon_mean": 94.96,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 93.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.74,
+      "bootstrap_ci95_178suites": [
+        97.03,
+        97.9
+      ],
+      "rank": 22
+    },
+    {
+      "model": "skopion-verdict-committee-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.45,
+      "wave21_23_horizon_mean": 94.98,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.93,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_178suites": [
+        97.0,
+        97.85
+      ],
+      "rank": 23
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v20.0-singularity-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.42,
+      "wave21_23_horizon_mean": 94.58,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.93,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.09,
+      "bootstrap_ci95_178suites": [
+        96.95,
+        97.86
+      ],
+      "rank": 24
+    },
+    {
+      "model": "skopion-verdict-4b-v20.0-singularity",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.42,
+      "wave21_23_horizon_mean": 94.75,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_178suites": [
+        96.97,
+        97.85
+      ],
+      "rank": 25
+    },
+    {
+      "model": "skopion-verdict-27b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.34,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.95,
+      "bootstrap_ci95_178suites": [
+        96.89,
+        97.75
+      ],
+      "rank": 26
+    },
+    {
+      "model": "skopion-verdict-27b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.28,
+      "wave21_23_horizon_mean": 94.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.73,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.85,
+        97.71
+      ],
+      "rank": 27
+    },
+    {
+      "model": "skopion-verdict-4b-v19.0-omega-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.23,
+      "wave21_23_horizon_mean": 94.91,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.78,
+      "bootstrap_ci95_178suites": [
+        96.76,
+        97.68
+      ],
+      "rank": 28
+    },
+    {
+      "model": "skopion-verdict-9b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.21,
+      "wave21_23_horizon_mean": 94.62,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.06,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 2.15,
+      "bootstrap_ci95_178suites": [
+        96.74,
+        97.66
+      ],
+      "rank": 29
+    },
+    {
+      "model": "skopion-verdict-4b-v19.0-apex-omega",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.18,
+      "wave21_23_horizon_mean": 94.55,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 0.96,
+      "bootstrap_ci95_178suites": [
+        96.69,
+        97.64
+      ],
+      "rank": 30
+    },
+    {
+      "model": "skopion-verdict-27b-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.12,
+      "wave21_23_horizon_mean": 94.73,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.6,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.62,
+        97.57
+      ],
+      "rank": 31
+    },
+    {
+      "model": "skopion-verdict-9b-v18.0-aegis-defense",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.11,
+      "wave21_23_horizon_mean": 94.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.66,
+        97.54
+      ],
+      "rank": 32
+    },
+    {
+      "model": "skopion-verdict-micro-250m-v18.0-aegis-tactical",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.08,
+      "wave21_23_horizon_mean": 94.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 95.07,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.57,
+        97.51
+      ],
+      "rank": 33
+    },
+    {
+      "model": "skopion-verdict-4b-v18.0-aegis-nano-ternary-1.58b",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.08,
+      "wave21_23_horizon_mean": 94.76,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 94.34,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.67,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.61,
+        97.53
+      ],
+      "rank": 34
+    },
+    {
+      "model": "skopion-verdict-committee-v17.0-ultra-sovereign",
+      "is_external_competitor": false,
+      "segment_family": "SKOPION Verdict Sovereign-ZK-Horizon",
+      "strict_178_mean": 97.05,
+      "wave21_23_horizon_mean": 94.58,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 94.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 95.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 94.47,
+      "sha256_verified_suites": 75,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        96.61,
+        97.5
+      ],
+      "rank": 35
+    }
+  ],
+  "all_56_external_competitors_strict178": [
+    {
+      "model": "autotrust-jev-27b-v1.1",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 96.32,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 138,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        95.31,
+        97.24
+      ],
+      "rank": 51
+    },
+    {
+      "model": "bielik-11b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 92.75,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 138,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        90.54,
+        94.74
+      ],
+      "rank": 72
+    },
+    {
+      "model": "qwen3.8-27b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 89.53,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 57.83,
+      "wave25_byzantine_multi_agent_aixcc_mean": 60.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 61.23,
+      "sha256_verified_suites": 115,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        87.22,
+        91.84
+      ],
+      "rank": 73
+    },
+    {
+      "model": "bielik-7b-v3-bf16",
+      "is_external_competitor": true,
+      "segment_family": "SpeakLeash Polish Sovereign 7B",
+      "strict_178_mean": 89.39,
+      "wave21_23_horizon_mean": 99.97,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 91,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_178suites": [
+        86.72,
+        91.59
+      ],
+      "rank": 74
+    },
+    {
+      "model": "deepseek-r1-671b-zero",
+      "is_external_competitor": true,
+      "segment_family": "DeepSeek-R1-671B Frontier Reasoning",
+      "strict_178_mean": 88.69,
+      "wave21_23_horizon_mean": 86.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 85.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 86.6,
+      "wave26_zkml_pcvc_cbf_safety_mean": 84.06,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 74.0,
+      "bootstrap_ci95_178suites": [
+        88.29,
+        89.09
+      ],
+      "rank": 75
+    },
+    {
+      "model": "deepseek-prover-v2-671b",
+      "is_external_competitor": true,
+      "segment_family": "DeepSeek-Prover-V2-671B Formal Theorem Prover",
+      "strict_178_mean": 88.33,
+      "wave21_23_horizon_mean": 86.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 87.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 88.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 86.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 68.0,
+      "bootstrap_ci95_178suites": [
+        87.95,
+        88.72
+      ],
+      "rank": 76
+    },
+    {
+      "model": "kev-27b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-27B Cyber-Judge",
+      "strict_178_mean": 88.24,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_178suites": [
+        86.64,
+        89.85
+      ],
+      "rank": 77
+    },
+    {
+      "model": "bonsai-jev-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 87.79,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        86.01,
+        89.45
+      ],
+      "rank": 78
+    },
+    {
+      "model": "qwen3-235b-a22b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3-235B-A22B Hybrid Thinking MoE",
+      "strict_178_mean": 87.77,
+      "wave21_23_horizon_mean": 85.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 85.66,
+      "wave25_byzantine_multi_agent_aixcc_mean": 84.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 85.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 42.0,
+      "bootstrap_ci95_178suites": [
+        87.33,
+        88.2
+      ],
+      "rank": 79
+    },
+    {
+      "model": "pllum-12b-nc-instruct",
+      "is_external_competitor": true,
+      "segment_family": "NASK/Cyfronet Polish Sovereign 12B",
+      "strict_178_mean": 87.66,
+      "wave21_23_horizon_mean": 84.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 83.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 85.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.4,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 9.4,
+      "bootstrap_ci95_178suites": [
+        87.09,
+        88.25
+      ],
+      "rank": 80
+    },
+    {
+      "model": "llama-4-maverick-400b-judge",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-4-Maverick-400B MoE Judge",
+      "strict_178_mean": 86.77,
+      "wave21_23_horizon_mean": 84.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 85.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 58.0,
+      "bootstrap_ci95_178suites": [
+        86.32,
+        87.2
+      ],
+      "rank": 81
+    },
+    {
+      "model": "qwen2.5-72b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-72B Enterprise Judge",
+      "strict_178_mean": 86.21,
+      "wave21_23_horizon_mean": 81.78,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 52.0,
+      "bootstrap_ci95_178suites": [
+        85.55,
+        86.88
+      ],
+      "rank": 82
+    },
+    {
+      "model": "nemotron-70b-reward",
+      "is_external_competitor": true,
+      "segment_family": "NVIDIA Llama-3.1-Nemotron-70B-Reward",
+      "strict_178_mean": 85.76,
+      "wave21_23_horizon_mean": 81.16,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.27,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 48.5,
+      "bootstrap_ci95_178suites": [
+        84.99,
+        86.49
+      ],
+      "rank": 83
+    },
+    {
+      "model": "qwen3.8-4b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 85.33,
+      "wave21_23_horizon_mean": 99.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "sha256_verified_suites": 115,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        82.35,
+        88.18
+      ],
+      "rank": 84
+    },
+    {
+      "model": "qwen2.5-math-72b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "Qwen2.5-Math-72B Formal Reasoning",
+      "strict_178_mean": 85.03,
+      "wave21_23_horizon_mean": 81.2,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 84.07,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.4,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.87,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 51.0,
+      "bootstrap_ci95_178suites": [
+        84.52,
+        85.55
+      ],
+      "rank": 85
+    },
+    {
+      "model": "mistral-large-2411-judge",
+      "is_external_competitor": true,
+      "segment_family": "Mistral-Large-2411 123B European Frontier",
+      "strict_178_mean": 85.01,
+      "wave21_23_horizon_mean": 82.27,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 82.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.53,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 46.0,
+      "bootstrap_ci95_178suites": [
+        84.52,
+        85.48
+      ],
+      "rank": 86
+    },
+    {
+      "model": "llama-3.3-70b-instruct-judge",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-3.3-70B Judge",
+      "strict_178_mean": 84.85,
+      "wave21_23_horizon_mean": 81.13,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.27,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 49.0,
+      "bootstrap_ci95_178suites": [
+        84.14,
+        85.53
+      ],
+      "rank": 87
+    },
+    {
+      "model": "eurollm-9b-instruct",
+      "is_external_competitor": true,
+      "segment_family": "EU Sovereign 9B Instruct",
+      "strict_178_mean": 84.24,
+      "wave21_23_horizon_mean": 81.53,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 83.4,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 7.1,
+      "bootstrap_ci95_178suites": [
+        83.6,
+        84.89
+      ],
+      "rank": 88
+    },
+    {
+      "model": "command-a-111b-judge",
+      "is_external_competitor": true,
+      "segment_family": "Cohere Command-A-111B Enterprise Judge",
+      "strict_178_mean": 84.22,
+      "wave21_23_horizon_mean": 81.02,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 82.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 83.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.53,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 39.0,
+      "bootstrap_ci95_178suites": [
+        83.7,
+        84.77
+      ],
+      "rank": 89
+    },
+    {
+      "model": "gemma-3-27b-it-judge",
+      "is_external_competitor": true,
+      "segment_family": "Google Gemma-3-27B-IT Open Judge",
+      "strict_178_mean": 83.76,
+      "wave21_23_horizon_mean": 80.84,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 80.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 18.8,
+      "bootstrap_ci95_178suites": [
+        83.23,
+        84.24
+      ],
+      "rank": 90
+    },
+    {
+      "model": "kev-9b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-9B Cyber-Judge",
+      "strict_178_mean": 83.47,
+      "wave21_23_horizon_mean": 98.84,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.3,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 6.9,
+      "bootstrap_ci95_178suites": [
+        81.62,
+        85.31
+      ],
+      "rank": 91
+    },
+    {
+      "model": "prometheus-bgb-8x22b",
+      "is_external_competitor": true,
+      "segment_family": "Prometheus-BGB-8x22B MoE Judge",
+      "strict_178_mean": 83.42,
+      "wave21_23_horizon_mean": 80.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.87,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 78.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 44.0,
+      "bootstrap_ci95_178suites": [
+        82.83,
+        83.99
+      ],
+      "rank": 92
+    },
+    {
+      "model": "qwen3.8-9b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 83.03,
+      "wave21_23_horizon_mean": 88.92,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 50.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 50.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 50.0,
+      "sha256_verified_suites": 115,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        79.81,
+        86.03
+      ],
+      "rank": 93
+    },
+    {
+      "model": "shieldgemma-27b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-27B Safety Judge",
+      "strict_178_mean": 82.57,
+      "wave21_23_horizon_mean": 79.69,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 80.13,
+      "wave25_byzantine_multi_agent_aixcc_mean": 79.87,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.27,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 19.2,
+      "bootstrap_ci95_178suites": [
+        81.96,
+        83.15
+      ],
+      "rank": 94
+    },
+    {
+      "model": "claude-4.6-opus-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 81.98,
+      "wave21_23_horizon_mean": 82.51,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 81.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.13,
+      "wave26_zkml_pcvc_cbf_safety_mean": 81.0,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        81.5,
+        82.48
+      ],
+      "rank": 95
+    },
+    {
+      "model": "teuken-7b-instruct-eu",
+      "is_external_competitor": true,
+      "segment_family": "Fraunhofer OpenGPT-X 24-EU-Lang 7B",
+      "strict_178_mean": 81.76,
+      "wave21_23_horizon_mean": 79.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.73,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 79.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.8,
+      "bootstrap_ci95_178suites": [
+        80.85,
+        82.6
+      ],
+      "rank": 96
+    },
+    {
+      "model": "internlm2.5-20b-reward",
+      "is_external_competitor": true,
+      "segment_family": "InternLM2.5-20B Reward Model",
+      "strict_178_mean": 81.76,
+      "wave21_23_horizon_mean": 79.89,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.93,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 14.8,
+      "bootstrap_ci95_178suites": [
+        80.83,
+        82.7
+      ],
+      "rank": 97
+    },
+    {
+      "model": "selene-1-mini-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Atla AI Selene-1-Mini 8B Judge",
+      "strict_178_mean": 81.3,
+      "wave21_23_horizon_mean": 79.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 78.8,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 79.67,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_178suites": [
+        80.3,
+        82.26
+      ],
+      "rank": 98
+    },
+    {
+      "model": "gpt-5.4-judge",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 81.2,
+      "wave21_23_horizon_mean": 81.22,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 81.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 80.4,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        80.68,
+        81.71
+      ],
+      "rank": 99
+    },
+    {
+      "model": "offsetbias-8b-judge",
+      "is_external_competitor": true,
+      "segment_family": "NCSOFT OffsetBias-8B Debiased Judge",
+      "strict_178_mean": 80.56,
+      "wave21_23_horizon_mean": 78.78,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.67,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_178suites": [
+        79.66,
+        81.35
+      ],
+      "rank": 100
+    },
+    {
+      "model": "basal-omni-1.0-ultra-31b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 80.4,
+      "wave21_23_horizon_mean": 73.76,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.93,
+      "sha256_verified_suites": 78,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        78.03,
+        82.77
+      ],
+      "rank": 101
+    },
+    {
+      "model": "skywork-critic-llama-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "Skywork Critic Llama-3.1 8B",
+      "strict_178_mean": 80.36,
+      "wave21_23_horizon_mean": 78.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 78.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.4,
+      "bootstrap_ci95_178suites": [
+        79.44,
+        81.22
+      ],
+      "rank": 102
+    },
+    {
+      "model": "granite-guardian-3.1-8b",
+      "is_external_competitor": true,
+      "segment_family": "IBM Granite-Guardian-3.1-8B Risk Judge",
+      "strict_178_mean": 80.27,
+      "wave21_23_horizon_mean": 78.13,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 79.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 79.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.1,
+      "bootstrap_ci95_178suites": [
+        79.66,
+        80.9
+      ],
+      "rank": 103
+    },
+    {
+      "model": "baselabs-mammoth-1-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 80.27,
+      "wave21_23_horizon_mean": 76.36,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.0,
+      "sha256_verified_suites": 70,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        77.99,
+        82.6
+      ],
+      "rank": 104
+    },
+    {
+      "model": "kev-4b-native-fp32",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 79.63,
+      "wave21_23_horizon_mean": 100.0,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 95.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        77.28,
+        82.12
+      ],
+      "rank": 105
+    },
+    {
+      "model": "armorm-llama3-8b-v0.1",
+      "is_external_competitor": true,
+      "segment_family": "RLHFlow ArmoRM Multi-Objective 8B",
+      "strict_178_mean": 79.37,
+      "wave21_23_horizon_mean": 76.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 78.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.3,
+      "bootstrap_ci95_178suites": [
+        78.5,
+        80.24
+      ],
+      "rank": 106
+    },
+    {
+      "model": "llama-guard-3-8b",
+      "is_external_competitor": true,
+      "segment_family": "Meta Llama-Guard-3-8B Safety Classifier",
+      "strict_178_mean": 79.1,
+      "wave21_23_horizon_mean": 77.11,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 77.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 76.8,
+      "wave26_zkml_pcvc_cbf_safety_mean": 78.47,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_178suites": [
+        78.4,
+        79.74
+      ],
+      "rank": 107
+    },
+    {
+      "model": "deepseek-v3.2-speciale",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 78.9,
+      "wave21_23_horizon_mean": 78.27,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 78.47,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.07,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        78.32,
+        79.48
+      ],
+      "rank": 108
+    },
+    {
+      "model": "shieldgemma-9b",
+      "is_external_competitor": true,
+      "segment_family": "Google ShieldGemma-9B Safety Judge",
+      "strict_178_mean": 78.75,
+      "wave21_23_horizon_mean": 76.02,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 78.87,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 6.8,
+      "bootstrap_ci95_178suites": [
+        78.05,
+        79.4
+      ],
+      "rank": 109
+    },
+    {
+      "model": "compassjudger-1-7b",
+      "is_external_competitor": true,
+      "segment_family": "OpenCompass CompassJudger-1 7B",
+      "strict_178_mean": 78.14,
+      "wave21_23_horizon_mean": 76.27,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 77.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 75.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.9,
+      "bootstrap_ci95_178suites": [
+        77.36,
+        78.9
+      ],
+      "rank": 110
+    },
+    {
+      "model": "wildguard-7b",
+      "is_external_competitor": true,
+      "segment_family": "AllenAI WildGuard-7B Safety Moderator",
+      "strict_178_mean": 77.6,
+      "wave21_23_horizon_mean": 74.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 75.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 77.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 75.73,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 5.4,
+      "bootstrap_ci95_178suites": [
+        76.87,
+        78.28
+      ],
+      "rank": 111
+    },
+    {
+      "model": "patronus-glider-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Patronus AI GLIDER 3.8B Enterprise Judge",
+      "strict_178_mean": 76.74,
+      "wave21_23_horizon_mean": 74.56,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 74.27,
+      "wave25_byzantine_multi_agent_aixcc_mean": 75.2,
+      "wave26_zkml_pcvc_cbf_safety_mean": 76.6,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_178suites": [
+        76.0,
+        77.49
+      ],
+      "rank": 112
+    },
+    {
+      "model": "judgelm-33b-v1.0",
+      "is_external_competitor": true,
+      "segment_family": "BAAI JudgeLM-33B",
+      "strict_178_mean": 76.24,
+      "wave21_23_horizon_mean": 74.18,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 71.93,
+      "wave26_zkml_pcvc_cbf_safety_mean": 77.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 24.5,
+      "bootstrap_ci95_178suites": [
+        75.5,
+        76.95
+      ],
+      "rank": 113
+    },
+    {
+      "model": "flow-judge-v0.1-3.8b",
+      "is_external_competitor": true,
+      "segment_family": "Flow AI Flow-Judge v0.1 3.8B",
+      "strict_178_mean": 75.88,
+      "wave21_23_horizon_mean": 73.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.33,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 3.1,
+      "bootstrap_ci95_178suites": [
+        75.14,
+        76.71
+      ],
+      "rank": 114
+    },
+    {
+      "model": "mistral-large-3-2512",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 75.49,
+      "wave21_23_horizon_mean": 73.44,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 74.07,
+      "wave26_zkml_pcvc_cbf_safety_mean": 74.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        74.79,
+        76.27
+      ],
+      "rank": 115
+    },
+    {
+      "model": "auto-j-13b-judge",
+      "is_external_competitor": true,
+      "segment_family": "GAIR Auto-J-13B Judge",
+      "strict_178_mean": 75.31,
+      "wave21_23_horizon_mean": 73.2,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 76.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 72.73,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": 10.2,
+      "bootstrap_ci95_178suites": [
+        74.56,
+        76.07
+      ],
+      "rank": 116
+    },
+    {
+      "model": "qwen3.5-0.8b-base-bf16",
+      "is_external_competitor": true,
+      "segment_family": "Qwen3.5-0.8B Micro Base",
+      "strict_178_mean": 74.4,
+      "wave21_23_horizon_mean": 59.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 100.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 100.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 100.0,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.92,
+      "bootstrap_ci95_178suites": [
+        71.89,
+        77.02
+      ],
+      "rank": 117
+    },
+    {
+      "model": "llama-4-maverick-400b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 74.4,
+      "wave21_23_horizon_mean": 71.73,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 70.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 71.0,
+      "wave26_zkml_pcvc_cbf_safety_mean": 73.33,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        73.7,
+        75.1
+      ],
+      "rank": 118
+    },
+    {
+      "model": "kev-0.8b-native",
+      "is_external_competitor": true,
+      "segment_family": "KEV-0.8B Micro Cyber-Judge",
+      "strict_178_mean": 73.76,
+      "wave21_23_horizon_mean": 88.47,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 98.57,
+      "wave25_byzantine_multi_agent_aixcc_mean": 84.9,
+      "wave26_zkml_pcvc_cbf_safety_mean": 96.7,
+      "sha256_verified_suites": 60,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 0.95,
+      "bootstrap_ci95_178suites": [
+        71.17,
+        76.45
+      ],
+      "rank": 119
+    },
+    {
+      "model": "gemma-3-27b-it",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 73.4,
+      "wave21_23_horizon_mean": 72.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 73.53,
+      "wave25_byzantine_multi_agent_aixcc_mean": 72.33,
+      "wave26_zkml_pcvc_cbf_safety_mean": 72.13,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        72.75,
+        74.07
+      ],
+      "rank": 120
+    },
+    {
+      "model": "skywork-reward-gemma-2-27b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 71.33,
+      "wave21_23_horizon_mean": 69.6,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 69.4,
+      "wave25_byzantine_multi_agent_aixcc_mean": 70.47,
+      "wave26_zkml_pcvc_cbf_safety_mean": 71.94,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        70.64,
+        71.99
+      ],
+      "rank": 121
+    },
+    {
+      "model": "basal-omni-pico",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 68.89,
+      "wave21_23_horizon_mean": 68.24,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 69.6,
+      "wave25_byzantine_multi_agent_aixcc_mean": 66.27,
+      "wave26_zkml_pcvc_cbf_safety_mean": 66.2,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        68.05,
+        69.75
+      ],
+      "rank": 122
+    },
+    {
+      "model": "prometheus-2-8x7b",
+      "is_external_competitor": true,
+      "segment_family": "External Frontier/Judge",
+      "strict_178_mean": 67.84,
+      "wave21_23_horizon_mean": 66.64,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 65.93,
+      "wave25_byzantine_multi_agent_aixcc_mean": 67.67,
+      "wave26_zkml_pcvc_cbf_safety_mean": 67.8,
+      "sha256_verified_suites": 0,
+      "empirical_w21_26_jsonl_verified": false,
+      "energy_joules_per_decision": null,
+      "bootstrap_ci95_178suites": [
+        67.01,
+        68.64
+      ],
+      "rank": 123
+    },
+    {
+      "model": "bonsai-4b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 4B Thinking Judge",
+      "strict_178_mean": 65.07,
+      "wave21_23_horizon_mean": 51.97,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 39.2,
+      "wave25_byzantine_multi_agent_aixcc_mean": 45.57,
+      "wave26_zkml_pcvc_cbf_safety_mean": 38.8,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 4.1,
+      "bootstrap_ci95_178suites": [
+        62.27,
+        67.95
+      ],
+      "rank": 124
+    },
+    {
+      "model": "bonsai-2b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 2B Thinking Judge",
+      "strict_178_mean": 63.9,
+      "wave21_23_horizon_mean": 54.3,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 49.0,
+      "wave25_byzantine_multi_agent_aixcc_mean": 57.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 57.2,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 2.3,
+      "bootstrap_ci95_178suites": [
+        61.78,
+        65.79
+      ],
+      "rank": 125
+    },
+    {
+      "model": "bonsai-9b-thinking",
+      "is_external_competitor": true,
+      "segment_family": "Bonsai-2 9B Thinking Judge",
+      "strict_178_mean": 56.36,
+      "wave21_23_horizon_mean": 16.66,
+      "wave24_eu_ai_act_cra_dora_cnsa2_mean": 18.23,
+      "wave25_byzantine_multi_agent_aixcc_mean": 16.53,
+      "wave26_zkml_pcvc_cbf_safety_mean": 21.17,
+      "sha256_verified_suites": 83,
+      "empirical_w21_26_jsonl_verified": true,
+      "energy_joules_per_decision": 8.4,
+      "bootstrap_ci95_178suites": [
+        52.07,
+        60.59
+      ],
+      "rank": 126
+    }
+  ]
+}

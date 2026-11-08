@@ -1,7 +1,7 @@
 # SKOPION Verdict v22.0 ABSOLUTE-HORIZON — raport wykonania
 
 **Data raportu:** 2026-11-07 00:15 CET
-**Klaster:** RWTH Aachen CLAIX-2023, `login25-g-1` (4× NVIDIA H100 80GB HBM3), projekt `rwth2219`
+**Klaster:** RWTH Aachen H100-HBM3, `h100-eval-node-01` (4× NVIDIA H100 80GB HBM3), projekt `skopion-eval`
 **Run:** `run-20261106-phase89-100-v22-absolute-horizon`
 **Okno:** 2026-11-06 16:08:06 → 20:23:43 CET (4 h 15 min)
 
@@ -61,7 +61,7 @@ BCE loss dostał wejście poza zakresem [0, 1]. GPU3 nie wyprodukował **żadnyc
 | 5526232 | skopion_v22_horizon | `PENDING (Priority)` | `CANCELLED` (anulowane w tej sesji) |
 | 5526236 | skopion_v22_horizon | `PENDING (Priority)` | `CANCELLED` (anulowane w tej sesji) |
 
-Maraton nie działał pod Slurm — uruchomiono go bezpośrednio na węźle logowania GPU `login25-g-1`. Kolejka została zwolniona.
+Maraton nie działał pod Slurm — uruchomiono go bezpośrednio na węźle logowania GPU `h100-eval-node-01`. Kolejka została zwolniona.
 
 ---
 
@@ -245,7 +245,7 @@ Najlepszy zewnętrzny w leaderboardzie, `qwen3.8-27b-base-bf16` (95.42), **nie m
 
 ### 5.3 Przyczyna: brak `verdict_head.pt`
 
-Wszystkie 15 katalogów modeli konkurencyjnych w `/hpcwork/rwth2219/skopion-cyber-judge/models/` zwraca `NO_HEAD`:
+Wszystkie 15 katalogów modeli konkurencyjnych w `/hpcwork/skopion-eval/skopion-cyber-judge/models/` zwraca `NO_HEAD`:
 
 ```
 kev-27b-20260927, kev-9b, kev-4b, kev-0.8b-20260927,
@@ -259,7 +259,7 @@ qwen3.5-4b-base, qwen3.8-27b
 Błąd w logu:
 
 ```
-FileNotFoundError: '/hpcwork/rwth2219/skopion-cyber-judge/models/kev-27b-20260927/verdict_head.pt'
+FileNotFoundError: '/hpcwork/skopion-eval/skopion-cyber-judge/models/kev-27b-20260927/verdict_head.pt'
 ```
 
 Wagi modeli **są** na dysku. Brakuje wytrenowanej głowicy verdict. Pętla szła dalej, bo skrypt używa `set -uo pipefail` **bez `-e`** — błąd nie zatrzymał runu, tylko po cichu wyzerował pokrycie.
