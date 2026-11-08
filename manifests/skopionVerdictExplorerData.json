@@ -13,12 +13,12 @@
       "de": "8. November 2026",
       "en": "8 November 2026"
     },
-    "snapshotTime": "08.11.2026, 12:53 CET",
-    "generatedAtUtc": "2026-11-08T11:53:24.756278+00:00",
+    "snapshotTime": "08.11.2026, 16:13 CET",
+    "generatedAtUtc": "2026-11-08T15:13:46.192623+00:00",
     "sourceStatus": "PASS",
     "sourceFile": "external-benchmark-matrix-180suites-v23-sovereign-zk-horizon-20261108.json",
     "reportFile": "PHASE101_120_V23_SOVEREIGN_ZK_HORIZON_100PCT_VERIFIED.json",
-    "matrixSha256": "80c078e26c81501fa43be58025d0bfa469c988d6fc911ccd6e34ceff724d2d5d",
+    "matrixSha256": "92feacdb8ea6c34b4aa1d9b13946af7100c16f65ead0080bb2eb6c47888470dd",
     "doiUrl": "https://doi.org/10.5281/zenodo.24052954",
     "conceptDoiUrl": "https://doi.org/10.5281/zenodo.24005152",
     "zenodoCommunityUrl": "https://zenodo.org/communities/skopion-intelligence",
@@ -85,8 +85,8 @@
       "rank": 3,
       "strictPct": 99.3,
       "ci95": [
-        98.79,
-        99.67
+        99.09,
+        99.49
       ],
       "energy": 6.3,
       "wave18": 100.0,
@@ -133,13 +133,13 @@
       "rank": 5,
       "strictPct": 98.91,
       "ci95": [
-        97.57,
-        99.66
+        98.58,
+        99.2
       ],
       "energy": 0.82,
-      "wave18": 90.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
+      "wave18": 96.67,
+      "wave19": 96.67,
+      "wave20": 96.67,
       "isExternal": false,
       "isCurrent": true,
       "version": "v23.0",
@@ -229,8 +229,8 @@
       "rank": 9,
       "strictPct": 98.45,
       "ci95": [
-        97.89,
-        98.91
+        98.14,
+        98.75
       ],
       "energy": 6.45,
       "wave18": 95.2,
@@ -1232,33 +1232,9 @@
       "hfUrl": "https://huggingface.co/SKOPION-Intelligence/skopion-verdict-27b-v15.0-native"
     },
     {
-      "modelId": "autotrust-jev-27b-v1.1",
-      "model": "autotrust-jev-27b-v1.1",
-      "rank": 51,
-      "strictPct": 96.32,
-      "ci95": [
-        95.31,
-        97.24
-      ],
-      "energy": null,
-      "wave18": 100.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "v1.1",
-      "segmentFamily": "External Frontier/Judge",
-      "profile": {
-        "pl": "External Frontier/Judge",
-        "de": "External Frontier/Judge",
-        "en": "External Frontier/Judge"
-      },
-      "hfUrl": null
-    },
-    {
       "modelId": "skopion-verdict-9b-v15.0-native",
       "model": "SKOPION Verdict 9b v15.0 native",
-      "rank": 52,
+      "rank": 51,
       "strictPct": 96.24,
       "ci95": [
         95.41,
@@ -1282,7 +1258,7 @@
     {
       "modelId": "skopion-verdict-committee-v13.0-kritis",
       "model": "SKOPION Verdict committee v13.0 kritis",
-      "rank": 53,
+      "rank": 52,
       "strictPct": 96.2,
       "ci95": [
         95.36,
@@ -1306,7 +1282,7 @@
     {
       "modelId": "skopion-verdict-27b-v14.0-sovereign-grid",
       "model": "SKOPION Verdict 27b v14.0 sovereign grid",
-      "rank": 54,
+      "rank": 53,
       "strictPct": 96.19,
       "ci95": [
         95.38,
@@ -1330,7 +1306,7 @@
     {
       "modelId": "skopion-verdict-committee-v14.0-sovereign-grid",
       "model": "SKOPION Verdict committee v14.0 sovereign grid",
-      "rank": 55,
+      "rank": 54,
       "strictPct": 96.16,
       "ci95": [
         95.28,
@@ -1354,7 +1330,7 @@
     {
       "modelId": "skopion-verdict-27b-v13.0-kritis",
       "model": "SKOPION Verdict 27b v13.0 kritis",
-      "rank": 56,
+      "rank": 55,
       "strictPct": 96.13,
       "ci95": [
         95.33,
@@ -1378,7 +1354,7 @@
     {
       "modelId": "skopion-verdict-4b-v15.0-edge-int8",
       "model": "SKOPION Verdict 4b v15.0 edge int8",
-      "rank": 57,
+      "rank": 56,
       "strictPct": 96.13,
       "ci95": [
         95.27,
@@ -1402,7 +1378,7 @@
     {
       "modelId": "skopion-verdict-4b-v15.0-pico-int4",
       "model": "SKOPION Verdict 4b v15.0 pico int4",
-      "rank": 58,
+      "rank": 57,
       "strictPct": 96.08,
       "ci95": [
         95.21,
@@ -1426,7 +1402,7 @@
     {
       "modelId": "skopion-verdict-9b-v14.0-sovereign-grid",
       "model": "SKOPION Verdict 9b v14.0 sovereign grid",
-      "rank": 59,
+      "rank": 58,
       "strictPct": 96.03,
       "ci95": [
         95.1,
@@ -1450,7 +1426,7 @@
     {
       "modelId": "skopion-verdict-9b-v11.0-holo",
       "model": "SKOPION Verdict 9b v11.0 holo",
-      "rank": 60,
+      "rank": 59,
       "strictPct": 96.03,
       "ci95": [
         95.13,
@@ -1474,7 +1450,7 @@
     {
       "modelId": "skopion-verdict-4b-v15.0-native",
       "model": "SKOPION Verdict 4b v15.0 native",
-      "rank": 61,
+      "rank": 60,
       "strictPct": 96.03,
       "ci95": [
         95.18,
@@ -1498,7 +1474,7 @@
     {
       "modelId": "skopion-verdict-9b-v12.0-cegis",
       "model": "SKOPION Verdict 9b v12.0 cegis",
-      "rank": 62,
+      "rank": 61,
       "strictPct": 95.99,
       "ci95": [
         95.07,
@@ -1522,7 +1498,7 @@
     {
       "modelId": "skopion-verdict-4b-v11.0-holo",
       "model": "SKOPION Verdict 4b v11.0 holo",
-      "rank": 63,
+      "rank": 62,
       "strictPct": 95.97,
       "ci95": [
         95.04,
@@ -1546,7 +1522,7 @@
     {
       "modelId": "skopion-verdict-9b-v13.0-kritis",
       "model": "SKOPION Verdict 9b v13.0 kritis",
-      "rank": 64,
+      "rank": 63,
       "strictPct": 95.97,
       "ci95": [
         95.06,
@@ -1570,7 +1546,7 @@
     {
       "modelId": "skopion-verdict-4b-v13.0-kritis",
       "model": "SKOPION Verdict 4b v13.0 kritis",
-      "rank": 65,
+      "rank": 64,
       "strictPct": 95.92,
       "ci95": [
         95.02,
@@ -1594,7 +1570,7 @@
     {
       "modelId": "skopion-verdict-9b-v10.0-compact",
       "model": "SKOPION Verdict 9b v10.0 compact",
-      "rank": 66,
+      "rank": 65,
       "strictPct": 95.88,
       "ci95": [
         94.93,
@@ -1618,7 +1594,7 @@
     {
       "modelId": "skopion-verdict-4b-v12.0-cegis",
       "model": "SKOPION Verdict 4b v12.0 cegis",
-      "rank": 67,
+      "rank": 66,
       "strictPct": 95.85,
       "ci95": [
         94.9,
@@ -1642,7 +1618,7 @@
     {
       "modelId": "skopion-verdict-4b-v14.0-sovereign-grid",
       "model": "SKOPION Verdict 4b v14.0 sovereign grid",
-      "rank": 68,
+      "rank": 67,
       "strictPct": 95.85,
       "ci95": [
         94.92,
@@ -1666,7 +1642,7 @@
     {
       "modelId": "skopion-verdict-4b-v10.0-compact",
       "model": "SKOPION Verdict 4b v10.0 compact",
-      "rank": 69,
+      "rank": 68,
       "strictPct": 95.81,
       "ci95": [
         94.89,
@@ -1690,7 +1666,7 @@
     {
       "modelId": "skopion-verdict-9b-v9.0-apex",
       "model": "SKOPION Verdict 9b v9.0 apex",
-      "rank": 70,
+      "rank": 69,
       "strictPct": 95.35,
       "ci95": [
         94.28,
@@ -1714,7 +1690,7 @@
     {
       "modelId": "skopion-verdict-4b-v9.0-apex",
       "model": "SKOPION Verdict 4b v9.0 apex",
-      "rank": 71,
+      "rank": 70,
       "strictPct": 94.98,
       "ci95": [
         93.67,
@@ -1736,21 +1712,21 @@
       "hfUrl": null
     },
     {
-      "modelId": "bielik-11b-v3-bf16",
-      "model": "bielik-11b-v3-bf16",
-      "rank": 72,
-      "strictPct": 92.75,
+      "modelId": "autotrust-jev-27b-v1.1",
+      "model": "autotrust-jev-27b-v1.1",
+      "rank": 71,
+      "strictPct": 94.22,
       "ci95": [
-        90.54,
-        94.74
+        93.3,
+        95.0
       ],
       "energy": null,
-      "wave18": 100.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
+      "wave18": 93.33,
+      "wave19": 94.0,
+      "wave20": 93.33,
       "isExternal": true,
       "isCurrent": false,
-      "version": "",
+      "version": "v1.1",
       "segmentFamily": "External Frontier/Judge",
       "profile": {
         "pl": "External Frontier/Judge",
@@ -1762,16 +1738,16 @@
     {
       "modelId": "qwen3.8-27b-base-bf16",
       "model": "qwen3.8-27b-base-bf16",
-      "rank": 73,
-      "strictPct": 89.53,
+      "rank": 72,
+      "strictPct": 89.58,
       "ci95": [
-        87.22,
-        91.84
+        88.2,
+        91.0
       ],
       "energy": null,
-      "wave18": 57.83,
-      "wave19": 60.33,
-      "wave20": 61.23,
+      "wave18": 79.33,
+      "wave19": 80.0,
+      "wave20": 79.07,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
@@ -1784,33 +1760,33 @@
       "hfUrl": null
     },
     {
-      "modelId": "bielik-7b-v3-bf16",
-      "model": "bielik-7b-v3-bf16",
-      "rank": 74,
-      "strictPct": 89.39,
+      "modelId": "bielik-11b-v3-bf16",
+      "model": "bielik-11b-v3-bf16",
+      "rank": 73,
+      "strictPct": 89.53,
       "ci95": [
-        86.72,
-        91.59
+        87.37,
+        91.42
       ],
-      "energy": 5.4,
-      "wave18": 100.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
+      "energy": null,
+      "wave18": 90.0,
+      "wave19": 90.67,
+      "wave20": 90.0,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
-      "segmentFamily": "SpeakLeash Polish Sovereign 7B",
+      "segmentFamily": "External Frontier/Judge",
       "profile": {
-        "pl": "SpeakLeash Polish Sovereign 7B",
-        "de": "SpeakLeash Polish Sovereign 7B",
-        "en": "SpeakLeash Polish Sovereign 7B"
+        "pl": "External Frontier/Judge",
+        "de": "External Frontier/Judge",
+        "en": "External Frontier/Judge"
       },
       "hfUrl": null
     },
     {
       "modelId": "deepseek-r1-671b-zero",
       "model": "deepseek-r1-671b-zero",
-      "rank": 75,
+      "rank": 74,
       "strictPct": 88.69,
       "ci95": [
         88.29,
@@ -1834,7 +1810,7 @@
     {
       "modelId": "deepseek-prover-v2-671b",
       "model": "deepseek-prover-v2-671b",
-      "rank": 76,
+      "rank": 75,
       "strictPct": 88.33,
       "ci95": [
         87.95,
@@ -1856,57 +1832,9 @@
       "hfUrl": null
     },
     {
-      "modelId": "kev-27b-native",
-      "model": "kev-27b-native",
-      "rank": 77,
-      "strictPct": 88.24,
-      "ci95": [
-        86.64,
-        89.85
-      ],
-      "energy": 19.2,
-      "wave18": 100.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "",
-      "segmentFamily": "KEV-27B Cyber-Judge",
-      "profile": {
-        "pl": "KEV-27B Cyber-Judge",
-        "de": "KEV-27B Cyber-Judge",
-        "en": "KEV-27B Cyber-Judge"
-      },
-      "hfUrl": null
-    },
-    {
-      "modelId": "bonsai-jev-27b",
-      "model": "bonsai-jev-27b",
-      "rank": 78,
-      "strictPct": 87.79,
-      "ci95": [
-        86.01,
-        89.45
-      ],
-      "energy": null,
-      "wave18": 100.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "",
-      "segmentFamily": "External Frontier/Judge",
-      "profile": {
-        "pl": "External Frontier/Judge",
-        "de": "External Frontier/Judge",
-        "en": "External Frontier/Judge"
-      },
-      "hfUrl": null
-    },
-    {
       "modelId": "qwen3-235b-a22b-thinking",
       "model": "qwen3-235b-a22b-thinking",
-      "rank": 79,
+      "rank": 76,
       "strictPct": 87.77,
       "ci95": [
         87.33,
@@ -1930,7 +1858,7 @@
     {
       "modelId": "pllum-12b-nc-instruct",
       "model": "pllum-12b-nc-instruct",
-      "rank": 80,
+      "rank": 77,
       "strictPct": 87.66,
       "ci95": [
         87.09,
@@ -1954,7 +1882,7 @@
     {
       "modelId": "llama-4-maverick-400b-judge",
       "model": "llama-4-maverick-400b-judge",
-      "rank": 81,
+      "rank": 78,
       "strictPct": 86.77,
       "ci95": [
         86.32,
@@ -1978,7 +1906,7 @@
     {
       "modelId": "qwen2.5-72b-instruct-judge",
       "model": "qwen2.5-72b-instruct-judge",
-      "rank": 82,
+      "rank": 79,
       "strictPct": 86.21,
       "ci95": [
         85.55,
@@ -2002,7 +1930,7 @@
     {
       "modelId": "nemotron-70b-reward",
       "model": "nemotron-70b-reward",
-      "rank": 83,
+      "rank": 80,
       "strictPct": 85.76,
       "ci95": [
         84.99,
@@ -2026,16 +1954,16 @@
     {
       "modelId": "qwen3.8-4b-base-bf16",
       "model": "qwen3.8-4b-base-bf16",
-      "rank": 84,
-      "strictPct": 85.33,
+      "rank": 81,
+      "strictPct": 85.35,
       "ci95": [
-        82.35,
-        88.18
+        83.26,
+        87.4
       ],
       "energy": null,
-      "wave18": 50.0,
-      "wave19": 50.0,
-      "wave20": 50.0,
+      "wave18": 74.0,
+      "wave19": 74.67,
+      "wave20": 73.33,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
@@ -2050,7 +1978,7 @@
     {
       "modelId": "qwen2.5-math-72b-instruct",
       "model": "qwen2.5-math-72b-instruct",
-      "rank": 85,
+      "rank": 82,
       "strictPct": 85.03,
       "ci95": [
         84.52,
@@ -2074,7 +2002,7 @@
     {
       "modelId": "mistral-large-2411-judge",
       "model": "mistral-large-2411-judge",
-      "rank": 86,
+      "rank": 83,
       "strictPct": 85.01,
       "ci95": [
         84.52,
@@ -2098,7 +2026,7 @@
     {
       "modelId": "llama-3.3-70b-instruct-judge",
       "model": "llama-3.3-70b-instruct-judge",
-      "rank": 87,
+      "rank": 84,
       "strictPct": 84.85,
       "ci95": [
         84.14,
@@ -2120,9 +2048,33 @@
       "hfUrl": null
     },
     {
+      "modelId": "bielik-7b-v3-bf16",
+      "model": "bielik-7b-v3-bf16",
+      "rank": 85,
+      "strictPct": 84.3,
+      "ci95": [
+        82.03,
+        86.22
+      ],
+      "energy": 5.4,
+      "wave18": 84.67,
+      "wave19": 84.67,
+      "wave20": 84.0,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "SpeakLeash Polish Sovereign 7B",
+      "profile": {
+        "pl": "SpeakLeash Polish Sovereign 7B",
+        "de": "SpeakLeash Polish Sovereign 7B",
+        "en": "SpeakLeash Polish Sovereign 7B"
+      },
+      "hfUrl": null
+    },
+    {
       "modelId": "eurollm-9b-instruct",
       "model": "eurollm-9b-instruct",
-      "rank": 88,
+      "rank": 86,
       "strictPct": 84.24,
       "ci95": [
         83.6,
@@ -2146,7 +2098,7 @@
     {
       "modelId": "command-a-111b-judge",
       "model": "command-a-111b-judge",
-      "rank": 89,
+      "rank": 87,
       "strictPct": 84.22,
       "ci95": [
         83.7,
@@ -2170,7 +2122,7 @@
     {
       "modelId": "gemma-3-27b-it-judge",
       "model": "gemma-3-27b-it-judge",
-      "rank": 90,
+      "rank": 88,
       "strictPct": 83.76,
       "ci95": [
         83.23,
@@ -2192,33 +2144,9 @@
       "hfUrl": null
     },
     {
-      "modelId": "kev-9b-native",
-      "model": "kev-9b-native",
-      "rank": 91,
-      "strictPct": 83.47,
-      "ci95": [
-        81.62,
-        85.31
-      ],
-      "energy": 6.9,
-      "wave18": 95.3,
-      "wave19": 100.0,
-      "wave20": 100.0,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "",
-      "segmentFamily": "KEV-9B Cyber-Judge",
-      "profile": {
-        "pl": "KEV-9B Cyber-Judge",
-        "de": "KEV-9B Cyber-Judge",
-        "en": "KEV-9B Cyber-Judge"
-      },
-      "hfUrl": null
-    },
-    {
       "modelId": "prometheus-bgb-8x22b",
       "model": "prometheus-bgb-8x22b",
-      "rank": 92,
+      "rank": 89,
       "strictPct": 83.42,
       "ci95": [
         82.83,
@@ -2242,16 +2170,16 @@
     {
       "modelId": "qwen3.8-9b-base-bf16",
       "model": "qwen3.8-9b-base-bf16",
-      "rank": 93,
-      "strictPct": 83.03,
+      "rank": 90,
+      "strictPct": 83.0,
       "ci95": [
-        79.81,
-        86.03
+        80.6,
+        85.44
       ],
       "energy": null,
-      "wave18": 50.0,
-      "wave19": 50.0,
-      "wave20": 50.0,
+      "wave18": 68.93,
+      "wave19": 69.33,
+      "wave20": 68.0,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
@@ -2266,7 +2194,7 @@
     {
       "modelId": "shieldgemma-27b",
       "model": "shieldgemma-27b",
-      "rank": 94,
+      "rank": 91,
       "strictPct": 82.57,
       "ci95": [
         81.96,
@@ -2288,9 +2216,33 @@
       "hfUrl": null
     },
     {
+      "modelId": "kev-27b-native",
+      "model": "kev-27b-native",
+      "rank": 92,
+      "strictPct": 82.54,
+      "ci95": [
+        81.47,
+        83.54
+      ],
+      "energy": 19.2,
+      "wave18": 82.67,
+      "wave19": 83.07,
+      "wave20": 82.67,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "KEV-27B Cyber-Judge",
+      "profile": {
+        "pl": "KEV-27B Cyber-Judge",
+        "de": "KEV-27B Cyber-Judge",
+        "en": "KEV-27B Cyber-Judge"
+      },
+      "hfUrl": null
+    },
+    {
       "modelId": "claude-4.6-opus-judge",
       "model": "claude-4.6-opus-judge",
-      "rank": 95,
+      "rank": 93,
       "strictPct": 81.98,
       "ci95": [
         81.5,
@@ -2314,7 +2266,7 @@
     {
       "modelId": "teuken-7b-instruct-eu",
       "model": "teuken-7b-instruct-eu",
-      "rank": 96,
+      "rank": 94,
       "strictPct": 81.76,
       "ci95": [
         80.85,
@@ -2338,7 +2290,7 @@
     {
       "modelId": "internlm2.5-20b-reward",
       "model": "internlm2.5-20b-reward",
-      "rank": 97,
+      "rank": 95,
       "strictPct": 81.76,
       "ci95": [
         80.83,
@@ -2360,9 +2312,33 @@
       "hfUrl": null
     },
     {
+      "modelId": "bonsai-jev-27b",
+      "model": "bonsai-jev-27b",
+      "rank": 96,
+      "strictPct": 81.65,
+      "ci95": [
+        80.45,
+        82.77
+      ],
+      "energy": null,
+      "wave18": 81.33,
+      "wave19": 82.0,
+      "wave20": 81.33,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "External Frontier/Judge",
+      "profile": {
+        "pl": "External Frontier/Judge",
+        "de": "External Frontier/Judge",
+        "en": "External Frontier/Judge"
+      },
+      "hfUrl": null
+    },
+    {
       "modelId": "selene-1-mini-llama-3.1-8b",
       "model": "selene-1-mini-llama-3.1-8b",
-      "rank": 98,
+      "rank": 97,
       "strictPct": 81.3,
       "ci95": [
         80.3,
@@ -2386,7 +2362,7 @@
     {
       "modelId": "gpt-5.4-judge",
       "model": "gpt-5.4-judge",
-      "rank": 99,
+      "rank": 98,
       "strictPct": 81.2,
       "ci95": [
         80.68,
@@ -2410,7 +2386,7 @@
     {
       "modelId": "offsetbias-8b-judge",
       "model": "offsetbias-8b-judge",
-      "rank": 100,
+      "rank": 99,
       "strictPct": 80.56,
       "ci95": [
         79.66,
@@ -2434,7 +2410,7 @@
     {
       "modelId": "basal-omni-1.0-ultra-31b",
       "model": "basal-omni-1.0-ultra-31b",
-      "rank": 101,
+      "rank": 100,
       "strictPct": 80.4,
       "ci95": [
         78.03,
@@ -2458,7 +2434,7 @@
     {
       "modelId": "skywork-critic-llama-3.1-8b",
       "model": "skywork-critic-llama-3.1-8b",
-      "rank": 102,
+      "rank": 101,
       "strictPct": 80.36,
       "ci95": [
         79.44,
@@ -2482,7 +2458,7 @@
     {
       "modelId": "granite-guardian-3.1-8b",
       "model": "granite-guardian-3.1-8b",
-      "rank": 103,
+      "rank": 102,
       "strictPct": 80.27,
       "ci95": [
         79.66,
@@ -2506,7 +2482,7 @@
     {
       "modelId": "baselabs-mammoth-1-27b",
       "model": "baselabs-mammoth-1-27b",
-      "rank": 104,
+      "rank": 103,
       "strictPct": 80.27,
       "ci95": [
         77.99,
@@ -2528,33 +2504,9 @@
       "hfUrl": null
     },
     {
-      "modelId": "kev-4b-native-fp32",
-      "model": "kev-4b-native-fp32",
-      "rank": 105,
-      "strictPct": 79.63,
-      "ci95": [
-        77.28,
-        82.12
-      ],
-      "energy": null,
-      "wave18": 95.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "",
-      "segmentFamily": "External Frontier/Judge",
-      "profile": {
-        "pl": "External Frontier/Judge",
-        "de": "External Frontier/Judge",
-        "en": "External Frontier/Judge"
-      },
-      "hfUrl": null
-    },
-    {
       "modelId": "armorm-llama3-8b-v0.1",
       "model": "armorm-llama3-8b-v0.1",
-      "rank": 106,
+      "rank": 104,
       "strictPct": 79.37,
       "ci95": [
         78.5,
@@ -2578,7 +2530,7 @@
     {
       "modelId": "llama-guard-3-8b",
       "model": "llama-guard-3-8b",
-      "rank": 107,
+      "rank": 105,
       "strictPct": 79.1,
       "ci95": [
         78.4,
@@ -2602,7 +2554,7 @@
     {
       "modelId": "deepseek-v3.2-speciale",
       "model": "deepseek-v3.2-speciale",
-      "rank": 108,
+      "rank": 106,
       "strictPct": 78.9,
       "ci95": [
         78.32,
@@ -2626,7 +2578,7 @@
     {
       "modelId": "shieldgemma-9b",
       "model": "shieldgemma-9b",
-      "rank": 109,
+      "rank": 107,
       "strictPct": 78.75,
       "ci95": [
         78.05,
@@ -2650,7 +2602,7 @@
     {
       "modelId": "compassjudger-1-7b",
       "model": "compassjudger-1-7b",
-      "rank": 110,
+      "rank": 108,
       "strictPct": 78.14,
       "ci95": [
         77.36,
@@ -2674,7 +2626,7 @@
     {
       "modelId": "wildguard-7b",
       "model": "wildguard-7b",
-      "rank": 111,
+      "rank": 109,
       "strictPct": 77.6,
       "ci95": [
         76.87,
@@ -2698,7 +2650,7 @@
     {
       "modelId": "patronus-glider-3.8b",
       "model": "patronus-glider-3.8b",
-      "rank": 112,
+      "rank": 110,
       "strictPct": 76.74,
       "ci95": [
         76.0,
@@ -2722,7 +2674,7 @@
     {
       "modelId": "judgelm-33b-v1.0",
       "model": "judgelm-33b-v1.0",
-      "rank": 113,
+      "rank": 111,
       "strictPct": 76.24,
       "ci95": [
         75.5,
@@ -2744,9 +2696,33 @@
       "hfUrl": null
     },
     {
+      "modelId": "kev-9b-native",
+      "model": "kev-9b-native",
+      "rank": 112,
+      "strictPct": 75.95,
+      "ci95": [
+        75.11,
+        76.72
+      ],
+      "energy": 6.9,
+      "wave18": 76.0,
+      "wave19": 76.0,
+      "wave20": 76.0,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "KEV-9B Cyber-Judge",
+      "profile": {
+        "pl": "KEV-9B Cyber-Judge",
+        "de": "KEV-9B Cyber-Judge",
+        "en": "KEV-9B Cyber-Judge"
+      },
+      "hfUrl": null
+    },
+    {
       "modelId": "flow-judge-v0.1-3.8b",
       "model": "flow-judge-v0.1-3.8b",
-      "rank": 114,
+      "rank": 113,
       "strictPct": 75.88,
       "ci95": [
         75.14,
@@ -2770,7 +2746,7 @@
     {
       "modelId": "mistral-large-3-2512",
       "model": "mistral-large-3-2512",
-      "rank": 115,
+      "rank": 114,
       "strictPct": 75.49,
       "ci95": [
         74.79,
@@ -2794,7 +2770,7 @@
     {
       "modelId": "auto-j-13b-judge",
       "model": "auto-j-13b-judge",
-      "rank": 116,
+      "rank": 115,
       "strictPct": 75.31,
       "ci95": [
         74.56,
@@ -2816,33 +2792,9 @@
       "hfUrl": null
     },
     {
-      "modelId": "qwen3.5-0.8b-base-bf16",
-      "model": "qwen3.5-0.8b-base-bf16",
-      "rank": 117,
-      "strictPct": 74.4,
-      "ci95": [
-        71.89,
-        77.02
-      ],
-      "energy": 0.92,
-      "wave18": 100.0,
-      "wave19": 100.0,
-      "wave20": 100.0,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "",
-      "segmentFamily": "Qwen3.5-0.8B Micro Base",
-      "profile": {
-        "pl": "Qwen3.5-0.8B Micro Base",
-        "de": "Qwen3.5-0.8B Micro Base",
-        "en": "Qwen3.5-0.8B Micro Base"
-      },
-      "hfUrl": null
-    },
-    {
       "modelId": "llama-4-maverick-400b",
       "model": "llama-4-maverick-400b",
-      "rank": 118,
+      "rank": 116,
       "strictPct": 74.4,
       "ci95": [
         73.7,
@@ -2864,33 +2816,33 @@
       "hfUrl": null
     },
     {
-      "modelId": "kev-0.8b-native",
-      "model": "kev-0.8b-native",
-      "rank": 119,
-      "strictPct": 73.76,
+      "modelId": "bonsai-9b-thinking",
+      "model": "bonsai-9b-thinking",
+      "rank": 117,
+      "strictPct": 73.48,
       "ci95": [
-        71.17,
-        76.45
+        71.98,
+        74.87
       ],
-      "energy": 0.95,
-      "wave18": 98.57,
-      "wave19": 84.9,
-      "wave20": 96.7,
+      "energy": 8.4,
+      "wave18": 68.0,
+      "wave19": 68.67,
+      "wave20": 68.0,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
-      "segmentFamily": "KEV-0.8B Micro Cyber-Judge",
+      "segmentFamily": "Bonsai-2 9B Thinking Judge",
       "profile": {
-        "pl": "KEV-0.8B Micro Cyber-Judge",
-        "de": "KEV-0.8B Micro Cyber-Judge",
-        "en": "KEV-0.8B Micro Cyber-Judge"
+        "pl": "Bonsai-2 9B Thinking Judge",
+        "de": "Bonsai-2 9B Thinking Judge",
+        "en": "Bonsai-2 9B Thinking Judge"
       },
       "hfUrl": null
     },
     {
       "modelId": "gemma-3-27b-it",
       "model": "gemma-3-27b-it",
-      "rank": 120,
+      "rank": 118,
       "strictPct": 73.4,
       "ci95": [
         72.75,
@@ -2914,7 +2866,7 @@
     {
       "modelId": "skywork-reward-gemma-2-27b",
       "model": "skywork-reward-gemma-2-27b",
-      "rank": 121,
+      "rank": 119,
       "strictPct": 71.33,
       "ci95": [
         70.64,
@@ -2936,9 +2888,81 @@
       "hfUrl": null
     },
     {
+      "modelId": "bonsai-4b-thinking",
+      "model": "bonsai-4b-thinking",
+      "rank": 120,
+      "strictPct": 71.02,
+      "ci95": [
+        69.54,
+        72.51
+      ],
+      "energy": 4.1,
+      "wave18": 64.0,
+      "wave19": 64.0,
+      "wave20": 63.33,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "Bonsai-2 4B Thinking Judge",
+      "profile": {
+        "pl": "Bonsai-2 4B Thinking Judge",
+        "de": "Bonsai-2 4B Thinking Judge",
+        "en": "Bonsai-2 4B Thinking Judge"
+      },
+      "hfUrl": null
+    },
+    {
+      "modelId": "qwen3.5-0.8b-base-bf16",
+      "model": "qwen3.5-0.8b-base-bf16",
+      "rank": 121,
+      "strictPct": 70.56,
+      "ci95": [
+        69.03,
+        72.17
+      ],
+      "energy": 0.92,
+      "wave18": 68.0,
+      "wave19": 68.0,
+      "wave20": 67.33,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "Qwen3.5-0.8B Micro Base",
+      "profile": {
+        "pl": "Qwen3.5-0.8B Micro Base",
+        "de": "Qwen3.5-0.8B Micro Base",
+        "en": "Qwen3.5-0.8B Micro Base"
+      },
+      "hfUrl": null
+    },
+    {
+      "modelId": "kev-4b-native-fp32",
+      "model": "kev-4b-native-fp32",
+      "rank": 122,
+      "strictPct": 69.95,
+      "ci95": [
+        68.74,
+        71.13
+      ],
+      "energy": null,
+      "wave18": 70.0,
+      "wave19": 70.67,
+      "wave20": 70.0,
+      "isExternal": true,
+      "isCurrent": false,
+      "version": "",
+      "segmentFamily": "External Frontier/Judge",
+      "profile": {
+        "pl": "External Frontier/Judge",
+        "de": "External Frontier/Judge",
+        "en": "External Frontier/Judge"
+      },
+      "hfUrl": null
+    },
+    {
       "modelId": "basal-omni-pico",
       "model": "basal-omni-pico",
-      "rank": 122,
+      "rank": 123,
       "strictPct": 68.89,
       "ci95": [
         68.05,
@@ -2962,7 +2986,7 @@
     {
       "modelId": "prometheus-2-8x7b",
       "model": "prometheus-2-8x7b",
-      "rank": 123,
+      "rank": 124,
       "strictPct": 67.84,
       "ci95": [
         67.01,
@@ -2984,42 +3008,42 @@
       "hfUrl": null
     },
     {
-      "modelId": "bonsai-4b-thinking",
-      "model": "bonsai-4b-thinking",
-      "rank": 124,
-      "strictPct": 65.07,
+      "modelId": "kev-0.8b-native",
+      "model": "kev-0.8b-native",
+      "rank": 125,
+      "strictPct": 65.21,
       "ci95": [
-        62.27,
-        67.95
+        64.52,
+        65.87
       ],
-      "energy": 4.1,
-      "wave18": 39.2,
-      "wave19": 45.57,
-      "wave20": 38.8,
+      "energy": 0.95,
+      "wave18": 65.33,
+      "wave19": 65.33,
+      "wave20": 64.67,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
-      "segmentFamily": "Bonsai-2 4B Thinking Judge",
+      "segmentFamily": "KEV-0.8B Micro Cyber-Judge",
       "profile": {
-        "pl": "Bonsai-2 4B Thinking Judge",
-        "de": "Bonsai-2 4B Thinking Judge",
-        "en": "Bonsai-2 4B Thinking Judge"
+        "pl": "KEV-0.8B Micro Cyber-Judge",
+        "de": "KEV-0.8B Micro Cyber-Judge",
+        "en": "KEV-0.8B Micro Cyber-Judge"
       },
       "hfUrl": null
     },
     {
       "modelId": "bonsai-2b-thinking",
       "model": "bonsai-2b-thinking",
-      "rank": 125,
-      "strictPct": 63.9,
+      "rank": 126,
+      "strictPct": 65.17,
       "ci95": [
-        61.78,
-        65.79
+        63.42,
+        66.84
       ],
       "energy": 2.3,
-      "wave18": 49.0,
-      "wave19": 57.53,
-      "wave20": 57.2,
+      "wave18": 58.0,
+      "wave19": 58.0,
+      "wave20": 57.33,
       "isExternal": true,
       "isCurrent": false,
       "version": "",
@@ -3028,30 +3052,6 @@
         "pl": "Bonsai-2 2B Thinking Judge",
         "de": "Bonsai-2 2B Thinking Judge",
         "en": "Bonsai-2 2B Thinking Judge"
-      },
-      "hfUrl": null
-    },
-    {
-      "modelId": "bonsai-9b-thinking",
-      "model": "bonsai-9b-thinking",
-      "rank": 126,
-      "strictPct": 56.36,
-      "ci95": [
-        52.07,
-        60.59
-      ],
-      "energy": 8.4,
-      "wave18": 18.23,
-      "wave19": 16.53,
-      "wave20": 21.17,
-      "isExternal": true,
-      "isCurrent": false,
-      "version": "",
-      "segmentFamily": "Bonsai-2 9B Thinking Judge",
-      "profile": {
-        "pl": "Bonsai-2 9B Thinking Judge",
-        "de": "Bonsai-2 9B Thinking Judge",
-        "en": "Bonsai-2 9B Thinking Judge"
       },
       "hfUrl": null
     }
@@ -3112,9 +3112,9 @@
         "en": "Deep-reasoning standalone model for formal verification, PQC CNSA 2.0, AI Act & KRITIS auditing"
       },
       "description": {
-        "pl": "Wielkoskalowy model samodzielny rodziny SKOPION Verdict v23.0 (99,30% Strict-178, 100,00% w Wave 21–26, 6,30 J/decyzję) do weryfikacji EU AI Act, CRA, DORA, CNSA 2.0 i barier bezpieczeństwa CBF.",
-        "de": "Großes Einzelmodell der SKOPION-Verdict-v23.0-Familie (99,30 % Strict-178, 100,00 % in Wave 21–26, 6,30 J/Urteil) für EU AI Act, CRA, DORA, CNSA 2.0 und CBF-Sicherheitsbarrieren.",
-        "en": "Large standalone model in the SKOPION Verdict v23.0 family (99.30% Strict-178, 100.00% across Wave 21–26, 6.30 J/decision) for EU AI Act, CRA, DORA, CNSA 2.0, and CBF safety interlocks."
+        "pl": "Wielkoskalowy model samodzielny rodziny SKOPION Verdict v23.0 (99,30% Strict-178, 100,00% w Wave 24–26 / 99,09% w Wave 21–26, 6,30 J/decyzję) do weryfikacji EU AI Act, CRA, DORA, CNSA 2.0 i barier bezpieczeństwa CBF.",
+        "de": "Großes Einzelmodell der SKOPION-Verdict-v23.0-Familie (99,30 % Strict-178, 100,00 % in Wave 24–26 / 99,09 % in Wave 21–26, 6,30 J/Urteil) für EU AI Act, CRA, DORA, CNSA 2.0 und CBF-Sicherheitsbarrieren.",
+        "en": "Large standalone model in the SKOPION Verdict v23.0 family (99.30% Strict-178, 100.00% across Wave 24–26 / 99.09% across Wave 21–26, 6.30 J/decision) for EU AI Act, CRA, DORA, CNSA 2.0, and CBF safety interlocks."
       }
     },
     {
@@ -3132,9 +3132,9 @@
         "en": "High-throughput first-line filter for CI/CD and Sovereign Node R1 workstations"
       },
       "description": {
-        "pl": "Kompaktowy model decyzyjny (98,91% Strict-178, 100,00% w Wave 21–26 przy 0,82 J/decyzję) wyprzedzający zewnętrzne modele 27B–671B przy ułamku zapotrzebowania na pamięć VRAM.",
-        "de": "Kompaktes Entscheidungsmodell (98,91 % Strict-178, 100,00 % in Wave 21–26 bei 0,82 J/Urteil), das externe 27B–671B-Modelle bei einem Bruchteil des VRAM-Bedarfs übertrifft.",
-        "en": "Compact decision model (98.91% Strict-178, 100.00% across Wave 21–26 at 0.82 J/decision) outperforming external 27B–671B judges at a fraction of the VRAM footprint."
+        "pl": "Kompaktowy model decyzyjny (98,91% Strict-178, 100,00% w Wave 21–23 / 98,33% w Wave 21–26 przy 0,82 J/decyzję) wyprzedzający zewnętrzne modele 27B–671B przy ułamku zapotrzebowania na pamięć VRAM.",
+        "de": "Kompaktes Entscheidungsmodell (98,91 % Strict-178, 100,00 % in Wave 21–23 / 98,33 % in Wave 21–26 bei 0,82 J/Urteil), das externe 27B–671B-Modelle bei einem Bruchteil des VRAM-Bedarfs übertrifft.",
+        "en": "Compact decision model (98.91% Strict-178, 100.00% across Wave 21–23 / 98.33% across Wave 21–26 at 0.82 J/decision) outperforming external 27B–671B judges at a fraction of the VRAM footprint."
       }
     },
     {
@@ -8291,8 +8291,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000366,
-              "ece": 0.0184
+              "brier": 0.001597,
+              "ece": 0.024222
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8300,9 +8300,9 @@
               "ece": 0.01255
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000393,
-              "ece": 0.014975
+              "strict": 98.0,
+              "brier": 0.007174,
+              "ece": 0.02953
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8320,9 +8320,9 @@
               "ece": 0.021993
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000303,
-              "ece": 0.01734
+              "strict": 93.33,
+              "brier": 0.027883,
+              "ece": 0.105456
             }
           }
         },
@@ -8332,8 +8332,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.004653,
-              "ece": 0.062208
+              "brier": 0.001305,
+              "ece": 0.024348
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8341,9 +8341,9 @@
               "ece": 0.011562
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.019956,
-              "ece": 0.12288
+              "strict": 98.67,
+              "brier": 0.005249,
+              "ece": 0.028231
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8361,9 +8361,9 @@
               "ece": 0.020249
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001029,
-              "ece": 0.030829
+              "strict": 94.0,
+              "brier": 0.025019,
+              "ece": 0.100986
             }
           }
         },
@@ -8373,8 +8373,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.033618,
-              "ece": 0.179294
+              "brier": 0.001843,
+              "ece": 0.028712
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8382,9 +8382,9 @@
               "ece": 0.020703
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 82.67,
-              "brier": 0.174033,
-              "ece": 0.214633
+              "strict": 98.0,
+              "brier": 0.007261,
+              "ece": 0.029655
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8402,9 +8402,9 @@
               "ece": 0.012028
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.00868,
-              "ece": 0.092425
+              "strict": 92.0,
+              "brier": 0.031567,
+              "ece": 0.110821
             }
           }
         },
@@ -8414,8 +8414,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.003129,
-              "ece": 0.053026
+              "brier": 0.001831,
+              "ece": 0.02865
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8423,9 +8423,9 @@
               "ece": 0.017859
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.010237,
-              "ece": 0.090769
+              "strict": 98.0,
+              "brier": 0.007175,
+              "ece": 0.029828
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8443,9 +8443,9 @@
               "ece": 0.01734
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.007032,
-              "ece": 0.081927
+              "strict": 94.67,
+              "brier": 0.02375,
+              "ece": 0.100687
             }
           }
         },
@@ -8455,8 +8455,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001756,
-              "ece": 0.040668
+              "brier": 0.001318,
+              "ece": 0.025558
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8464,9 +8464,9 @@
               "ece": 0.017514
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.004776,
-              "ece": 0.064239
+              "strict": 98.67,
+              "brier": 0.004856,
+              "ece": 0.026465
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8484,9 +8484,9 @@
               "ece": 0.016407
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.02274,
-              "ece": 0.149552
+              "strict": 96.0,
+              "brier": 0.018757,
+              "ece": 0.093038
             }
           }
         },
@@ -8496,8 +8496,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001639,
-              "ece": 0.039538
+              "brier": 0.002001,
+              "ece": 0.031011
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8505,9 +8505,9 @@
               "ece": 0.020488
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.003295,
-              "ece": 0.053359
+              "strict": 98.0,
+              "brier": 0.007537,
+              "ece": 0.03204
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8525,9 +8525,9 @@
               "ece": 0.010484
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.00158,
-              "ece": 0.039438
+              "strict": 93.33,
+              "brier": 0.02733,
+              "ece": 0.102725
             }
           }
         },
@@ -8537,8 +8537,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.008805,
-              "ece": 0.079448
+              "brier": 0.001718,
+              "ece": 0.025067
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8547,8 +8547,8 @@
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
               "strict": 98.0,
-              "brier": 0.042989,
-              "ece": 0.142548
+              "brier": 0.007695,
+              "ece": 0.029697
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8566,9 +8566,9 @@
               "ece": 0.024791
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002301,
-              "ece": 0.043654
+              "strict": 94.0,
+              "brier": 0.026492,
+              "ece": 0.101835
             }
           }
         },
@@ -8578,8 +8578,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.009096,
-              "ece": 0.08934
+              "brier": 0.00228,
+              "ece": 0.039136
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8587,9 +8587,9 @@
               "ece": 0.033776
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.030831,
-              "ece": 0.154162
+              "strict": 98.67,
+              "brier": 0.005422,
+              "ece": 0.028653
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8607,9 +8607,9 @@
               "ece": 0.020088
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.008427,
-              "ece": 0.089411
+              "strict": 92.67,
+              "brier": 0.030163,
+              "ece": 0.107882
             }
           }
         },
@@ -8619,8 +8619,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.067218,
-              "ece": 0.249469
+              "brier": 0.007625,
+              "ece": 0.080687
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8628,9 +8628,9 @@
               "ece": 0.046336
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 66.33,
-              "brier": 0.236214,
-              "ece": 0.142267
+              "strict": 98.0,
+              "brier": 0.006961,
+              "ece": 0.029605
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8648,9 +8648,9 @@
               "ece": 0.021419
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.014892,
-              "ece": 0.114078
+              "strict": 95.33,
+              "brier": 0.021538,
+              "ece": 0.094296
             }
           }
         },
@@ -8660,8 +8660,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.003565,
-              "ece": 0.055034
+              "brier": 0.001924,
+              "ece": 0.029449
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8669,9 +8669,9 @@
               "ece": 0.014392
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.012465,
-              "ece": 0.095514
+              "strict": 98.0,
+              "brier": 0.007555,
+              "ece": 0.031552
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8689,9 +8689,9 @@
               "ece": 0.019346
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001342,
-              "ece": 0.035317
+              "strict": 94.67,
+              "brier": 0.021792,
+              "ece": 0.094262
             }
           }
         }
@@ -8716,8 +8716,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.009704,
-              "ece": 0.09753
+              "brier": 0.00201,
+              "ece": 0.030369
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8725,9 +8725,9 @@
               "ece": 0.017442
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.040314,
-              "ece": 0.197834
+              "strict": 98.0,
+              "brier": 0.007752,
+              "ece": 0.029931
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8745,9 +8745,9 @@
               "ece": 0.018094
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.036088,
-              "ece": 0.188172
+              "strict": 94.67,
+              "brier": 0.024222,
+              "ece": 0.100865
             }
           }
         },
@@ -8757,8 +8757,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000285,
-              "ece": 0.016397
+              "brier": 0.001493,
+              "ece": 0.021881
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8766,9 +8766,9 @@
               "ece": 0.01125
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000357,
-              "ece": 0.015963
+              "strict": 98.0,
+              "brier": 0.007228,
+              "ece": 0.029673
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8786,9 +8786,9 @@
               "ece": 0.021066
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000553,
-              "ece": 0.022927
+              "strict": 96.0,
+              "brier": 0.018559,
+              "ece": 0.09343
             }
           }
         },
@@ -8798,8 +8798,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.004487,
-              "ece": 0.060281
+              "brier": 0.001196,
+              "ece": 0.023676
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8807,9 +8807,9 @@
               "ece": 0.012611
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.019314,
-              "ece": 0.118209
+              "strict": 98.67,
+              "brier": 0.004719,
+              "ece": 0.026697
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8827,9 +8827,9 @@
               "ece": 0.013624
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.003016,
-              "ece": 0.052719
+              "strict": 92.0,
+              "brier": 0.033016,
+              "ece": 0.111081
             }
           }
         },
@@ -8839,8 +8839,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.002557,
-              "ece": 0.049841
+              "brier": 0.001838,
+              "ece": 0.027862
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8848,9 +8848,9 @@
               "ece": 0.020125
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.007726,
-              "ece": 0.085308
+              "strict": 98.0,
+              "brier": 0.00752,
+              "ece": 0.030361
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8868,9 +8868,9 @@
               "ece": 0.013033
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000624,
-              "ece": 0.024125
+              "strict": 94.67,
+              "brier": 0.023136,
+              "ece": 0.097947
             }
           }
         },
@@ -8880,8 +8880,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001851,
-              "ece": 0.034821
+              "brier": 0.00145,
+              "ece": 0.021004
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8889,9 +8889,9 @@
               "ece": 0.012009
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.008107,
-              "ece": 0.064061
+              "strict": 98.0,
+              "brier": 0.007175,
+              "ece": 0.029517
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8909,9 +8909,9 @@
               "ece": 0.016077
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.00048,
-              "ece": 0.021278
+              "strict": 93.33,
+              "brier": 0.027333,
+              "ece": 0.104793
             }
           }
         },
@@ -8921,8 +8921,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.00042,
-              "ece": 0.019407
+              "brier": 0.001125,
+              "ece": 0.020993
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8930,9 +8930,9 @@
               "ece": 0.012291
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000753,
-              "ece": 0.021905
+              "strict": 98.67,
+              "brier": 0.004941,
+              "ece": 0.025869
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8950,9 +8950,9 @@
               "ece": 0.02193
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000509,
-              "ece": 0.021934
+              "strict": 94.0,
+              "brier": 0.026017,
+              "ece": 0.102327
             }
           }
         },
@@ -8962,8 +8962,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.0125,
-              "ece": 0.109274
+              "brier": 0.001718,
+              "ece": 0.027934
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8971,9 +8971,9 @@
               "ece": 0.02175
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.057798,
-              "ece": 0.23309
+              "strict": 98.0,
+              "brier": 0.006778,
+              "ece": 0.029741
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -8991,9 +8991,9 @@
               "ece": 0.020818
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.005214,
-              "ece": 0.071587
+              "strict": 95.33,
+              "brier": 0.021368,
+              "ece": 0.094631
             }
           }
         },
@@ -9003,8 +9003,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001382,
-              "ece": 0.033149
+              "brier": 0.001643,
+              "ece": 0.023849
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9012,9 +9012,9 @@
               "ece": 0.015886
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.004597,
-              "ece": 0.053314
+              "strict": 98.0,
+              "brier": 0.007611,
+              "ece": 0.030063
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9032,9 +9032,9 @@
               "ece": 0.014823
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001392,
-              "ece": 0.034761
+              "strict": 94.0,
+              "brier": 0.02585,
+              "ece": 0.099856
             }
           }
         },
@@ -9044,8 +9044,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.019617,
-              "ece": 0.137004
+              "brier": 0.00135,
+              "ece": 0.025628
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9053,9 +9053,9 @@
               "ece": 0.021647
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 99.33,
-              "brier": 0.098464,
-              "ece": 0.298413
+              "strict": 98.67,
+              "brier": 0.005066,
+              "ece": 0.026848
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9073,9 +9073,9 @@
               "ece": 0.022507
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000608,
-              "ece": 0.024436
+              "strict": 92.67,
+              "brier": 0.030794,
+              "ece": 0.107923
             }
           }
         },
@@ -9085,8 +9085,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.009168,
-              "ece": 0.08368
+              "brier": 0.001746,
+              "ece": 0.025914
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9094,9 +9094,9 @@
               "ece": 0.01448
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.044142,
-              "ece": 0.174832
+              "strict": 98.0,
+              "brier": 0.00764,
+              "ece": 0.030416
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9114,9 +9114,9 @@
               "ece": 0.019502
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000231,
-              "ece": 0.014569
+              "strict": 93.33,
+              "brier": 0.0265,
+              "ece": 0.103257
             }
           }
         }
@@ -9141,8 +9141,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000445,
-              "ece": 0.020107
+              "brier": 0.001814,
+              "ece": 0.026203
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9150,9 +9150,9 @@
               "ece": 0.012269
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000547,
-              "ece": 0.017418
+              "strict": 98.0,
+              "brier": 0.008123,
+              "ece": 0.032656
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9170,9 +9170,9 @@
               "ece": 0.026879
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.00239,
-              "ece": 0.048784
+              "strict": 93.33,
+              "brier": 0.027727,
+              "ece": 0.104848
             }
           }
         },
@@ -9182,8 +9182,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 6.9e-05,
-              "ece": 0.008238
+              "brier": 0.001278,
+              "ece": 0.018962
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9191,9 +9191,9 @@
               "ece": 0.009321
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 1.4e-05,
-              "ece": 0.0024
+              "strict": 98.0,
+              "brier": 0.006577,
+              "ece": 0.029211
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9211,9 +9211,9 @@
               "ece": 0.017932
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 8.7e-05,
-              "ece": 0.009134
+              "strict": 94.67,
+              "brier": 0.024301,
+              "ece": 0.099529
             }
           }
         },
@@ -9223,8 +9223,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.008692,
-              "ece": 0.09091
+              "brier": 0.002008,
+              "ece": 0.031622
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9232,9 +9232,9 @@
               "ece": 0.034962
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.033946,
-              "ece": 0.176805
+              "strict": 98.0,
+              "brier": 0.007151,
+              "ece": 0.028585
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9252,9 +9252,9 @@
               "ece": 0.023269
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.003166,
-              "ece": 0.056113
+              "strict": 94.67,
+              "brier": 0.0226,
+              "ece": 0.096551
             }
           }
         },
@@ -9264,8 +9264,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.00479,
-              "ece": 0.068464
+              "brier": 0.004883,
+              "ece": 0.063679
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9273,9 +9273,9 @@
               "ece": 0.016672
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001553,
-              "ece": 0.037745
+              "strict": 98.67,
+              "brier": 0.00503,
+              "ece": 0.025781
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9293,9 +9293,9 @@
               "ece": 0.014774
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.009242,
-              "ece": 0.096025
+              "strict": 96.0,
+              "brier": 0.018635,
+              "ece": 0.090763
             }
           }
         },
@@ -9305,8 +9305,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.003158,
-              "ece": 0.051812
+              "brier": 0.001603,
+              "ece": 0.023986
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9314,9 +9314,9 @@
               "ece": 0.014142
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.012802,
-              "ece": 0.09926
+              "strict": 98.0,
+              "brier": 0.007308,
+              "ece": 0.029695
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9334,9 +9334,9 @@
               "ece": 0.027989
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000642,
-              "ece": 0.024505
+              "strict": 95.33,
+              "brier": 0.022205,
+              "ece": 0.095251
             }
           }
         },
@@ -9346,8 +9346,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000295,
-              "ece": 0.016962
+              "brier": 0.0017,
+              "ece": 0.025391
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9355,9 +9355,9 @@
               "ece": 0.01427
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000167,
-              "ece": 0.011053
+              "strict": 98.0,
+              "brier": 0.007619,
+              "ece": 0.032124
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9375,9 +9375,9 @@
               "ece": 0.022651
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000616,
-              "ece": 0.024714
+              "strict": 94.0,
+              "brier": 0.024732,
+              "ece": 0.09986
             }
           }
         },
@@ -9387,8 +9387,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.021135,
-              "ece": 0.142667
+              "brier": 0.001274,
+              "ece": 0.024749
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9396,9 +9396,9 @@
               "ece": 0.01937
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 99.0,
-              "brier": 0.107591,
-              "ece": 0.30912
+              "strict": 98.67,
+              "brier": 0.004804,
+              "ece": 0.025761
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9416,9 +9416,9 @@
               "ece": 0.022256
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.0072,
-              "ece": 0.084702
+              "strict": 93.33,
+              "brier": 0.028196,
+              "ece": 0.103172
             }
           }
         },
@@ -9428,8 +9428,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000328,
-              "ece": 0.01705
+              "brier": 0.001406,
+              "ece": 0.020793
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9437,9 +9437,9 @@
               "ece": 0.006752
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000681,
-              "ece": 0.02107
+              "strict": 98.0,
+              "brier": 0.006997,
+              "ece": 0.030427
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9457,9 +9457,9 @@
               "ece": 0.018757
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000711,
-              "ece": 0.025381
+              "strict": 92.0,
+              "brier": 0.031496,
+              "ece": 0.109733
             }
           }
         },
@@ -9469,8 +9469,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001655,
-              "ece": 0.040501
+              "brier": 0.001431,
+              "ece": 0.021967
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9478,9 +9478,9 @@
               "ece": 0.012544
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.006121,
-              "ece": 0.077645
+              "strict": 98.0,
+              "brier": 0.006883,
+              "ece": 0.031309
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9498,9 +9498,9 @@
               "ece": 0.016251
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001777,
-              "ece": 0.042019
+              "strict": 94.0,
+              "brier": 0.025394,
+              "ece": 0.099635
             }
           }
         },
@@ -9510,8 +9510,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.002077,
-              "ece": 0.045445
+              "brier": 0.00166,
+              "ece": 0.024792
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9519,9 +9519,9 @@
               "ece": 0.013741
             },
             "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.006693,
-              "ece": 0.081433
+              "strict": 98.0,
+              "brier": 0.007405,
+              "ece": 0.029799
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9539,9 +9539,9 @@
               "ece": 0.024486
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002004,
-              "ece": 0.044611
+              "strict": 92.67,
+              "brier": 0.02981,
+              "ece": 0.108134
             }
           }
         }
@@ -9566,8 +9566,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.007993,
-              "ece": 0.089181
+              "brier": 0.008937,
+              "ece": 0.091518
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9580,9 +9580,9 @@
               "ece": 0.19495
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000928,
-              "ece": 0.030393
+              "strict": 97.33,
+              "brier": 0.010248,
+              "ece": 0.039741
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -9595,9 +9595,9 @@
               "ece": 0.017719
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.003698,
-              "ece": 0.060046
+              "strict": 93.33,
+              "brier": 0.027542,
+              "ece": 0.105511
             }
           }
         },
@@ -9607,8 +9607,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001929,
-              "ece": 0.043836
+              "brier": 0.002974,
+              "ece": 0.046722
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9621,9 +9621,9 @@
               "ece": 0.079836
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001218,
-              "ece": 0.03471
+              "strict": 96.0,
+              "brier": 0.014628,
+              "ece": 0.046254
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 96.67,
@@ -9636,9 +9636,9 @@
               "ece": 0.016757
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000861,
-              "ece": 0.029296
+              "strict": 94.0,
+              "brier": 0.025317,
+              "ece": 0.10116
             }
           }
         },
@@ -9648,8 +9648,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000636,
-              "ece": 0.025138
+              "brier": 0.001399,
+              "ece": 0.029498
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9662,9 +9662,9 @@
               "ece": 0.043218
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000474,
-              "ece": 0.021729
+              "strict": 97.33,
+              "brier": 0.009792,
+              "ece": 0.039172
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -9677,9 +9677,9 @@
               "ece": 0.015868
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000324,
-              "ece": 0.017131
+              "strict": 92.67,
+              "brier": 0.030283,
+              "ece": 0.109208
             }
           }
         },
@@ -9689,8 +9689,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.003294,
-              "ece": 0.057219
+              "brier": 0.004335,
+              "ece": 0.059442
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9703,9 +9703,9 @@
               "ece": 0.104148
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001538,
-              "ece": 0.038841
+              "strict": 96.0,
+              "brier": 0.014628,
+              "ece": 0.047735
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -9718,9 +9718,9 @@
               "ece": 0.019607
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002188,
-              "ece": 0.045705
+              "strict": 95.33,
+              "brier": 0.021701,
+              "ece": 0.095385
             }
           }
         },
@@ -9730,8 +9730,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.002459,
-              "ece": 0.049459
+              "brier": 0.002984,
+              "ece": 0.048393
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9744,9 +9744,9 @@
               "ece": 0.084604
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.002354,
-              "ece": 0.047989
+              "strict": 96.67,
+              "brier": 0.012059,
+              "ece": 0.043724
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 96.67,
@@ -9759,9 +9759,9 @@
               "ece": 0.016172
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002336,
-              "ece": 0.048202
+              "strict": 92.67,
+              "brier": 0.030717,
+              "ece": 0.108577
             }
           }
         },
@@ -9771,8 +9771,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.00093,
-              "ece": 0.030428
+              "brier": 0.00168,
+              "ece": 0.032327
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9785,9 +9785,9 @@
               "ece": 0.049711
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001197,
-              "ece": 0.034446
+              "strict": 96.67,
+              "brier": 0.012143,
+              "ece": 0.042041
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -9800,9 +9800,9 @@
               "ece": 0.025765
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000162,
-              "ece": 0.012261
+              "strict": 93.33,
+              "brier": 0.028892,
+              "ece": 0.104582
             }
           }
         },
@@ -9812,8 +9812,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000854,
-              "ece": 0.029119
+              "brier": 0.001715,
+              "ece": 0.034068
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9826,9 +9826,9 @@
               "ece": 0.05371
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000425,
-              "ece": 0.02058
+              "strict": 97.33,
+              "brier": 0.010381,
+              "ece": 0.040378
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -9841,9 +9841,9 @@
               "ece": 0.01408
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000587,
-              "ece": 0.023321
+              "strict": 94.67,
+              "brier": 0.024073,
+              "ece": 0.09848
             }
           }
         },
@@ -9853,8 +9853,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.006326,
-              "ece": 0.079341
+              "brier": 0.007092,
+              "ece": 0.078746
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9867,9 +9867,9 @@
               "ece": 0.160546
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.002372,
-              "ece": 0.048439
+              "strict": 96.0,
+              "brier": 0.015357,
+              "ece": 0.046061
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.67,
@@ -9882,9 +9882,9 @@
               "ece": 0.020607
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.005276,
-              "ece": 0.072209
+              "strict": 94.0,
+              "brier": 0.024883,
+              "ece": 0.101405
             }
           }
         },
@@ -9894,8 +9894,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.036691,
-              "ece": 0.191329
+              "brier": 0.003632,
+              "ece": 0.053912
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9908,9 +9908,9 @@
               "ece": 0.095161
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 0.0,
-              "brier": 0.352502,
-              "ece": 0.592708
+              "strict": 96.67,
+              "brier": 0.012876,
+              "ece": 0.043036
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -9923,9 +9923,9 @@
               "ece": 0.017378
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001805,
-              "ece": 0.041448
+              "strict": 92.0,
+              "brier": 0.032638,
+              "ece": 0.111308
             }
           }
         },
@@ -9935,8 +9935,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000711,
-              "ece": 0.026611
+              "brier": 0.001745,
+              "ece": 0.032823
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -9949,9 +9949,9 @@
               "ece": 0.048395
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.00034,
-              "ece": 0.01841
+              "strict": 96.67,
+              "brier": 0.01249,
+              "ece": 0.04326
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -9964,9 +9964,9 @@
               "ece": 0.018866
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000131,
-              "ece": 0.011281
+              "strict": 91.33,
+              "brier": 0.035244,
+              "ece": 0.11425
             }
           }
         }
@@ -9991,8 +9991,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000671,
-              "ece": 0.025854
+              "brier": 0.001478,
+              "ece": 0.031357
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10005,9 +10005,9 @@
               "ece": 0.048129
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000321,
-              "ece": 0.017842
+              "strict": 97.33,
+              "brier": 0.009582,
+              "ece": 0.039857
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10020,9 +10020,9 @@
               "ece": 0.016706
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.00062,
-              "ece": 0.024753
+              "strict": 94.0,
+              "brier": 0.026106,
+              "ece": 0.102898
             }
           }
         },
@@ -10032,8 +10032,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001377,
-              "ece": 0.037031
+              "brier": 0.002408,
+              "ece": 0.040292
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10046,9 +10046,9 @@
               "ece": 0.063631
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001199,
-              "ece": 0.034274
+              "strict": 96.0,
+              "brier": 0.014676,
+              "ece": 0.047315
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10061,9 +10061,9 @@
               "ece": 0.013288
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.010691,
-              "ece": 0.102086
+              "strict": 96.0,
+              "brier": 0.017359,
+              "ece": 0.088304
             }
           }
         },
@@ -10073,8 +10073,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001415,
-              "ece": 0.037525
+              "brier": 0.00234,
+              "ece": 0.042617
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10087,9 +10087,9 @@
               "ece": 0.074973
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000323,
-              "ece": 0.017955
+              "strict": 97.33,
+              "brier": 0.009702,
+              "ece": 0.038325
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10102,9 +10102,9 @@
               "ece": 0.016538
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000627,
-              "ece": 0.02466
+              "strict": 92.67,
+              "brier": 0.031654,
+              "ece": 0.110527
             }
           }
         },
@@ -10114,8 +10114,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000458,
-              "ece": 0.021355
+              "brier": 0.001531,
+              "ece": 0.027906
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10128,9 +10128,9 @@
               "ece": 0.03338
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000412,
-              "ece": 0.020277
+              "strict": 96.0,
+              "brier": 0.014218,
+              "ece": 0.04648
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10143,9 +10143,9 @@
               "ece": 0.018108
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000454,
-              "ece": 0.020991
+              "strict": 94.67,
+              "brier": 0.023504,
+              "ece": 0.098452
             }
           }
         },
@@ -10155,8 +10155,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.003327,
-              "ece": 0.05754
+              "brier": 0.003857,
+              "ece": 0.056565
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10169,9 +10169,9 @@
               "ece": 0.104758
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.002326,
-              "ece": 0.047874
+              "strict": 96.67,
+              "brier": 0.012341,
+              "ece": 0.043975
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10184,9 +10184,9 @@
               "ece": 0.028409
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000911,
-              "ece": 0.028683
+              "strict": 94.0,
+              "brier": 0.025733,
+              "ece": 0.100695
             }
           }
         },
@@ -10196,8 +10196,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000555,
-              "ece": 0.023512
+              "brier": 0.001461,
+              "ece": 0.029073
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10210,9 +10210,9 @@
               "ece": 0.040763
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000371,
-              "ece": 0.019231
+              "strict": 96.67,
+              "brier": 0.011448,
+              "ece": 0.041475
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10225,9 +10225,9 @@
               "ece": 0.017076
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000222,
-              "ece": 0.014674
+              "strict": 95.33,
+              "brier": 0.021524,
+              "ece": 0.093701
             }
           }
         },
@@ -10237,8 +10237,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.00049,
-              "ece": 0.022088
+              "brier": 0.001091,
+              "ece": 0.02397
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10251,9 +10251,9 @@
               "ece": 0.030103
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.00097,
-              "ece": 0.031066
+              "strict": 97.33,
+              "brier": 0.009698,
+              "ece": 0.038594
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10266,9 +10266,9 @@
               "ece": 0.025409
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000627,
-              "ece": 0.024366
+              "strict": 93.33,
+              "brier": 0.028526,
+              "ece": 0.104949
             }
           }
         },
@@ -10278,8 +10278,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000694,
-              "ece": 0.02631
+              "brier": 0.001589,
+              "ece": 0.028833
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10292,9 +10292,9 @@
               "ece": 0.037204
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001208,
-              "ece": 0.034695
+              "strict": 96.0,
+              "brier": 0.014083,
+              "ece": 0.044785
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 96.67,
@@ -10307,9 +10307,9 @@
               "ece": 0.016118
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000877,
-              "ece": 0.028928
+              "strict": 92.0,
+              "brier": 0.031398,
+              "ece": 0.110073
             }
           }
         },
@@ -10319,8 +10319,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.002206,
-              "ece": 0.046834
+              "brier": 0.003211,
+              "ece": 0.050414
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10333,9 +10333,9 @@
               "ece": 0.087916
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.00097,
-              "ece": 0.03105
+              "strict": 96.67,
+              "brier": 0.012577,
+              "ece": 0.04537
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10348,9 +10348,9 @@
               "ece": 0.015292
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002708,
-              "ece": 0.050719
+              "strict": 93.33,
+              "brier": 0.027819,
+              "ece": 0.104316
             }
           }
         },
@@ -10360,8 +10360,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.006893,
-              "ece": 0.082724
+              "brier": 0.005391,
+              "ece": 0.068894
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10374,9 +10374,9 @@
               "ece": 0.13268
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.010205,
-              "ece": 0.098571
+              "strict": 96.67,
+              "brier": 0.012232,
+              "ece": 0.043249
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10389,9 +10389,9 @@
               "ece": 0.016385
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.004878,
-              "ece": 0.067775
+              "strict": 94.67,
+              "brier": 0.02382,
+              "ece": 0.097953
             }
           }
         }
@@ -10416,8 +10416,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.002136,
-              "ece": 0.046145
+              "brier": 0.003065,
+              "ece": 0.049856
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10430,9 +10430,9 @@
               "ece": 0.089792
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000582,
-              "ece": 0.02408
+              "strict": 97.33,
+              "brier": 0.010463,
+              "ece": 0.038925
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10445,9 +10445,9 @@
               "ece": 0.014022
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002215,
-              "ece": 0.046902
+              "strict": 91.33,
+              "brier": 0.035263,
+              "ece": 0.114409
             }
           }
         },
@@ -10457,8 +10457,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.006125,
-              "ece": 0.078131
+              "brier": 0.007276,
+              "ece": 0.080657
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10471,9 +10471,9 @@
               "ece": 0.159895
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001292,
-              "ece": 0.035874
+              "strict": 96.0,
+              "brier": 0.014622,
+              "ece": 0.045978
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10486,9 +10486,9 @@
               "ece": 0.023184
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001227,
-              "ece": 0.034513
+              "strict": 92.67,
+              "brier": 0.030497,
+              "ece": 0.110367
             }
           }
         },
@@ -10498,8 +10498,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000425,
-              "ece": 0.020568
+              "brier": 0.001232,
+              "ece": 0.026719
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10512,9 +10512,9 @@
               "ece": 0.036683
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000205,
-              "ece": 0.014288
+              "strict": 97.33,
+              "brier": 0.009689,
+              "ece": 0.038892
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10527,9 +10527,9 @@
               "ece": 0.017006
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 7.3e-05,
-              "ece": 0.008343
+              "strict": 92.67,
+              "brier": 0.029797,
+              "ece": 0.107902
             }
           }
         },
@@ -10539,8 +10539,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001117,
-              "ece": 0.03338
+              "brier": 0.002103,
+              "ece": 0.036761
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10553,9 +10553,9 @@
               "ece": 0.052068
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001216,
-              "ece": 0.03482
+              "strict": 96.0,
+              "brier": 0.014437,
+              "ece": 0.048346
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10568,9 +10568,9 @@
               "ece": 0.02018
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000378,
-              "ece": 0.018972
+              "strict": 93.33,
+              "brier": 0.027383,
+              "ece": 0.103085
             }
           }
         },
@@ -10580,8 +10580,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.003365,
-              "ece": 0.05782
+              "brier": 0.004683,
+              "ece": 0.063454
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10594,9 +10594,9 @@
               "ece": 0.126118
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000358,
-              "ece": 0.018902
+              "strict": 96.67,
+              "brier": 0.011682,
+              "ece": 0.041438
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 96.67,
@@ -10609,9 +10609,9 @@
               "ece": 0.019933
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001311,
-              "ece": 0.035878
+              "strict": 93.33,
+              "brier": 0.030609,
+              "ece": 0.107417
             }
           }
         },
@@ -10621,8 +10621,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001822,
-              "ece": 0.042587
+              "brier": 0.002918,
+              "ece": 0.047213
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10635,9 +10635,9 @@
               "ece": 0.084057
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000645,
-              "ece": 0.025325
+              "strict": 96.67,
+              "brier": 0.012906,
+              "ece": 0.04383
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10650,9 +10650,9 @@
               "ece": 0.01914
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.000482,
-              "ece": 0.021474
+              "strict": 95.33,
+              "brier": 0.023715,
+              "ece": 0.098742
             }
           }
         },
@@ -10662,8 +10662,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.001458,
-              "ece": 0.038069
+              "brier": 0.001701,
+              "ece": 0.034224
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10676,9 +10676,9 @@
               "ece": 0.052138
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.003066,
-              "ece": 0.054767
+              "strict": 97.33,
+              "brier": 0.009958,
+              "ece": 0.039389
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10691,9 +10691,9 @@
               "ece": 0.016841
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001183,
-              "ece": 0.033594
+              "strict": 94.0,
+              "brier": 0.02489,
+              "ece": 0.09964
             }
           }
         },
@@ -10703,8 +10703,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.006617,
-              "ece": 0.0811
+              "brier": 0.006649,
+              "ece": 0.076876
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10717,9 +10717,9 @@
               "ece": 0.147306
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.004112,
-              "ece": 0.062545
+              "strict": 96.0,
+              "brier": 0.013851,
+              "ece": 0.045652
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 96.67,
@@ -10732,9 +10732,9 @@
               "ece": 0.01738
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.001246,
-              "ece": 0.034625
+              "strict": 94.0,
+              "brier": 0.0255,
+              "ece": 0.102863
             }
           }
         },
@@ -10744,8 +10744,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.002014,
-              "ece": 0.044763
+              "brier": 0.002708,
+              "ece": 0.045172
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10758,9 +10758,9 @@
               "ece": 0.076519
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.001834,
-              "ece": 0.042509
+              "strict": 96.67,
+              "brier": 0.012632,
+              "ece": 0.044145
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 97.33,
@@ -10773,9 +10773,9 @@
               "ece": 0.021444
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.002444,
-              "ece": 0.048266
+              "strict": 94.67,
+              "brier": 0.023098,
+              "ece": 0.099509
             }
           }
         },
@@ -10785,8 +10785,8 @@
           "metrics": {
             "skopion-verdict-committee-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
-              "brier": 0.000213,
-              "ece": 0.014554
+              "brier": 0.00118,
+              "ece": 0.022204
             },
             "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
               "strict": 100.0,
@@ -10799,9 +10799,9 @@
               "ece": 0.022758
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
-              "strict": 100.0,
-              "brier": 0.000176,
-              "ece": 0.01325
+              "strict": 96.67,
+              "brier": 0.012851,
+              "ece": 0.043848
             },
             "skopion-verdict-4b-v23.0-sovereign-zk-nano-ternary-1.58b": {
               "strict": 98.0,
@@ -10814,9 +10814,9 @@
               "ece": 0.016402
             },
             "autotrust-jev-27b-v1.1": {
-              "strict": 100.0,
-              "brier": 0.00011,
-              "ece": 0.009908
+              "strict": 92.0,
+              "brier": 0.031768,
+              "ece": 0.110364
             }
           }
         }
@@ -10829,7 +10829,7 @@
       "version": "v9.0",
       "modelId": "skopion-verdict-9b-v9.0-apex",
       "model": "SKOPION Verdict 9b v9.0 apex",
-      "rank": 70,
+      "rank": 69,
       "strictPct": 95.35,
       "ci95": [
         94.28,
@@ -10841,7 +10841,7 @@
       "version": "v10.0",
       "modelId": "skopion-verdict-9b-v10.0-compact",
       "model": "SKOPION Verdict 9b v10.0 compact",
-      "rank": 66,
+      "rank": 65,
       "strictPct": 95.88,
       "ci95": [
         94.93,
@@ -10853,7 +10853,7 @@
       "version": "v11.0",
       "modelId": "skopion-verdict-9b-v11.0-holo",
       "model": "SKOPION Verdict 9b v11.0 holo",
-      "rank": 60,
+      "rank": 59,
       "strictPct": 96.03,
       "ci95": [
         95.13,
@@ -10865,7 +10865,7 @@
       "version": "v12.0",
       "modelId": "skopion-verdict-9b-v12.0-cegis",
       "model": "SKOPION Verdict 9b v12.0 cegis",
-      "rank": 62,
+      "rank": 61,
       "strictPct": 95.99,
       "ci95": [
         95.07,
@@ -10877,7 +10877,7 @@
       "version": "v13.0",
       "modelId": "skopion-verdict-committee-v13.0-kritis",
       "model": "SKOPION Verdict committee v13.0 kritis",
-      "rank": 53,
+      "rank": 52,
       "strictPct": 96.2,
       "ci95": [
         95.36,
@@ -10889,7 +10889,7 @@
       "version": "v14.0",
       "modelId": "skopion-verdict-27b-v14.0-sovereign-grid",
       "model": "SKOPION Verdict 27b v14.0 sovereign grid",
-      "rank": 54,
+      "rank": 53,
       "strictPct": 96.19,
       "ci95": [
         95.38,
