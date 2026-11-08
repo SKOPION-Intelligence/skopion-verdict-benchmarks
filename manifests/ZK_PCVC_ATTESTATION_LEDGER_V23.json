@@ -1,0 +1,73 @@
+{
+  "schema": "skopion-v23.0-zk-pcvc-attestation-ledger-v1",
+  "generated_at_utc": "2026-11-08T09:00:08.002236+00:00",
+  "standards": [
+    "IETF RFC 9334 RATS (Remote ATtestation procedureS)",
+    "NSA CNSA 2.0 (FIPS 203 ML-KEM-1024 & FIPS 204 ML-DSA-87)",
+    "EU AI Act (Regulation 2024/1689) Annex I/III Art. 15 & Art. 43",
+    "Ames Control Barrier Function (CBF) Lie-Derivative Forward Invariance",
+    "Goldilocks Field (p = 2^64 - 2^32 + 1) Freivalds Zero-Knowledge Verdict Commitment"
+  ],
+  "models": {
+    "skopion-verdict-27b-v23.0-sovereign-zk-horizon": {
+      "cycle_idx": 207,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 94.53,
+      "cbf_lie_safe_set_invariance_pct": 94.53,
+      "mean_logit_margin": 10.2984,
+      "conformal_q_hat_999999": 0.500006,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0x800c5daecc283867",
+        "polynomial_evaluation_mod_p": "0x26762b90e789b2be",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "2872d2a840d193ea4fae9858a6133ae5aa7f38d2e988b25ebd4b6b5ba4c53304"
+      }
+    },
+    "skopion-verdict-9b-v23.0-sovereign-zk-horizon": {
+      "cycle_idx": 207,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 94.53,
+      "cbf_lie_safe_set_invariance_pct": 96.09,
+      "mean_logit_margin": 9.3556,
+      "conformal_q_hat_999999": 0.500013,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0xf1797b73f7dcdc0",
+        "polynomial_evaluation_mod_p": "0x8523e0aa6974ee77",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "33f9100de72931e6f44b8e6af70c26cc31c924e95d72e96adfe5361844d85c06"
+      }
+    },
+    "skopion-verdict-4b-v23.0-sovereign-zk-horizon": {
+      "cycle_idx": 207,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 94.53,
+      "cbf_lie_safe_set_invariance_pct": 95.31,
+      "mean_logit_margin": 10.2987,
+      "conformal_q_hat_999999": 0.500001,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0x9341f9f9e6883079",
+        "polynomial_evaluation_mod_p": "0x6753eb5d9cbab32",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "1c8b1d49b857a080ad1298f6f1d1d1c4035c5fa77ad5ba52ca6e0c98d5bccd60"
+      }
+    },
+    "skopion-verdict-micro-250m-v23.0-sovereign-zk-tactical": {
+      "cycle_idx": 207,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 96.88,
+      "cbf_lie_safe_set_invariance_pct": 94.53,
+      "mean_logit_margin": 10.4814,
+      "conformal_q_hat_999999": 0.500001,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0x22a60fd8f9ed220a",
+        "polynomial_evaluation_mod_p": "0x7badad8f83d2da9",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "c19f4e1099a61c25b0e157e5b437307af7925b2e28ba15b0405f51c1e787809b"
+      }
+    }
+  }
+}
