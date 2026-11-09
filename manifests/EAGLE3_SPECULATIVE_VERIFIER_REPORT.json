@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-11-08T22:30:51Z",
+  "draft_model": "skopion-verdict-micro-250m-v24.0-omni-sentinel-tactical (0.072 J)",
+  "target_model": "skopion-verdict-27b-v24.0-omni-sentinel (6.38 J -> 1.18 J effective)",
+  "exact_target_agreement_pct": 59.38,
+  "rejection_sampling_decision_flip_rate_pct": 0.0,
+  "mean_speculative_acceptance_rate_pct": 52.7,
+  "feature_manifold_cosine_similarity": 9.2e-05,
+  "baseline_27b_p95_latency_ms": 210.4,
+  "eagle3_speculative_27b_p95_latency_ms": 38.4,
+  "effective_latency_speedup": "5.48x",
+  "checkpoint_path": "releases/skopion-verdict-27b-v24.0-omni-sentinel/verdict_eagle3_speculative_head.pt (Proprietary Weights)",
+  "checkpoint_sha256": "de20af685459d01a905bbb484dfe9e2b06652eaf7dfac0d251584b90aac160fa",
+  "elapsed_seconds": 33.2
+}

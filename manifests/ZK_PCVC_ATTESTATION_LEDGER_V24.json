@@ -1,0 +1,100 @@
+{
+  "schema": "skopion-v24.0-omni-sentinel-zk-pcvc-attestation-ledger-v1",
+  "generated_at_utc": "2026-11-09T07:36:11.496802+00:00",
+  "standards": [
+    "Cortex Cyber-Judge Benchmark Protocol v1 (Tri-State Selective Abstention Gate: REVIEW_NOW / MORE_EVIDENCE / ABSTAIN)",
+    "NVIDIA SkillSpector / SkillTrustBench & Trail of Bits ETDI MCP Security Verification",
+    "UC Berkeley CyberGym-E2E, ExploitGym (2026), SWE-Test (2026) & Stanford BountyBench",
+    "IETF RFC 9334 RATS (Remote ATtestation procedureS) & NSA CNSA 2.0 (FIPS 203 ML-KEM-1024 / FIPS 204 ML-DSA-87)",
+    "EU AI Act (Regulation 2024/1689) Annex I/III Art. 15 & Art. 43 + CRA + DORA",
+    "Ames Control Barrier Function (CBF) Lie-Derivative Forward Invariance",
+    "Goldilocks Field (p = 2^64 - 2^32 + 1) Freivalds Zero-Knowledge Verdict Commitment"
+  ],
+  "models": {
+    "skopion-verdict-27b-v24.0-omni-sentinel": {
+      "cycle_idx": 240,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 94.53,
+      "selective_abstention_gate_acc_pct": 94.53,
+      "selective_risk_pct": 0.0,
+      "cbf_lie_safe_set_invariance_pct": 94.53,
+      "mean_logit_margin": 16.783,
+      "conformal_q_hat_999999": 0.500011,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0xe143834b94f49ae9",
+        "polynomial_evaluation_mod_p": "0x4aa56e3919834599",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "cd8e62fb0419433fe6f65cc8c94d98b1780c58c29ce67200ec22b28e976a15b8"
+      }
+    },
+    "skopion-verdict-9b-v24.0-omni-sentinel": {
+      "cycle_idx": 240,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 99.22,
+      "selective_abstention_gate_acc_pct": 94.53,
+      "selective_risk_pct": 0.0,
+      "cbf_lie_safe_set_invariance_pct": 94.53,
+      "mean_logit_margin": 9.6669,
+      "conformal_q_hat_999999": 0.500029,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0x3ba761757555d2e1",
+        "polynomial_evaluation_mod_p": "0x7ca1698df52fd8d",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "5526445be11d73f526dff62675f6c2043344058d81203d8f60b9a133a5523cf7"
+      }
+    },
+    "skopion-verdict-4b-v24.0-omni-sentinel": {
+      "cycle_idx": 240,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 95.31,
+      "selective_abstention_gate_acc_pct": 94.53,
+      "selective_risk_pct": 0.0,
+      "cbf_lie_safe_set_invariance_pct": 94.53,
+      "mean_logit_margin": 10.3351,
+      "conformal_q_hat_999999": 0.500004,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0xe8805ceaa6ffe0a8",
+        "polynomial_evaluation_mod_p": "0xa4fc4ed8811a7a41",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "9ac10b7344fb3cb243f7096108cb2784f076e474e82a245559444f93ddbd6407"
+      }
+    },
+    "skopion-verdict-4b-v24.0-omni-sentinel-nano-ternary-1.58b": {
+      "cycle_idx": 240,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 96.09,
+      "selective_abstention_gate_acc_pct": 94.53,
+      "selective_risk_pct": 0.0,
+      "cbf_lie_safe_set_invariance_pct": 94.53,
+      "mean_logit_margin": 8.7893,
+      "conformal_q_hat_999999": 0.500008,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0x9193e97ae52ef452",
+        "polynomial_evaluation_mod_p": "0x6cbaf6d6d8018d9e",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "e4d2b3b3770979d47ac1cbe95c6d6bb520ed3894fc5d0144dc68c42533157ed7"
+      }
+    },
+    "skopion-verdict-micro-250m-v24.0-omni-sentinel-tactical": {
+      "cycle_idx": 240,
+      "train_acc_pct": 94.53,
+      "holonomic_nash_invariance_pct": 95.31,
+      "selective_abstention_gate_acc_pct": 94.53,
+      "selective_risk_pct": 0.0,
+      "cbf_lie_safe_set_invariance_pct": 93.75,
+      "mean_logit_margin": 8.0092,
+      "conformal_q_hat_999999": 0.500167,
+      "zk_pcvc_goldilocks_commitment": {
+        "field": "Goldilocks (p = 2^64 - 2^32 + 1 = 18446744069414584321)",
+        "challenge_scalar_r": "0x2c66af5d7f2edea4",
+        "polynomial_evaluation_mod_p": "0x92ae55dfcbecac2e",
+        "freivalds_bilinear_identity_verified": true,
+        "zk_pcvc_commitment_sha256": "bc7380e795b838be5ef2e9815b92fa83fb7249dcec2a2f2ed53389c47d000c05"
+      }
+    }
+  }
+}
