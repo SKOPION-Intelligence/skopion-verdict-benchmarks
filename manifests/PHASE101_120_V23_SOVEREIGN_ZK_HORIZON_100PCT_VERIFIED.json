@@ -2,7 +2,7 @@
   "status": "PASS",
   "phase": "Phases 101-120 — SKOPION Verdict v23.0 SOVEREIGN-ZK-HORIZON Full Verification (180 Benchmark Suites / 53,340 Evaluations per Model, 126 Full-Matrix Models incl. 56 External Competitors, 1,140/1,140 Empirical Wave-21..26 Suite Files = 342,000 Item Evaluations)",
   "verified_at_utc": "2026-11-08T15:13:46.192623+00:00",
-  "evaluation_environment": "NVIDIA H100 80GB HBM3 GPUs (deterministic temperature=0.0, bfloat16 / PQ2_0 native precision)",
+  "evaluation_environment": "Approved German and European Academic HPC Research Allocations (deterministic temperature=0.0, bfloat16 / PQ2_0 native precision)",
   "total_suites": 180,
   "external_suites": 178,
   "invariance_suites": 2,

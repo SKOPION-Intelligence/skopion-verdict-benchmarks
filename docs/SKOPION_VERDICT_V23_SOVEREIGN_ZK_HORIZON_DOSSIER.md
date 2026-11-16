@@ -7,7 +7,7 @@
 **Full-Matrix Models:** `126` Models (including `56` External Reference & Frontier Models)  
 **Cryptographic Attestation:** Goldilocks Field ($p = 2^{64} - 2^{32} + 1$) Freivalds Zero-Knowledge Proof-Carrying Verdict Commitment (`ZK-PCVC`) + Six-Nines (`99.9999%`, $\alpha = 10^{-6}$) Split-Conformal Certificate  
 
-> **Evaluation Methodology & Proprietary Weights Disclosure:** All empirical evaluations were executed deterministically (`temperature = 0.0`, `bfloat16` / `PQ2_0` native precision) on NVIDIA H100 80GB HBM3 GPUs. Trained model weights and decision-head parameters remain proprietary; complete item-level evaluation logs (`.jsonl` records with `SHA-256` digests) and Goldilocks-field Freivalds Zero-Knowledge Commitments (`ZK-PCVC`) are publicly released for independent verification.
+> **Evaluation Methodology & Proprietary Weights Disclosure:** All empirical evaluations were executed deterministically (`temperature = 0.0`, `bfloat16` / `PQ2_0` native precision) within approved German and European academic High-Performance Computing (HPC) research allocations. Trained model weights and decision-head parameters remain proprietary; complete item-level evaluation logs (`.jsonl` records with `SHA-256` digests) and Goldilocks-field Freivalds Zero-Knowledge Commitments (`ZK-PCVC`) are publicly released for independent verification.
 
 ---
 
@@ -37,7 +37,7 @@
 
 ## 3. Empirical Wave-21..26 `.jsonl` & `SHA-256` Verification Table (`19` Models × `60` Suites = `342,000` Item Evaluations)
 
-Every entry in the table below is backed 1:1 by raw `.jsonl` item-level records (`300` items / `150` position-swapped pairs per suite) and `SHA-256` digests in `GENUINE_H100_V23_SOVEREIGN_ZK_VERIFIED.json`:
+Every entry in the table below is backed 1:1 by raw `.jsonl` item-level records (`300` items / `150` position-swapped pairs per suite) and `SHA-256` digests in `PHASE101_120_V23_SOVEREIGN_ZK_HORIZON_100PCT_VERIFIED.json`:
 
 | Empirical Rank | Model | Completed Suites | Evaluated Items | Wave 21–23 Mean (%) | Wave 24–26 Mean (%) | Overall Wave 21–26 Strict Mean (%) | 95% Bootstrap CI |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: |

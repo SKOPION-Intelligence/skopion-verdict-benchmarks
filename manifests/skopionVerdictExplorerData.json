@@ -3092,9 +3092,9 @@
         "en": "Single-model leader (#1 Single-Model, 99.59%) for SOC, CSIRT, and KRITIS operators"
       },
       "description": {
-        "pl": "Najwyżej sklasyfikowany model samodzielny w macierzy v23.0 (99,59% Strict-178, 100,00% w Wave 21–26) przy niskim koszcie energetycznym 1,85 J/decyzję na pojedynczym akceleratorze.",
-        "de": "Höchstplatziertes Einzelmodell der v23.0-Matrix (99,59 % Strict-178, 100,00 % in Wave 21–26) bei nur 1,85 J/Urteil auf einem einzelnen Beschleuniger.",
-        "en": "Highest-ranked standalone model in the v23.0 matrix (99.59% Strict-178, 100.00% across Wave 21–26) at just 1.85 J/decision on a single GPU."
+        "pl": "Najwyżej sklasyfikowany model samodzielny w macierzy v23.0 (99,59% Strict-178, 100,00% w Wave 21–26) przy niskim koszcie energetycznym 1,85 J/decyzję w deterministycznym przebiegu referencyjnym.",
+        "de": "Höchstplatziertes Einzelmodell der v23.0-Matrix (99,59 % Strict-178, 100,00 % in Wave 21–26) bei nur 1,85 J/Urteil im deterministischen Referenzlauf.",
+        "en": "Highest-ranked standalone model in the v23.0 matrix (99.59% Strict-178, 100.00% across Wave 21–26) at just 1.85 J/decision in deterministic reference execution."
       }
     },
     {
@@ -3132,9 +3132,9 @@
         "en": "High-throughput first-line filter for CI/CD and Sovereign Node R1 workstations"
       },
       "description": {
-        "pl": "Kompaktowy model decyzyjny (98,91% Strict-178, 100,00% w Wave 21–23 / 98,33% w Wave 21–26 przy 0,82 J/decyzję) wyprzedzający zewnętrzne modele 27B–671B przy ułamku zapotrzebowania na pamięć VRAM.",
-        "de": "Kompaktes Entscheidungsmodell (98,91 % Strict-178, 100,00 % in Wave 21–23 / 98,33 % in Wave 21–26 bei 0,82 J/Urteil), das externe 27B–671B-Modelle bei einem Bruchteil des VRAM-Bedarfs übertrifft.",
-        "en": "Compact decision model (98.91% Strict-178, 100.00% across Wave 21–23 / 98.33% across Wave 21–26 at 0.82 J/decision) outperforming external 27B–671B judges at a fraction of the VRAM footprint."
+        "pl": "Kompaktowy model decyzyjny (98,91% Strict-178, 100,00% w Wave 21–23 / 98,33% w Wave 21–26 przy 0,82 J/decyzję) wyprzedzający zewnętrzne modele 27B–671B przy ułamku zapotrzebowania na zasoby pamięciowe.",
+        "de": "Kompaktes Entscheidungsmodell (98,91 % Strict-178, 100,00 % in Wave 21–23 / 98,33 % in Wave 21–26 bei 0,82 J/Urteil), das externe 27B–671B-Modelle bei einem Bruchteil des Speicherbedarfs übertrifft.",
+        "en": "Compact decision model (98.91% Strict-178, 100.00% across Wave 21–23 / 98.33% across Wave 21–26 at 0.82 J/decision) outperforming external 27B–671B judges at a fraction of the memory footprint."
       }
     },
     {

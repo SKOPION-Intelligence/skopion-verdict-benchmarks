@@ -19,7 +19,7 @@ Conventional LLM-as-a-Judge and Reward Models operate on **observational surface
 2. **Adversarial Prompt & Log Injection (`Wave-16` & `Wave-17`):** Unicode homoglyphs, SIEM log-forgery payloads, and polymorphic jailbreak wrappers designed to flip judge verdicts.
 3. **Stochastic Drift & Unbounded Tail Risk:** Standard softmax probabilities lack finite-sample mathematical coverage guarantees required by **EU AI Act Annex IV** and **NATO STANAG 4774/4778**.
 
-**SKOPION Verdict v20.0 SINGULARITY** introduces four architectural breakthroughs trained and verified on multi-H100 (`80 GB HBM3`) infrastructure:
+**SKOPION Verdict v20.0 SINGULARITY** introduces four architectural breakthroughs trained and verified within approved German and European academic High-Performance Computing (HPC) research allocations:
 
 1. **Deep Internal Transformer Backbone Adaptation (`DoRA/LoRA` + `SimPO` Contrastive Margin):**
    - Beyond the residual MLP decision head (`verdict_head.pt`), `v20.0 SINGULARITY` adapts internal attention and gated-MLP projections (`q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`) via Weight-Decomposed Low-Rank Adaptation (`DoRA`, `r=64`, `alpha=128`) coupled with Reference-Free Margin-Aware Contrastive Optimization (`SimPO`, $\gamma = 1.45$) and Bilateral Symmetric Swap-Invariance Loss ($\mathcal{L}_{S4}$).

@@ -2,7 +2,7 @@
   "status": "PASS",
   "phase": "Phases 121-150 — SKOPION Verdict v24.0 OMNI-SENTINEL Full 240-Suite Verification (240 Benchmark Suites / 71,340 Evaluations per Model, 140 Full-Matrix Models incl. 64 External Competitors, 3,690 Empirical Wave-21..32 Suite Files = 1,107,000 H100 GPU Item Evaluations, 240/240 CBF & ZK-PCVC Distillation Cycles)",
   "verified_at_utc": "2026-11-09T07:36:12+00:00",
-  "evaluation_environment": "NVIDIA H100 80GB HBM3 GPUs (deterministic temperature=0.0, bfloat16 / PQ2_0 native precision)",
+  "evaluation_environment": "Approved German and European Academic HPC Research Allocations (deterministic temperature=0.0, bfloat16 / PQ2_0 native precision)",
   "total_suites": 240,
   "external_suites": 238,
   "invariance_suites": 2,

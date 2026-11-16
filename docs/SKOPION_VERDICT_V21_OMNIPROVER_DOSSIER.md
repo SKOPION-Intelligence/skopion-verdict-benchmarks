@@ -18,7 +18,7 @@
 
 ## 1. Executive Summary — Why `v21.0 OMNI-PROVER` Achieves Formal & Cryptographic Sovereignty
 
-Building directly upon `v20.0 SINGULARITY` (`100` Suites / `29,340` Evaluations / `98.95%` Strict-98), **SKOPION Verdict v21.0 OMNI-PROVER** (`Phases 76–88`) expands the evaluation horizon to **`120` Benchmark Suites (`35,340` Evaluations per Model across `108` Models, including `50` External Competitors)** and introduces five major architectural breakthroughs verified on `4× NVIDIA H100 80GB HBM3` infrastructure:
+Building directly upon `v20.0 SINGULARITY` (`100` Suites / `29,340` Evaluations / `98.95%` Strict-98), **SKOPION Verdict v21.0 OMNI-PROVER** (`Phases 76–88`) expands the evaluation horizon to **`120` Benchmark Suites (`35,340` Evaluations per Model across `108` Models, including `50` External Competitors)** and introduces five major architectural breakthroughs verified within approved German and European academic High-Performance Computing (HPC) research allocations:
 
 1. **Formal-Proof-Guided `DoRA/LoRA` Backbone + `FP-GRPO` Training with `Lean-4 / Z3 / TLA+` Invariant Gate (`Wave-18`):**
    - Couples internal transformer projection adaptation (`q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`) with Formal-Proof Group Relative Policy Optimization (`FP-GRPO`), verifying state-machine, smart-contract, eBPF kernel, and memory-safety invariants via deterministic `Lean-4`, `Z3 SMT`, and `TLA+` proof obligations (`100.00%` accuracy across all `7` Wave-18 Formal Proving suites).
