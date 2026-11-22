@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://doi.org/10.5281/zenodo.24052954"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24052954.svg" alt="DOI: 10.5281/zenodo.24052954" /></a>
+  <a href="https://doi.org/10.5281/zenodo.24295340"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24295340.svg" alt="DOI: 10.5281/zenodo.24295340" /></a>
   <a href="https://doi.org/10.5281/zenodo.24005152"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24005152.svg" alt="Concept DOI: 10.5281/zenodo.24005152" /></a>
   <a href="https://zenodo.org/communities/skopion-intelligence/"><img src="https://img.shields.io/badge/CERN_Zenodo_Community-SKOPION_Intelligence-024b80?logo=zenodo&logoColor=white" alt="CERN Zenodo Community" /></a>
   <a href="https://www.kaggle.com/datasets/skopionintelligence/skopion-verdict-v20-singularity-benchmarks"><img src="https://img.shields.io/badge/Kaggle_Dataset-240--Suite_Matrix-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle Dataset" /></a>
@@ -29,7 +29,8 @@
 - **Official AI Research Program & Interactive Results Explorer (PL):** [https://skopion.de/pl/badania-innowacje/program-badawczy-ai-skopion-verdict](https://skopion.de/pl/badania-innowacje/program-badawczy-ai-skopion-verdict)
 - **DACH Corporate Portal (DE):** [https://skopion.de](https://skopion.de) · Contact: `kontakt@skopion.de`
 - **European Services Portal (EN / PL):** [https://skopion.pl](https://skopion.pl) · Contact: `kontakt@skopion.pl`
-- **Headquarters:** Mönchengladbach, North Rhine-Westphalia, Germany (EU Horizon Europe PIC: `861665939` · EU Transparency Register: `970323910382-22`)
+- **Headquarters:** Mönchengladbach, North Rhine-Westphalia, Germany (EU Horizon Europe PIC: `861665939`)
+- **Official Institutional & Social Channels:** [Bluesky (`@skopion.de`)](https://bsky.app/profile/skopion.de) · [Fediverse (`@skopion@skopion.de`)](https://social.skopion.de/@skopion) · [The CyberHive EUROPE](https://thecyberhive.eu/providers/skopion-intelligence) · [Marktplatz IT-Sicherheit](https://it-sicherheit.de/user/skopion+intelligence/) · [LinkedIn](https://www.linkedin.com/company/skopion-intelligence/) · [X (`@SkopionIntel`)](https://x.com/SkopionIntel)
 - **Evaluation Methodology & Proprietary Weights Disclosure:** All empirical evaluations were executed deterministically (`temperature = 0.0`, `bfloat16` / `PQ2_0` native precision) within approved German and European academic High-Performance Computing (HPC) research allocations (`3,690` empirical `.jsonl` suite files = `1,107,000` deterministic item evaluations across `Wave 21–32`). Trained model weights and decision-head parameters remain 100% proprietary; complete evaluation summaries, `SHA-256` digests, Goldilocks-field Freivalds Zero-Knowledge Commitments (`ZK-PCVC`), and `EAGLE-3` speculative verifier telemetry are publicly released for independent verification.
 
 ## Global Leaderboard Summary — `240` Suites (`238` External Strict Suites · `71,340` Evaluations / Model · `140` Models incl. `64` External Competitors)
