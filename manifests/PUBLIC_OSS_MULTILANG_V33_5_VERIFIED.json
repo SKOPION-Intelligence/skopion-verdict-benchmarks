@@ -1,0 +1,414 @@
+{
+  "schema": "skopion-v33.5-multilang-oss-summary",
+  "status": "PASS",
+  "generated_at_utc": "2026-11-27T12:17:11.949163+00:00",
+  "external_publication": "OPEN_SCIENCE_WEIGHT_FREE_ARTIFACTS_ONLY",
+  "license_sovereignty": "100% Apache-2.0 Sovereign Checkpoints (31B Gemma-4 + 27B Qwen3.8 + 4B FastGate v33.0)",
+  "vault_checks_before": {
+    "prior_v24_to_v32_1": {
+      "status": "PASS",
+      "verified_at_utc": "2026-11-27T12:17:10.485238+00:00",
+      "v24_hash_verifications": 117,
+      "v25_hash_verifications": 24,
+      "v26_hash_verifications": 24,
+      "total_golden_master_hash_verifications": 165,
+      "hard_weight_freeze_enforced": true,
+      "v29_vault_checks": 4,
+      "total_v24_to_v29_verifications": 169,
+      "v30_vault_checks": 4,
+      "total_v24_to_v30_verifications": 173,
+      "v30_1_vault_checks": 4,
+      "total_v24_to_v30_1_verifications": 177,
+      "v30_2_vault_checks": 5,
+      "total_v24_to_v30_2_verifications": 182,
+      "v31_0_vault_checks": 5,
+      "total_v24_to_v31_0_verifications": 187,
+      "v32_0_vault_checks": 5,
+      "total_v24_to_v32_0_verifications": 192,
+      "v32_1_vault_checks": 5,
+      "total_v24_to_v32_1_verifications": 197
+    },
+    "di041_vaults_verified": 3,
+    "total_v24_to_di041_verifications": 200,
+    "v33_vaults_verified": 5,
+    "total_v24_to_v33_0_verifications": 205,
+    "v33_1_vaults_verified": 5,
+    "total_v24_to_v33_1_verifications": 210,
+    "v33_2_vaults_verified": 5,
+    "total_v24_to_v33_2_verifications": 215,
+    "v33_3_vaults_verified": 5,
+    "total_v24_to_v33_3_verifications": 220,
+    "v33_4_vaults_verified": 5,
+    "total_v24_to_v33_4_verifications": 225
+  },
+  "checkpoint_sha256": {
+    "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": "f809d13d3e50546b295a0adcbaa73865e197ee97fdebbe368a790415fd3fd88b",
+    "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": "3be0c8cc3ee752dc135e90b38601bfcff14f6214abf495fbfee7badb0fcf1e83",
+    "skopion-verdict-4b-fast-ast-gate-v33.0": "791a26ba2c16481770df925d58c457f9021a08c17b3a0054a2354d34fed7a0c8"
+  },
+  "repos_scanned": [
+    {
+      "repo": "flask",
+      "url": "https://github.com/pallets/flask.git",
+      "expected_language": "python",
+      "scan_subpath": "src/flask",
+      "commit_sha": "49943b5a94413a530761350f04e896f76e8d620e",
+      "files_scanned": 24,
+      "by_language_files": {
+        "python": 24
+      },
+      "raw_candidates_total": 15,
+      "non_test_candidates_total": 15,
+      "selected_candidates": 15,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 2541,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "PATH_FILE_IO": 11,
+        "RCE_CMD": 2,
+        "XSS_HTML": 2
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 15
+      }
+    },
+    {
+      "repo": "fastapi",
+      "url": "https://github.com/fastapi/fastapi.git",
+      "expected_language": "python",
+      "scan_subpath": "fastapi",
+      "commit_sha": "05e6df7e906c3decba377c37548019973f40bf15",
+      "files_scanned": 54,
+      "by_language_files": {
+        "python": 54
+      },
+      "raw_candidates_total": 5,
+      "non_test_candidates_total": 5,
+      "selected_candidates": 5,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 5532,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "PATH_FILE_IO": 2,
+        "XSS_HTML": 3
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 5
+      }
+    },
+    {
+      "repo": "gin",
+      "url": "https://github.com/gin-gonic/gin.git",
+      "expected_language": "go",
+      "scan_subpath": ".",
+      "commit_sha": "0f09c3a9b4626d9fe9979cf4d0521d6ae32ab646",
+      "files_scanned": 59,
+      "by_language_files": {
+        "go": 59
+      },
+      "raw_candidates_total": 4,
+      "non_test_candidates_total": 4,
+      "selected_candidates": 4,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 0,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "PATH_FILE_IO": 4
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 4
+      }
+    },
+    {
+      "repo": "fiber",
+      "url": "https://github.com/gofiber/fiber.git",
+      "expected_language": "go",
+      "scan_subpath": ".",
+      "commit_sha": "0d4d872a29e844159a59b0b9f4cd7afab6ec624a",
+      "files_scanned": 230,
+      "by_language_files": {
+        "go": 230
+      },
+      "raw_candidates_total": 11,
+      "non_test_candidates_total": 11,
+      "selected_candidates": 11,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 0,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "PATH_FILE_IO": 10,
+        "RCE_CMD": 1
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 11
+      }
+    },
+    {
+      "repo": "axum",
+      "url": "https://github.com/tokio-rs/axum.git",
+      "expected_language": "rust",
+      "scan_subpath": "axum/src",
+      "commit_sha": "8d8944e6db1a74e671e298aa9bbbd98f8c5e7022",
+      "files_scanned": 59,
+      "by_language_files": {
+        "rust": 59
+      },
+      "raw_candidates_total": 5,
+      "non_test_candidates_total": 3,
+      "selected_candidates": 3,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 0,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "SSRF_HTTP": 3
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 3
+      }
+    },
+    {
+      "repo": "reqwest",
+      "url": "https://github.com/seanmonstar/reqwest.git",
+      "expected_language": "rust",
+      "scan_subpath": "src",
+      "commit_sha": "11ea959bc35f0b221afff7277ccc2388b05752b8",
+      "files_scanned": 40,
+      "by_language_files": {
+        "rust": 40
+      },
+      "raw_candidates_total": 3,
+      "non_test_candidates_total": 3,
+      "selected_candidates": 3,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 0,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "RCE_CMD": 2,
+        "PATH_FILE_IO": 1
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 3
+      }
+    },
+    {
+      "repo": "hono",
+      "url": "https://github.com/honojs/hono.git",
+      "expected_language": "typescript",
+      "scan_subpath": "src",
+      "commit_sha": "717dc17cb80bff270ddc557614fe3c3e1b916a1f",
+      "files_scanned": 315,
+      "by_language_files": {
+        "typescript": 315
+      },
+      "raw_candidates_total": 21,
+      "non_test_candidates_total": 12,
+      "selected_candidates": 12,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 0,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {
+        "RCE_CMD": 6,
+        "SSRF_HTTP": 1,
+        "XSS_HTML": 5
+      },
+      "selected_by_tier": {
+        "SECURITY_SINK": 12
+      }
+    },
+    {
+      "repo": "trpc",
+      "url": "https://github.com/trpc/trpc.git",
+      "expected_language": "typescript",
+      "scan_subpath": "packages/server/src",
+      "commit_sha": "ac7c652c0261c554c794abcf7e81cb0d241396cf",
+      "files_scanned": 103,
+      "by_language_files": {
+        "typescript": 103
+      },
+      "raw_candidates_total": 4,
+      "non_test_candidates_total": 0,
+      "selected_candidates": 0,
+      "suppression_stats": {
+        "suppressed_safe_sql": 0,
+        "suppressed_db_wrapper": 0,
+        "suppressed_static_go_sql": 0,
+        "suppressed_multiline_template_lines": 0,
+        "suppressed_route_hardening": 0
+      },
+      "selected_by_category": {},
+      "selected_by_tier": {}
+    }
+  ],
+  "total_candidates": 53,
+  "routing_langaware": {
+    "total_items": 53,
+    "tier1_fast_exit_count": 0,
+    "tier1_fast_exit_pct": 0.0,
+    "tier3_escalated_count": 53,
+    "cascade_vs_pure_bft_agreement_pct": 100.0,
+    "cascade_mean_ms": 1578.11,
+    "pure_bft_mean_ms": 863.61,
+    "latency_speedup_x": 0.547
+  },
+  "routing_standard": {
+    "total_items": 53,
+    "tier1_fast_exit_count": 4,
+    "tier1_fast_exit_pct": 7.55,
+    "tier3_escalated_count": 49,
+    "cascade_vs_pure_bft_agreement_pct": 94.34,
+    "cascade_mean_ms": 1543.5,
+    "pure_bft_mean_ms": 863.61,
+    "latency_speedup_x": 0.56
+  },
+  "cascade_crisp_counts": {
+    "AUTO_CONFIRM_CRITICAL_VULN": 0,
+    "AUTO_REJECT_BENIGN_FP": 48,
+    "ABSTAIN_ESCALATE_DEEP_AUDIT": 5
+  },
+  "actionable_counts": {
+    "AUTO_CONFIRM_CRITICAL_VULN": 0,
+    "AUTO_REJECT_BENIGN_FP": 48,
+    "ABSTAIN_ESCALATE_DEEP_AUDIT": 5
+  },
+  "actionable_auto_confirm_count": 0,
+  "standard_compcrc_counts": {
+    "AUTO_CONFIRM_CRITICAL_VULN": 4,
+    "AUTO_REJECT_BENIGN_FP": 46,
+    "ABSTAIN_ESCALATE_DEEP_AUDIT": 3
+  },
+  "pure_bft_crisp_counts": {
+    "AUTO_CONFIRM_CRITICAL_VULN": 0,
+    "AUTO_REJECT_BENIGN_FP": 48,
+    "ABSTAIN_ESCALATE_DEEP_AUDIT": 5
+  },
+  "fp_auto_rejection_rate_pct": 90.57,
+  "human_workload_reduction_pct": 90.57,
+  "per_repo_breakdown": {
+    "flask": {
+      "total": 15,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 15,
+      "ABSTAIN": 0,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "fastapi": {
+      "total": 5,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 5,
+      "ABSTAIN": 0,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "gin": {
+      "total": 4,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 1,
+      "ABSTAIN": 3,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "fiber": {
+      "total": 11,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 10,
+      "ABSTAIN": 1,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "axum": {
+      "total": 3,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 3,
+      "ABSTAIN": 0,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "reqwest": {
+      "total": 3,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 3,
+      "ABSTAIN": 0,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "hono": {
+      "total": 12,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 11,
+      "ABSTAIN": 1,
+      "actionable_AUTO_CONFIRM": 0
+    }
+  },
+  "per_language_breakdown": {
+    "python": {
+      "total": 20,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 20,
+      "ABSTAIN": 0,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "go": {
+      "total": 15,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 11,
+      "ABSTAIN": 4,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "rust": {
+      "total": 6,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 6,
+      "ABSTAIN": 0,
+      "actionable_AUTO_CONFIRM": 0
+    },
+    "typescript": {
+      "total": 12,
+      "AUTO_CONFIRM": 0,
+      "AUTO_REJECT": 11,
+      "ABSTAIN": 1,
+      "actionable_AUTO_CONFIRM": 0
+    }
+  },
+  "sarif_validation": {
+    "runs": 1,
+    "results": 53,
+    "validated_locations": 53
+  },
+  "real_oss_codepi_invariance": {
+    "schema": "skopion-v33.5-oss-codepi-invariance",
+    "generated_at_utc": "2026-11-27T12:17:11.949099+00:00",
+    "pairs_total": 8,
+    "flips": 0,
+    "asr_pct": 0.0,
+    "max_prob_delta": 0.0
+  },
+  "auto_confirm_structural_summary": {
+    "total": 0,
+    "source_confirmed": 0,
+    "needs_manual_guard_review": 0
+  },
+  "weights_published": false
+}

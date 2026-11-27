@@ -1,0 +1,165 @@
+{
+  "schema": "skopion-verdict-phase151-675-v25-to-v33-5-verified-manifest",
+  "version": "33.5.0",
+  "phase_span": "151-675",
+  "program_continuum": "v1.0 -> v24.0 OMNI-SENTINEL (Phases 1-150) -> v25.0..v33.5.0 (Phases 151-675)",
+  "git_commit_sha": "d9b9783186995bf6980d095f25f4dedaca1690a3",
+  "license_sovereignty": "100% Apache-2.0 Sovereign Checkpoints",
+  "weights_published": false,
+  "proprietary_weights_disclosure": "Trained model weights and residual head checkpoints remain proprietary; only SHA-256 digests, calibration parameters, and empirical telemetry are published.",
+  "prior_version_anchor": {
+    "version": "24.0.0",
+    "release": "OMNI-SENTINEL",
+    "doi": "https://doi.org/10.5281/zenodo.24295340",
+    "concept_doi": "https://doi.org/10.5281/zenodo.24005152",
+    "total_suites": 240,
+    "strict_suites": 238,
+    "evaluations_per_model": 71340,
+    "models": 140,
+    "external_models": 64,
+    "top1_system": "skopion-verdict-committee-v24.0-omni-sentinel",
+    "top1_strict_238_pct": 99.92,
+    "top2_single_model": "skopion-verdict-27b-v24.0-omni-sentinel",
+    "top2_strict_238_pct": 99.91,
+    "vault_checks": 117
+  },
+  "compute_attribution": "Approved German and European academic High-Performance Computing (HPC) research allocations (RWTH Aachen University & WestAI, EuroHPC JU / Forschungszentrum Juelich, GWDG Goettingen / KISSKI).",
+  "generations": [
+    {
+      "version": "v25.0",
+      "phases": "151-180",
+      "focus": "Post-Hoc Split-Conformal & Temperature Scaling + Orthogonal Cross-Family BFT",
+      "highlights": {
+        "v24_27b_ece_before": 0.068643,
+        "v24_27b_ece_after": 1.7e-05,
+        "v24_27b_ece_reduction_x": 4037.82,
+        "v24_selective_risk_pct": 0.0,
+        "orthogonal_families": [
+          "Qwen",
+          "Mistral/Bielik-11B",
+          "Llama-3.1"
+        ],
+        "cumulative_vaults": 141
+      }
+    },
+    {
+      "version": "v26.0",
+      "phases": "181-210",
+      "focus": "Prior-Anchored Residual Orthogonal Heads + 2-Tier Conformal BFT Cascade + SAST Sieve",
+      "highlights": {
+        "non_qwen_position_gap_pp": 0.0,
+        "bielik_11b_wild_ood_pct": 96.0,
+        "selene_8b_mcq15_pct": 71.021,
+        "sast_1500_sieve_acc_pct": 100.0,
+        "sast_1500_workload_reduction_pct": 80.0,
+        "cumulative_vaults": 165
+      }
+    },
+    {
+      "version": "v27.0",
+      "phases": "211-240",
+      "focus": "Golden-Master Hard Weight Freeze + Wave-RealCVE-PatchDiff-OOD + OASIS SARIF v2.1.0 Cascade",
+      "highlights": {
+        "frozen_golden_master_vaults": 165,
+        "real_cve_4way_consistency_pct": 100.0,
+        "sarif_2000_sieve_acc_pct": 100.0,
+        "sarif_2000_workload_reduction_pct": 80.0
+      }
+    },
+    {
+      "version": "v29.0-v31.0",
+      "phases": "271-420",
+      "focus": "100% Apache-2.0 Sovereignty Firewall + Reverse-Caller AST Slicer + Per-Regime CompCRC",
+      "highlights": {
+        "zero_leakage_hard_ast_pairs": 2227,
+        "compcrc_alpha": 0.01,
+        "compcrc_ucb_pct": 0.544,
+        "v31_multihop_rank": 1,
+        "v31_multihop_acc_pct": 86.505,
+        "legacy44_acc_pct": 90.646,
+        "non_saturated26_acc_pct": 86.304,
+        "cumulative_vaults": 187
+      }
+    },
+    {
+      "version": "v32.0-v32.1",
+      "phases": "421-475",
+      "focus": "Deterministic Code-PI Immunity + Regime-Gated 4B Zero-Forgetting",
+      "highlights": {
+        "code_pi_asr_pct": 0.0,
+        "baseline_code_pi_asr_range_pct": [
+          5.32,
+          49.03
+        ],
+        "reward_bench_4b_recovery_pp": 14.0,
+        "phishnchips_cruxeval_regression_pp": 0.0,
+        "cumulative_vaults": 197
+      }
+    },
+    {
+      "version": "v33.0",
+      "phases": "491-520",
+      "focus": "Zero-Tradeoff Sovereign Apache-2.0 Unification + Decision Index 0.4.1",
+      "highlights": {
+        "decision_index_0_4_1_queries": 13180,
+        "decision_index_0_4_1_errors": 0,
+        "pure_2pillar_bft_pct": 87.64,
+        "pillar_31b_pct": 87.0,
+        "compcrc_alpha_0_005_pct": 85.47,
+        "false_code_ast_diff_triggers_before": 1970,
+        "false_code_ast_diff_triggers_after": 6,
+        "legacy44_rank": 1,
+        "legacy44_pct": 90.691,
+        "non_saturated26_rank": 1,
+        "non_saturated26_pct": 86.368,
+        "security30_rank": 1,
+        "security30_pct": 88.54,
+        "synthetic_code_pi_probes": "300x5",
+        "synthetic_code_pi_asr_pct": 0.0,
+        "cumulative_vaults": 205
+      }
+    },
+    {
+      "version": "v33.1-v33.4",
+      "phases": "521-635",
+      "focus": "Live Multi-Language AST Precision Calibration + 2,000-Plugin Scale FP-Reduction",
+      "highlights": {
+        "internal_repos_scanned": 4,
+        "internal_actionable_narrowed": "164 -> 2",
+        "wp_wave1_500_workload_reduction_pct": 95.17,
+        "wp_wave2_1500_workload_reduction_pct": 94.56,
+        "live_internal_wp_code_pi_pairs": 17,
+        "live_internal_wp_code_pi_asr_pct": 0.0,
+        "cumulative_vaults": 225
+      }
+    },
+    {
+      "version": "v33.5.0",
+      "phases": "636-675",
+      "focus": "Public Multi-Language OSS Blind Benchmark + ZDR Self-Audit Hardening",
+      "highlights": {
+        "public_oss_repos": 8,
+        "public_oss_languages": [
+          "python",
+          "go",
+          "rust",
+          "typescript"
+        ],
+        "public_oss_candidates": 53,
+        "langaware_compcrc_bft_agreement_pct": 100.0,
+        "standard_compcrc_bft_agreement_pct": 94.34,
+        "crisp_q95_workload_reduction_pct": 90.57,
+        "public_oss_code_pi_pairs": 8,
+        "public_oss_code_pi_asr_pct": 0.0,
+        "semgrep_findings_post_hardening": 0,
+        "semgrep_rules_run": 200,
+        "unit_tests_passed": 46,
+        "opencode_checker_zdr_verdict": "APPROVE",
+        "cumulative_vaults": 230,
+        "release_packs_verified": 7
+      }
+    }
+  ],
+  "vault_count_total": 230,
+  "release_packs_verified": 7
+}

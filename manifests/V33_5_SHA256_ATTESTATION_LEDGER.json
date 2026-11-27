@@ -1,0 +1,55 @@
+{
+  "schema": "skopion-verdict-v33.5-sha256-attestation-ledger",
+  "version": "33.5.0",
+  "git_commit_sha": "d9b9783186995bf6980d095f25f4dedaca1690a3",
+  "weights_published": false,
+  "license_sovereignty": "100% Apache-2.0 Sovereign Checkpoints",
+  "frozen_v33_0_checkpoints_sha256": {
+    "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": {
+      "sha256": "3be0c8cc3ee752dc135e90b38601bfcff14f6214abf495fbfee7badb0fcf1e83",
+      "bytes": 556846,
+      "backbone_license": "Apache-2.0"
+    },
+    "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": {
+      "sha256": "f809d13d3e50546b295a0adcbaa73865e197ee97fdebbe368a790415fd3fd88b",
+      "bytes": 584494,
+      "backbone_license": "Apache-2.0"
+    },
+    "skopion-verdict-4b-fast-ast-gate-v33.0": {
+      "sha256": "791a26ba2c16481770df925d58c457f9021a08c17b3a0054a2354d34fed7a0c8",
+      "bytes": 280366,
+      "backbone_license": "Apache-2.0"
+    }
+  },
+  "immutable_dual_0440_vault_chain": {
+    "total_verified_vaults": 230,
+    "breakdown": {
+      "v24_0": 117,
+      "v25_0": 24,
+      "v26_0": 24,
+      "v29_0_to_v32_1": 32,
+      "decision_index_0_4_1": 3,
+      "v33_0_to_v33_5": 30
+    }
+  },
+  "release_packs_sha256sums_verified": 7,
+  "production_pack_hashed_files": 33,
+  "open_science_companion_files": {
+    "SKOPION_VERDICT_V33_5_SOVEREIGN_DOSSIER.md": {
+      "sha256": "489073a9efd9f827548252d0fffd803377b70b6d308aa9679c0922f178cd3fd3",
+      "bytes": 10131
+    },
+    "PHASE151_675_V25_TO_V33_5_VERIFIED_MANIFEST.json": {
+      "sha256": "0a3ad6ad8d48cfd5e5871c57cbeb581ca5f09e8f2a7257c55996c9affda67b49",
+      "bytes": 5907
+    },
+    "DECISION_INDEX_0_4_1_V33_EMPIRICAL_SCORES.json": {
+      "sha256": "792ffff251226fd19f64bf0f8ab0da2e09a3ae9dcc8cd077d95db9288591eafe",
+      "bytes": 5326
+    },
+    "PUBLIC_OSS_MULTILANG_V33_5_VERIFIED.json": {
+      "sha256": "97aac5416e9ba6eb73c1b077b8a4f05cc858a7a9b983471736b7ff1822ab9d17",
+      "bytes": 11840
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "skopion-verdict-decision-index-0.4.1-v33-empirical-scores",
+  "version": "33.5.0",
+  "benchmark": "Decision Index 0.4.1",
+  "queries_evaluated": 13180,
+  "errors": 0,
+  "license": "Apache-2.0",
+  "weights_published": false,
+  "compute_environment": "Approved German and European academic HPC research allocations (RWTH Aachen University & WestAI; deterministic offline evaluation)",
+  "official_published_references": {
+    "karpo_31b_ten_bench_avg_pct": 87.04,
+    "glide_27b_ten_bench_avg_pct": 85.6,
+    "d3_ultra_27b_ten_bench_avg_pct": 84.64
+  },
+  "routing_spurious_code_ast_diff_reduction": {
+    "before_triggers": 1970,
+    "after_triggers": 6,
+    "total_queries": 13180,
+    "bfcl_false_triggers": 0,
+    "cruxeval_false_triggers": 0
+  },
+  "systems": [
+    {
+      "id": "skopion-v33.0-pure-2pillar-sovereign-bft",
+      "ten_bench_avg_pct": 87.64,
+      "median_ms": 271.49,
+      "p80_ms": 355.52,
+      "under_1000ms": true,
+      "bfcl_pct": 98.23,
+      "cruxeval_pct": 93.51,
+      "phishnchips_pct": 99.15,
+      "code_ast_diff_triggers": 6
+    },
+    {
+      "id": "skopion-verdict-31b-gemma4-ast-sentinel-v33.0",
+      "ten_bench_avg_pct": 87.0,
+      "median_ms": 162.4,
+      "p80_ms": 229.09,
+      "under_1000ms": true,
+      "bfcl_pct": 97.99,
+      "cruxeval_pct": 92.98,
+      "phishnchips_pct": 99.3,
+      "code_ast_diff_triggers": 6
+    },
+    {
+      "id": "skopion-v33.0-zero-tradeoff-apache2-compcrc-cascade",
+      "ten_bench_avg_pct": 85.47,
+      "median_ms": 113.05,
+      "p80_ms": 455.61,
+      "under_1000ms": true,
+      "bfcl_pct": 98.17,
+      "cruxeval_pct": 86.49,
+      "phishnchips_pct": 88.45,
+      "code_ast_diff_triggers": 6
+    },
+    {
+      "id": "skopion-verdict-27b-qwen38-ast-sentinel-v33.0",
+      "ten_bench_avg_pct": 84.54,
+      "median_ms": 270.64,
+      "p80_ms": 355.37,
+      "under_1000ms": true,
+      "bfcl_pct": 97.34,
+      "cruxeval_pct": 89.82,
+      "phishnchips_pct": 80.3,
+      "code_ast_diff_triggers": 6
+    },
+    {
+      "id": "skopion-verdict-4b-fast-ast-gate-v33.0",
+      "ten_bench_avg_pct": 78.55,
+      "median_ms": 64.66,
+      "p80_ms": 131.97,
+      "under_1000ms": true,
+      "bfcl_pct": 96.64,
+      "cruxeval_pct": 63.86,
+      "phishnchips_pct": 74.75,
+      "code_ast_diff_triggers": 6
+    }
+  ],
+  "compcrc_calibration_profile": {
+    "schema": "skopion-v33.0-perregime-mc3-compcrc",
+    "selected_risk_budget_alpha": 0.005,
+    "mc3_temperatures": {
+      "skopion-verdict-4b-fast-ast-gate-v33.0": 1.2416,
+      "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": 1.5206,
+      "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": 1.6582
+    },
+    "mc3_temperatures_by_regime": {
+      "skopion-verdict-4b-fast-ast-gate-v33.0": {
+        "code_ast_diff": 1.4548,
+        "binary_audit": 1.0736,
+        "multichoice": 1.1963
+      },
+      "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": {
+        "code_ast_diff": 2.2032,
+        "binary_audit": 1.0482,
+        "multichoice": 1.3104
+      },
+      "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": {
+        "code_ast_diff": 1.866,
+        "binary_audit": 1.8449,
+        "multichoice": 1.2638
+      }
+    },
+    "tier3_simplex_regime_weights": {
+      "code_ast_diff": {
+        "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": 0.5109,
+        "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": 0.4891
+      },
+      "binary_audit": {
+        "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": 0.6321,
+        "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": 0.3679
+      },
+      "multichoice": {
+        "skopion-verdict-31b-gemma4-ast-sentinel-v33.0": 0.6202,
+        "skopion-verdict-27b-qwen38-ast-sentinel-v33.0": 0.3798
+      }
+    },
+    "selected_per_regime_tau1_oof": {
+      "code_ast_diff": 0.8537,
+      "binary_audit": 0.9126,
+      "multichoice": 0.8892
+    },
+    "selected_per_regime_tau2_oof": {
+      "code_ast_diff": 1.01,
+      "binary_audit": 1.01,
+      "multichoice": 1.01
+    },
+    "pure_2pillar_bft_full_summary": {
+      "n_items": 13744,
+      "accuracy_pct": 89.421,
+      "strict_both_correct_pct": 88.608,
+      "position_flip_rate_pct": 0.626,
+      "ece_10bin": 0.009313,
+      "brier_score": 0.079588,
+      "brier_skill_score": 0.861,
+      "nll": 0.255131,
+      "mean_ms": 456.86
+    },
+    "selected_profile_summary": {
+      "tier1_gate_model": "skopion-verdict-4b-fast-ast-gate-v33.0",
+      "tier2_model": "none",
+      "risk_budget_alpha": 0.005,
+      "per_regime_mean_tau1_oof": {
+        "code_ast_diff": 0.8537,
+        "binary_audit": 0.9126,
+        "multichoice": 0.8892
+      },
+      "per_regime_mean_tau2_oof": {
+        "code_ast_diff": 1.01,
+        "binary_audit": 1.01,
+        "multichoice": 1.01
+      },
+      "tier1_fast_exit_pct": 47.5,
+      "tier2_mid_exit_pct": 0.0,
+      "tier3_full_bft_pct": 52.5,
+      "conditional_tier1_err_pct": 2.757,
+      "population_tier1_excess_err_pct": 0.262,
+      "compcrc_marginal_excess_risk_ucb_pct": 0.344,
+      "lanel_v29_acc_pct": 71.116,
+      "lanel_v29_strict_pct": 70.319,
+      "n_items": 13744,
+      "accuracy_pct": 89.224,
+      "strict_both_correct_pct": 88.439,
+      "position_flip_rate_pct": 0.65,
+      "ece_10bin": 0.011926,
+      "brier_score": 0.082256,
+      "brier_skill_score": 0.85634,
+      "nll": 0.270366,
+      "mean_ms": 411.18
+    }
+  }
+}

@@ -3,37 +3,47 @@
 </p>
 
 <p align="center">
-  <a href="https://doi.org/10.5281/zenodo.24295340"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24295340.svg" alt="DOI: 10.5281/zenodo.24295340" /></a>
+  <a href="https://doi.org/10.5281/zenodo.24591232"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24591232.svg" alt="DOI: 10.5281/zenodo.24591232" /></a>
   <a href="https://doi.org/10.5281/zenodo.24005152"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.24005152.svg" alt="Concept DOI: 10.5281/zenodo.24005152" /></a>
+  <a href="https://doi.org/10.5281/zenodo.24295340"><img src="https://img.shields.io/badge/Archived_v24.0_DOI-10.5281%2Fzenodo.24295340-4c6ef5" alt="Archived v24.0 DOI: 10.5281/zenodo.24295340" /></a>
   <a href="https://zenodo.org/communities/skopion-intelligence/"><img src="https://img.shields.io/badge/CERN_Zenodo_Community-SKOPION_Intelligence-024b80?logo=zenodo&logoColor=white" alt="CERN Zenodo Community" /></a>
-  <a href="https://www.kaggle.com/datasets/skopionintelligence/skopion-verdict-v20-singularity-benchmarks"><img src="https://img.shields.io/badge/Kaggle_Dataset-240--Suite_Matrix-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle Dataset" /></a>
+  <a href="https://www.kaggle.com/datasets/skopionintelligence/skopion-verdict-v20-singularity-benchmarks"><img src="https://img.shields.io/badge/Kaggle_Dataset-v33.5.0_%2B_240--Suite-20BEFF?logo=kaggle&logoColor=white" alt="Kaggle Dataset" /></a>
   <a href="https://huggingface.co/SKOPION-Intelligence"><img src="https://img.shields.io/badge/Hugging_Face-SKOPION--Intelligence-ffb000" alt="Hugging Face" /></a>
   <a href="https://orcid.org/0009-0002-1713-9490"><img src="https://img.shields.io/badge/ORCID-0009--0002--1713--9490-A6CE39?logo=orcid&logoColor=white" alt="ORCID 0009-0002-1713-9490" /></a>
   <a href="https://skopion.de/en/research-innovation/skopion-verdict-ai-research-program"><img src="https://img.shields.io/badge/EU_PIC-861665939-003399" alt="EU PIC 861665939" /></a>
 </p>
 
 <p align="center">
-  <strong>🌐 Language / Język / Sprache:</strong>
-  <a href="#english-international-overview"><strong>🇬🇧 English (Default)</strong></a> ·
-  <a href="#deutsch-dach--kritis-übersicht"><strong>🇩🇪 Deutsch</strong></a> ·
-  <a href="#polski-przegląd-programu-badawczego"><strong>🇵🇱 Polski</strong></a>
+  <strong>Language / Język / Sprache:</strong>
+  <a href="#english-international-overview"><strong>English (Default)</strong></a> ·
+  <a href="#deutsch-dach--kritis-übersicht"><strong>Deutsch</strong></a> ·
+  <a href="#polski-przegląd-programu-badawczego"><strong>Polski</strong></a>
 </p>
 
 ---
 
 <a id="english-international-overview"></a>
-# 🇬🇧 SKOPION Intelligence — Sovereign European AI Safety, KRITIS/NATO Defense Cybersecurity, Goldilocks `ZK-PCVC` Commitments, `CBF` Safety Interlocks & `EAGLE-3` Speculative Verification (`v24.0 OMNI-SENTINEL` · `240` Suites · `71,340` Evaluations/Model · `140` Models)
+# SKOPION Intelligence — Sovereign Apache-2.0 AST-Sentinel, Decision Index 0.4.1, Code-PI Immunity & Cryptographic Decision AI (`v33.5.0` · Phases 1–675 · `v24.0` 240-Suite Baseline)
 
 - **Official AI Research Program & Interactive Results Explorer (EN):** [https://skopion.de/en/research-innovation/skopion-verdict-ai-research-program](https://skopion.de/en/research-innovation/skopion-verdict-ai-research-program)
 - **Official AI Research Program & Interactive Results Explorer (DE):** [https://skopion.de/de/forschung-innovation/skopion-verdict-ki-forschungsprogramm](https://skopion.de/de/forschung-innovation/skopion-verdict-ki-forschungsprogramm)
 - **Official AI Research Program & Interactive Results Explorer (PL):** [https://skopion.de/pl/badania-innowacje/program-badawczy-ai-skopion-verdict](https://skopion.de/pl/badania-innowacje/program-badawczy-ai-skopion-verdict)
+- **Latest CERN / Zenodo Open-Science Deposit (`v33.5.0`, Phases 151–675):** [https://doi.org/10.5281/zenodo.24591232](https://doi.org/10.5281/zenodo.24591232) · **Concept DOI:** [https://doi.org/10.5281/zenodo.24005152](https://doi.org/10.5281/zenodo.24005152) · **Archived `v24.0` DOI:** [https://doi.org/10.5281/zenodo.24295340](https://doi.org/10.5281/zenodo.24295340)
 - **DACH Corporate Portal (DE):** [https://skopion.de](https://skopion.de) · Contact: `kontakt@skopion.de`
 - **European Services Portal (EN / PL):** [https://skopion.pl](https://skopion.pl) · Contact: `kontakt@skopion.pl`
 - **Headquarters:** Mönchengladbach, North Rhine-Westphalia, Germany (EU Horizon Europe PIC: `861665939`)
 - **Official Institutional & Social Channels:** [Bluesky (`@skopion.de`)](https://bsky.app/profile/skopion.de) · [Fediverse (`@skopion@skopion.de`)](https://social.skopion.de/@skopion) · [The CyberHive EUROPE](https://thecyberhive.eu/providers/skopion-intelligence) · [Marktplatz IT-Sicherheit](https://it-sicherheit.de/user/skopion+intelligence/) · [LinkedIn](https://www.linkedin.com/company/skopion-intelligence/) · [X (`@SkopionIntel`)](https://x.com/SkopionIntel)
-- **Evaluation Methodology & Proprietary Weights Disclosure:** All empirical evaluations were executed deterministically (`temperature = 0.0`, `bfloat16` / `PQ2_0` native precision) within approved German and European academic High-Performance Computing (HPC) research allocations (`3,690` empirical `.jsonl` suite files = `1,107,000` deterministic item evaluations across `Wave 21–32`). Trained model weights and decision-head parameters remain 100% proprietary; complete evaluation summaries, `SHA-256` digests, Goldilocks-field Freivalds Zero-Knowledge Commitments (`ZK-PCVC`), and `EAGLE-3` speculative verifier telemetry are publicly released for independent verification.
+- **Evaluation Methodology & Proprietary Weights Disclosure:** All empirical evaluations were executed deterministically (`temperature = 0.0`, native precision) within approved German and European academic High-Performance Computing (HPC) research allocations (RWTH Aachen University & WestAI, EuroHPC JU / Forschungszentrum Jülich, GWDG Göttingen / KISSKI). Trained model weights and residual decision-head parameters remain 100% proprietary (`SKOPION Intelligence`). Zero model weights (`.pt`, `.safetensors`, `.bin`, `.gguf`) are published; complete evaluation summaries, conformal calibration profiles, OASIS SARIF v2.1.0 validation manifests, Goldilocks-field Freivalds `ZK-PCVC` commitments, and `SHA-256` attestation ledgers are openly released for independent verification.
 
-## Global Leaderboard Summary — `240` Suites (`238` External Strict Suites · `71,340` Evaluations / Model · `140` Models incl. `64` External Competitors)
+## Stage 8A–9 Release Highlights — `SKOPION Verdict v33.5.0` (Phases 151–675 · `100% Apache-2.0` Sovereign Backbones)
+
+- **Official Decision Index 0.4.1 (`13,180` queries, `0` errors):** **`87.64%`** `Pure-2Pillar-BFT` (`271.49 ms` median, `98.23%` `BFCL`, `93.51%` `CRUXEval`, `99.15%` `PhishNChips`), **`87.00%`** `31B` (`162.40 ms`), **`85.47%`** `CompCRC` (`113.05 ms` median, outperforming `karpo-31B` `87.04%`, `GLiDE 27B` `85.60%`, `d3-ultra-27B` `84.64%` references). False `code_ast_diff` routing triggers reduced from `1,970` to **`6 / 13,180`**.
+- **Multi-Suite Dominance (`v33.0`):** **#1** Unified Legacy 44 (`90.691%`, `11,354` items), **#1** Non-Saturated 26 (`86.368%`, `7,754` items), **#1** Security 30-Suite (`88.540%`, `8,848` items), **`100.00%`** Multi-Lang Real-CVE across all 5 tracks (`31B` & `4B`).
+- **Deterministic Code-PI Immunity:** **`0.00%` ASR** (`0` verdict flips) across `300 x 5` synthetic attacks (vs `5.32%–49.03%` unguarded baselines), `17` live internal/WP pairs (`max_prob_delta = 0.0`), and `8` live public OSS pairs.
+- **Blind Public Multi-Language OSS Benchmark (`v33.5.0`, `8` repos / `53` non-test candidates across Python, Go, Rust, TypeScript):** LangAware CompCRC (`alpha=0.005`, `non_php_tau1_floor=1.01`) reaches **`100.0%`** BFT agreement (vs `94.34%` standard CompCRC); CRISP (`q95=0.45`) reduces human triage workload by **`90.57%`** (`48 AUTO_REJECT`, `5 ABSTAIN`, `0` false `AUTO_CONFIRM`); OASIS SARIF v2.1.0 validated `53/53`.
+- **Independent ZDR Self-Audit & Threat-Model Calibration:** `Semgrep 1.186.0` **`0` findings** across `200` rules, `46/46` E2E unit tests passing, `Hermes ZDR` & `OpenCode Checker ZDR` (`VERDICT: APPROVE`), and **`230/230`** dual-`0440` immutable research vaults attested (`SHA-256`).
+
+## Archived `v24.0 OMNI-SENTINEL` Baseline — `240` Suites (`238` External Strict Suites · `71,340` Evaluations / Model · `140` Models incl. `64` External Competitors)
 
 | Global Rank | Model / System | Params / Architecture | Strict-238 External Mean | 95% Bootstrap CI | Wave 21–32 Empirical (`120` Suites) | Energy (`J / decision`) |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -56,11 +66,12 @@
 
 <a id="deutsch-dach--kritis-übersicht"></a>
 <details>
-<summary><strong>🇩🇪 Deutsch — SKOPION Verdict v24.0 OMNI-SENTINEL KI-Forschungsprogramm (240 Suiten · 71.340 Prüfungen/Modell · 140 Modelle)</strong></summary>
+<summary><strong>Deutsch — SKOPION Verdict v33.5.0 & v24.0 OMNI-SENTINEL KI-Forschungsprogramm (Phasen 1–675 · 240 Suiten)</strong></summary>
 
-### Souveräne Formale & Kryptographische Entscheidungs-KI für KRITIS & Verteidigung (`240` Suiten · `71.340` Prüfungen/Modell · `140` Modelle)
+### Souveräne Apache-2.0 AST-Sentinel-, Code-PI- und Krypto-Entscheidungs-KI für KRITIS & Verteidigung
 - **Offizielles Dossier & Ergebnis-Explorer (DE):** [https://skopion.de/de/forschung-innovation/skopion-verdict-ki-forschungsprogramm](https://skopion.de/de/forschung-innovation/skopion-verdict-ki-forschungsprogramm)
-- **Ergebnisse (`v24.0 OMNI-SENTINEL`):** Platz #1 Global (`99,92 %` Strict-238, `Committee v24.0`), Platz #2 Global / #1 Einzelmodell (`99,91 %`, `27B v24.0` mit `38,4 ms` & `1,18 J` über `EAGLE-3`-Kaskade), Platz #3 (`99,89 %`, `9B v24.0`), Platz #4 (`99,89 %`, `4B v24.0`), Platz #5 (`99,86 %`, `Nano-Ternary-1.58b`), Platz #6 (`99,84 %`, `Micro-250M Tactical` bei `0,072 J/Urteil`).
+- **Veröffentlichung `v33.5.0` (DOI `10.5281/zenodo.24591232`):** **`87,64 %`** Decision Index 0.4.1 (`13.180` Anfragen, `Pure-2Pillar-BFT`), **#1** Legacy 44 (`90,691 %`), **#1** Non-Saturated 26 (`86,368 %`), **#1** Security 30-Suite (`88,540 %`), **`0,00 %`** Code-PI ASR, **`100,0 %`** LangAware-CompCRC-Übereinstimmung und **`90,57 %`** CRISP-Arbeitslastreduktion über `8` blinde Multi-Lang-OSS-Repositories (`Python/Go/Rust/TypeScript`), `Semgrep 0` Befunde (`200` Regeln), `46/46` E2E-Tests, `230/230` unveränderliche Forschungs-Vaults.
+- **Archivierte Basis `v24.0 OMNI-SENTINEL` (DOI `10.5281/zenodo.24295340`):** Platz #1 Global (`99,92 %` Strict-238 über `240` Suiten / `140` Modelle). Trainingsgewichte verbleiben zu 100 % proprietär.
 
 </details>
 
@@ -68,19 +79,27 @@
 
 <a id="polski-przegląd-programu-badawczego"></a>
 <details>
-<summary><strong>🇵🇱 Polski — Program Badawczy AI SKOPION Verdict v24.0 OMNI-SENTINEL (240 Benchmarków · 71 340 Ocen/Model · 140 Modeli)</strong></summary>
+<summary><strong>Polski — Program Badawczy AI SKOPION Verdict v33.5.0 i v24.0 OMNI-SENTINEL (Fazy 1–675 · 240 Benchmarków)</strong></summary>
 
-### Suwerenne Modele Decyzyjne, Zobowiązania Zero-Knowledge (`ZK-PCVC`), Bariery Bezpieczeństwa (`CBF`) i Kaskada Spekulatywna `EAGLE-3` (`240` Benchmarków · `71 340` Ocen/Model · `140` Modeli)
+### Suwerenne Modele Decyzyjne Apache-2.0 AST-Sentinel, Odporność Code-PI i Zobowiązania Zero-Knowledge (`ZK-PCVC`)
 - **Oficjalna dokumentacja i eksplorator wyników (PL):** [https://skopion.de/pl/badania-innowacje/program-badawczy-ai-skopion-verdict](https://skopion.de/pl/badania-innowacje/program-badawczy-ai-skopion-verdict)
-- **Kluczowe wyniki (`v24.0 OMNI-SENTINEL`):** #1 na świecie (`99,92%` Strict-238 wśród `140` modeli / `64` zewnętrznych konkurentów: `Committee v24.0`), #2 na świecie / #1 pojedynczy model (`99,91%`: `27B v24.0`, przyspieszenie `5,48x` do `38,4 ms` i `1,18 J` z weryfikatorem `EAGLE-3`), #3 (`99,89%`: `9B v24.0`), #4 (`99,89%`: `4B v24.0`), #5 (`99,86%`: `Nano-Ternary-1.58b`), #6 (`99,84%`: `Micro-250M Tactical` przy `0,072 J/decyzję`).
+- **Wydanie `v33.5.0` (DOI `10.5281/zenodo.24591232`):** **`87,64%`** Decision Index 0.4.1 (`13 180` zapytań, `Pure-2Pillar-BFT`), **#1** Legacy 44 (`90,691%`), **#1** Non-Saturated 26 (`86,368%`), **#1** Security 30-Suite (`88,540%`), **`0,00%`** Code-PI ASR, **`100,0%`** zgodności LangAware CompCRC oraz **`90,57%`** redukcji nakładu pracy CRISP w ślepym benchmarku `8` publicznych repozytoriów OSS (`Python/Go/Rust/TypeScript`), `Semgrep 0` alertów (`200` reguł), `46/46` testów E2E, `230/230` kryptograficznie weryfikowanych sejfów badawczych.
+- **Zarchiwizowana baza `v24.0 OMNI-SENTINEL` (DOI `10.5281/zenodo.24295340`):** #1 na świecie (`99,92%` Strict-238 w ramach `240` benchmarków / `140` modeli). Wagi modeli pozostają w 100% własnościowe.
 
 </details>
-
-
 ---
 
 ## Included Open Verification Artifacts (`manifests/`, `docs/`, `verdict/` — Zero Proprietary Weights)
 
+### Latest Release — `v33.5.0` (Phases 151–675 · DOI `10.5281/zenodo.24591232`)
+- [`docs/SKOPION_VERDICT_V33_5_SOVEREIGN_DOSSIER.md`](docs/SKOPION_VERDICT_V33_5_SOVEREIGN_DOSSIER.md)
+- [`manifests/PHASE151_675_V25_TO_V33_5_VERIFIED_MANIFEST.json`](manifests/PHASE151_675_V25_TO_V33_5_VERIFIED_MANIFEST.json)
+- [`manifests/DECISION_INDEX_0_4_1_V33_EMPIRICAL_SCORES.json`](manifests/DECISION_INDEX_0_4_1_V33_EMPIRICAL_SCORES.json)
+- [`manifests/PUBLIC_OSS_MULTILANG_V33_5_VERIFIED.json`](manifests/PUBLIC_OSS_MULTILANG_V33_5_VERIFIED.json)
+- [`manifests/V33_5_SHA256_ATTESTATION_LEDGER.json`](manifests/V33_5_SHA256_ATTESTATION_LEDGER.json)
+- [`manifests/skopionVerdictExplorerData.json`](manifests/skopionVerdictExplorerData.json) *(Synced `v24.0` 240-suite matrix + `v33.5.0` program metadata)*
+
+### Archived Baselines (`v20.0 – v24.0 OMNI-SENTINEL`)
 - [`manifests/PHASE121_150_V24_OMNI_SENTINEL_240SUITES_100PCT_VERIFIED.json`](manifests/PHASE121_150_V24_OMNI_SENTINEL_240SUITES_100PCT_VERIFIED.json)
 - [`manifests/ZK_PCVC_ATTESTATION_LEDGER_V24.json`](manifests/ZK_PCVC_ATTESTATION_LEDGER_V24.json)
 - [`manifests/EAGLE3_SPECULATIVE_VERIFIER_REPORT.json`](manifests/EAGLE3_SPECULATIVE_VERIFIER_REPORT.json)
